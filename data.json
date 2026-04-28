@@ -1,0 +1,192 @@
+{
+  "updated_at": "2026-04-28T20:10:10.408472+00:00",
+  "balance": 10.22514712,
+  "state": {
+    "trades_today": 1,
+    "last_trade_date": "2026-04-28",
+    "total_trades": 4,
+    "total_pnl": -0.0539,
+    "live_mode_activated": true,
+    "dry_runs_completed": 0,
+    "version": "2.0-live",
+    "last_trade_timestamp": "2026-04-27T19:01:33.677768+00:00"
+  },
+  "brain": {
+    "version": "1.0",
+    "created": "2026-04-24T12:00:04.329990+00:00",
+    "last_updated": "2026-04-28T20:01:10.562168+00:00",
+    "total_trades_analyzed": 3,
+    "adaptive_params": {
+      "rsi_optimal_long_min": 40,
+      "rsi_optimal_long_max": 65,
+      "rsi_optimal_short_min": 35,
+      "rsi_optimal_short_max": 55,
+      "min_volume_ratio": 1.4000000000000001,
+      "min_ema_distance_pct": 0.5,
+      "risk_multiplier": 0.48999999999999994
+    },
+    "fingerprints": {
+      "DOGEUSDT:LONG:high:morning:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "pnl": 0.0
+      },
+      "DOGEUSDT:LONG:mid:morning:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.0539
+      },
+      "XRPUSDT:SHORT:mid:evening:medium": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.1409
+      }
+    },
+    "pair_stats": {
+      "DOGEUSDT": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.0539
+      },
+      "XRPUSDT": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.1409
+      }
+    },
+    "hour_stats": {
+      "8": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 1
+      },
+      "19": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0
+      }
+    },
+    "lessons": [
+      {
+        "timestamp": "2026-04-28T17:41:27.662000+00:00",
+        "trade_id": "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+        "symbol": "DOGEUSDT",
+        "result": "CLOSED",
+        "pnl_pct": 0,
+        "fingerprint": "DOGEUSDT:LONG:high:morning:medium",
+        "insight": "DOGEUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-04-28T17:41:27.662032+00:00",
+        "trade_id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
+        "symbol": "DOGEUSDT",
+        "result": "LOSS",
+        "pnl_pct": -1.07,
+        "fingerprint": "DOGEUSDT:LONG:mid:morning:medium",
+        "insight": "DOGEUSDT: Entrar sin confirmaci\u00f3n de volumen = alto riesgo de fakeout."
+      },
+      {
+        "timestamp": "2026-04-28T17:41:27.662050+00:00",
+        "trade_id": "f7d77cb4-3103-4f9d-b103-62101388b60b",
+        "symbol": "XRPUSDT",
+        "result": "WIN",
+        "pnl_pct": 0.94,
+        "fingerprint": "XRPUSDT:SHORT:mid:evening:medium",
+        "insight": "XRPUSDT: Ganancia de 0.9%. Replicar condiciones de este setup."
+      }
+    ],
+    "global_stats": {
+      "total_trades": 3,
+      "wins": 1,
+      "losses": 1,
+      "total_pnl": 0.087,
+      "max_consecutive_wins": 1,
+      "max_consecutive_losses": 1,
+      "current_streak": 1,
+      "current_streak_type": "win"
+    },
+    "processed_trade_ids": [
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b"
+    ],
+    "pending_trade_ids": []
+  },
+  "trades": [
+    {
+      "id": "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "timestamp_entry": "2026-04-24T08:57:33.781925+00:00",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "entry_price": 0.09782,
+      "qty": 52.0,
+      "sl": 0.09675795737122615,
+      "tp": 0.09941306394316078,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia alcista (EMA20=0.10 > EMA50=0.10)",
+        "RSI en zona \u00f3ptima (60.9)",
+        "Volumen bajo (sin confirmaci\u00f3n)",
+        "SL: 0.0968 | TP1: 0.0994 | TP2: 0.1010"
+      ],
+      "confidence": "medium",
+      "result": "CLOSED",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "unknown"
+    },
+    {
+      "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "timestamp_entry": "2026-04-25T08:00:03.730658+00:00",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "entry_price": 0.09835,
+      "qty": 51.0,
+      "sl": 0.09743054857321351,
+      "tp": 0.09972917714017976,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia alcista (EMA20=0.10 > EMA50=0.10)",
+        "RSI en zona \u00f3ptima (54.9)",
+        "Volumen bajo (sin confirmaci\u00f3n)",
+        "SL: 0.0974 | TP1: 0.0997 | TP2: 0.1011"
+      ],
+      "confidence": "medium",
+      "result": "LOSS",
+      "pnl": -0.0539,
+      "pnl_pct": -1.07,
+      "exit_reason": "CLOSED",
+      "exit_price": 0.09741,
+      "timestamp_exit": "1777140869237"
+    },
+    {
+      "id": "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "timestamp_entry": "2026-04-27T19:01:33.677709+00:00",
+      "symbol": "XRPUSDT",
+      "side": "SHORT",
+      "entry_price": 1.3953,
+      "qty": 10.700000000000001,
+      "sl": 1.4034526076430582,
+      "tp": 1.3806253062424954,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia bajista (EMA20=1.40 < EMA50=1.40)",
+        "RSI en zona \u00f3ptima (45.7)",
+        "Volumen bajo (sin confirmaci\u00f3n)",
+        "SL: 1.4035 | TP1: 1.3806 | TP2: 1.3660"
+      ],
+      "confidence": "medium",
+      "result": "WIN",
+      "pnl": 0.1409,
+      "pnl_pct": 0.94,
+      "exit_reason": "CLOSED",
+      "exit_price": 1.3807,
+      "timestamp_exit": "1777376900988"
+    }
+  ]
+}
