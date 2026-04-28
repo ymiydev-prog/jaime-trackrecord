@@ -1,0 +1,35 @@
+{
+  "winRate": 0.0,
+  "totalTrades": 1,
+  "pnl": 0,
+  "followers": 0,
+  "lastSignal": {
+    "timestamp": "2026-04-28T10:15:00Z",
+    "symbol": "BTCUSDT",
+    "signal": "SHORT",
+    "confidence": "medium",
+    "entry": 76497.1,
+    "sl": 76874.43,
+    "tp1": 75553.78,
+    "tp2": null,
+    "rr": 1.5
+  },
+  "history": [
+    {
+      "id": "shark_1777380225",
+      "timestamp": "2026-04-28T12:43:45.944388+00:00",
+      "symbol": "HBARUSDT",
+      "side": "SHORT",
+      "entry": 0.08879,
+      "sl": 0.08985459729482208,
+      "tp1": 0.08687372486932025,
+      "rr": 1.7999999999999896,
+      "qty": 1408.9834788192666,
+      "risk_usd": 1.5,
+      "status": "PAPER_EXECUTED",
+      "pnl": 0,
+      "exit_price": null,
+      "exit_time": null
+    }
+  ]
+}

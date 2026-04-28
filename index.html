@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YhasClaw Signals</title>
+<style>
+:root{--bg:#0a0a0f;--card:#12121a;--accent:#00f0ff;--accent2:#ff0055;--text:#e0e0e0;--muted:#888;}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',system-ui,sans-serif}
+body{background:var(--bg);color:var(--text);line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{text-align:center;padding:60px 20px;background:linear-gradient(135deg,#0a0a0f 0%,#1a0a1a 100%)}
+header h1{font-size:3rem;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+header p{color:var(--muted);margin-top:10px;font-size:1.2rem}
+.badge{display:inline-block;background:rgba(0,240,255,0.1);color:var(--accent);padding:4px 12px;border-radius:20px;font-size:.8rem;border:1px solid rgba(0,240,255,0.3);margin-top:15px}
+.section{padding:50px 20px}
+.card{background:var(--card);border-radius:16px;padding:30px;margin:20px 0;border:1px solid rgba(255,255,255,0.05)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.price{font-size:2.5rem;font-weight:700;color:var(--accent)}
+.price span{font-size:1rem;color:var(--muted);font-weight:400}
+.btn{display:inline-block;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:600;transition:all .2s;border:none;cursor:pointer;font-size:1rem}
+.btn-primary{background:var(--accent);color:#000}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,240,255,.3)}
+.btn-outline{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.track{display:flex;justify-content:space-around;text-align:center;margin:30px 0}
+.track-item h3{font-size:2rem;color:var(--accent)}
+.track-item p{color:var(--muted);font-size:.9rem}
+ul{list-style:none;padding:0}
+ul li{padding:8px 0;padding-left:28px;position:relative}
+ul li::before{content:'OK';position:absolute;left:0;color:var(--accent);font-weight:700;font-size:.7rem}
+footer{text-align:center;padding:40px 20px;color:var(--muted);border-top:1px solid rgba(255,255,255,0.05)}
+.live-dot{display:inline-block;width:8px;height:8px;background:#0f0;border-radius:50%;margin-right:8px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1>YHASCLAW SIGNALS</h1>
+<p>Automated crypto signals. Real track record. No gurus. Just math.</p>
+<div class="badge"><span class="live-dot"></span>Live track record</div>
+</div>
+</header>
+
+<section class="section">
+<div class="container">
+<div class="card">
+<div class="track">
+<div class="track-item"><h3 id="winRate">--%</h3><p>Win Rate</p></div>
+<div class="track-item"><h3 id="totalTrades">--</h3><p>Trades</p></div>
+<div class="track-item"><h3 id="pnl">\$--</h3><p>P&L</p></div>
+<div class="track-item"><h3 id="followers">--</h3><p>Followers</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2 style="text-align:center;margin-bottom:30px">PLANS</h2>
+<div class="grid">
+<div class="card">
+<h3 style="color:var(--accent2)">FREE</h3>
+<div class="price">\$0<span>/mo</span></div>
+<ul>
+<li>1 signal/day (2h delay)</li>
+<li>Public track record</li>
+<li>Twitter/Telegram updates</li>
+</ul>
+<br>
+<a class="btn btn-outline" href="https://t.me/YhasClawSignals">Join Free</a>
+</div>
+<div class="card">
+<h3 style="color:var(--accent)">PRO</h3>
+<div class="price">\$9<span>/mo</span></div>
+<ul>
+<li>Real-time signals</li>
+<li>Exact levels (Entry/SL/TP)</li>
+<li>All pairs (BTC, ETH, SOL)</li>
+<li>Private Telegram</li>
+</ul>
+<br>
+<a class="btn btn-primary" href="#checkout">Subscribe Pro</a>
+</div>
+<div class="card">
+<h3 style="color:#ffd700">PREMIUM</h3>
+<div class="price">\$19<span>/mo</span></div>
+<ul>
+<li>Everything in Pro</li>
+<li>Polymarket signals</li>
+<li>On-chain analysis</li>
+<li>Direct support</li>
+</ul>
+<br>
+<a class="btn btn-outline" href="#checkout">Subscribe Premium</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" style="background:rgba(0,240,255,0.03)">
+<div class="container" style="text-align:center">
+<h2 style="margin-bottom:20px">TOTAL TRANSPARENCY</h2>
+<p style="color:var(--muted);max-width:600px;margin:0 auto 30px">Every trade is published BEFORE execution with timestamp. Strategy: EMA Cross + RSI + Volume. Max 2% risk per trade.</p>
+<div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-outline" href="https://twitter.com/yhas1984">Twitter</a>
+<a class="btn btn-outline" href="https://t.me/YhasClawSignals">Telegram</a>
+<a class="btn btn-outline" href="https://github.com/ymiydev-prog/VaultYhasClaw">Track Record</a>
+</div>
+</div>
+</section>
+
+<section class="section" id="checkout">
+<div class="container" style="text-align:center">
+<h2>REFER A FRIEND</h2>
+<p style="color:var(--muted);margin:20px 0">Sign up on these exchanges with our links and support the project at no extra cost:</p>
+<div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap">
+<a class="btn btn-primary" href="https://www.bybit.com/invite?ref=QZFGP">Bybit - 30% fee discount</a>
+<a class="btn btn-outline" href="https://www.binance.com/invite?ref=PENDING">Binance</a>
+</div>
+</div>
+</section>
+
+<footer>
+<p>YhasClaw Signals - Automated AI trading. Not financial advice.</p>
+<p style="margin-top:10px"><a href="https://github.com/ymiydev-prog/VaultYhasClaw" style="color:var(--accent)">GitHub</a></p>
+</footer>
+
+<script>
+fetch('trackrecord.json')
+  .then(r=>r.json())
+  .then(d=>{
+    document.getElementById('winRate').textContent=d.winRate+'%';
+    document.getElementById('totalTrades').textContent=d.totalTrades;
+    document.getElementById('pnl').textContent='\$'+d.pnl;
+    document.getElementById('followers').textContent=d.followers;
+  })
+  .catch(()=>{});
+</script>
+</body>
+</html>
