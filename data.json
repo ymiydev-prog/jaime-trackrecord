@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T12:00:43.890965+00:00",
+  "updated_at": "2026-04-29T12:15:27.756824+00:00",
   "balance": 10.27981509,
   "state": {
     "trades_today": 1,
@@ -14,7 +14,7 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-04-29T10:00:04.044343+00:00",
+    "last_updated": "2026-04-29T12:02:41.238123+00:00",
     "total_trades_analyzed": 4,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
@@ -132,10 +132,10 @@
       "current_streak_type": "win"
     },
     "processed_trade_ids": [
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627"
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f"
     ],
     "pending_trade_ids": []
   },
