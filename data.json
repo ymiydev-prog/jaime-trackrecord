@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-04-29T08:00:13.471810+00:00",
-  "balance": 10.22514712,
+  "updated_at": "2026-04-29T08:15:07.225282+00:00",
+  "balance": 10.22064862,
   "state": {
     "trades_today": 1,
-    "last_trade_date": "2026-04-28",
-    "total_trades": 4,
+    "last_trade_date": "2026-04-29",
+    "total_trades": 5,
     "total_pnl": -0.0539,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-04-27T19:01:33.677768+00:00"
+    "last_trade_timestamp": "2026-04-29T08:02:59.331100+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-04-29T08:00:03.853399+00:00",
+    "last_updated": "2026-04-29T08:02:55.455077+00:00",
     "total_trades_analyzed": 3,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
@@ -111,9 +111,9 @@
       "current_streak_type": "win"
     },
     "processed_trade_ids": [
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
       "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f"
+      "f7d77cb4-3103-4f9d-b103-62101388b60b"
     ],
     "pending_trade_ids": []
   },
@@ -187,6 +187,28 @@
       "exit_reason": "CLOSED",
       "exit_price": 1.3807,
       "timestamp_exit": "1777376900988"
+    },
+    {
+      "id": "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "timestamp_entry": "2026-04-29T08:02:59.331015+00:00",
+      "symbol": "HBARUSDT",
+      "side": "LONG",
+      "entry_price": 0.08987,
+      "qty": 91.0,
+      "sl": 0.0894642182206654,
+      "tp": 0.0906004072028023,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia alcista (EMA20=0.09 > EMA50=0.09)",
+        "RSI en zona \u00f3ptima (53.6)",
+        "Volumen bajo (sin confirmaci\u00f3n)",
+        "SL: 0.0895 | TP1: 0.0906 | TP2: 0.0913"
+      ],
+      "confidence": "medium",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
