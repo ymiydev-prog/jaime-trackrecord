@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T09:45:15.281793+00:00",
-  "balance": 10.22064862,
+  "updated_at": "2026-04-29T10:00:29.984782+00:00",
+  "balance": 10.27981509,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-04-29",
@@ -14,8 +14,8 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-04-29T08:02:55.455077+00:00",
-    "total_trades_analyzed": 3,
+    "last_updated": "2026-04-29T10:00:04.044343+00:00",
+    "total_trades_analyzed": 4,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
       "rsi_optimal_long_max": 65,
@@ -43,6 +43,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.1409
+      },
+      "HBARUSDT:LONG:mid:morning:medium": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.0547
       }
     },
     "pair_stats": {
@@ -57,12 +63,18 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.1409
+      },
+      "HBARUSDT": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.0547
       }
     },
     "hour_stats": {
       "8": {
-        "trades": 2,
-        "wins": 0,
+        "trades": 3,
+        "wins": 1,
         "losses": 1
       },
       "19": {
@@ -98,22 +110,32 @@
         "pnl_pct": 0.94,
         "fingerprint": "XRPUSDT:SHORT:mid:evening:medium",
         "insight": "XRPUSDT: Ganancia de 0.9%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-04-29T10:00:04.044313+00:00",
+        "trade_id": "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+        "symbol": "HBARUSDT",
+        "result": "WIN",
+        "pnl_pct": 0.67,
+        "fingerprint": "HBARUSDT:LONG:mid:morning:medium",
+        "insight": "HBARUSDT: Ganancia de 0.7%. Replicar condiciones de este setup."
       }
     ],
     "global_stats": {
-      "total_trades": 3,
-      "wins": 1,
+      "total_trades": 4,
+      "wins": 2,
       "losses": 1,
-      "total_pnl": 0.087,
-      "max_consecutive_wins": 1,
+      "total_pnl": 0.1417,
+      "max_consecutive_wins": 2,
       "max_consecutive_losses": 1,
-      "current_streak": 1,
+      "current_streak": 2,
       "current_streak_type": "win"
     },
     "processed_trade_ids": [
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
       "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b"
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627"
     ],
     "pending_trade_ids": []
   },
@@ -205,10 +227,12 @@
         "SL: 0.0895 | TP1: 0.0906 | TP2: 0.0913"
       ],
       "confidence": "medium",
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "open"
+      "result": "WIN",
+      "pnl": 0.0547,
+      "pnl_pct": 0.67,
+      "exit_reason": "CLOSED",
+      "exit_price": 0.09058,
+      "timestamp_exit": "1777456189319"
     }
   ]
 }
