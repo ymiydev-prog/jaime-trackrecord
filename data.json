@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-04-30T16:00:10.392597+00:00",
-  "balance": 10.27981509,
+  "updated_at": "2026-04-30T16:15:35.850660+00:00",
+  "balance": 10.27529507,
   "state": {
-    "trades_today": 0,
+    "trades_today": 1,
     "last_trade_date": "2026-04-30",
-    "total_trades": 5,
+    "total_trades": 6,
     "total_pnl": -0.0539,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-04-29T08:02:59.331100+00:00"
+    "last_trade_timestamp": "2026-04-30T16:02:29.996494+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-04-30T12:03:28.078299+00:00",
+    "last_updated": "2026-04-30T16:02:25.999376+00:00",
     "total_trades_analyzed": 4,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
@@ -132,10 +132,10 @@
       "current_streak_type": "win"
     },
     "processed_trade_ids": [
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
       "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b"
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f"
     ],
     "pending_trade_ids": []
   },
@@ -233,6 +233,28 @@
       "exit_reason": "CLOSED",
       "exit_price": 0.09058,
       "timestamp_exit": "1777456189319"
+    },
+    {
+      "id": "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "timestamp_entry": "2026-04-30T16:02:29.996430+00:00",
+      "symbol": "DOGEUSDT",
+      "side": "LONG",
+      "entry_price": 0.10672,
+      "qty": 77.0,
+      "sl": 0.10537500412464856,
+      "tp": 0.10914099257563256,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia alcista (EMA20=0.11 > EMA50=0.11)",
+        "RSI en zona \u00f3ptima (51.7)",
+        "Volumen bajo (sin confirmaci\u00f3n)",
+        "SL: 0.1054 | TP1: 0.1091 | TP2: 0.1116"
+      ],
+      "confidence": "medium",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
