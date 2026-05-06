@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T21:45:39.060455+00:00",
+  "updated_at": "2026-05-06T21:49:25.567522+00:00",
   "balance": 10.43040569,
   "state": {
     "trades_today": 1,
@@ -14,7 +14,7 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-06T18:00:02.395904+00:00",
+    "last_updated": "2026-05-06T21:49:17.207376+00:00",
     "total_trades_analyzed": 6,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
@@ -23,7 +23,7 @@
       "rsi_optimal_short_max": 55,
       "min_volume_ratio": 0.8,
       "min_ema_distance_pct": 0.5,
-      "risk_multiplier": 0.3975460122699387
+      "risk_multiplier": 0.7305921052631579
     },
     "fingerprints": {
       "DOGEUSDT:LONG:high:morning:medium": {
@@ -55,6 +55,12 @@
         "wins": 0,
         "losses": 1,
         "pnl": -0.1099
+      },
+      "OPUSDT:LONG:high:afternoon:high": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.2604
       }
     },
     "pair_stats": {
@@ -75,6 +81,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.0547
+      },
+      "OPUSDT": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.2604
       }
     },
     "hour_stats": {
@@ -92,6 +104,11 @@
         "trades": 1,
         "wins": 0,
         "losses": 1
+      },
+      "17": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0
       }
     },
     "lessons": [
@@ -130,28 +147,36 @@
         "pnl_pct": 0.67,
         "fingerprint": "HBARUSDT:LONG:mid:morning:medium",
         "insight": "HBARUSDT: Ganancia de 0.7%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-05-06T21:49:17.207345+00:00",
+        "trade_id": "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+        "symbol": "OPUSDT",
+        "result": "WIN",
+        "pnl_pct": 3.21,
+        "fingerprint": "OPUSDT:LONG:high:afternoon:high",
+        "insight": "OPUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
       }
     ],
     "global_stats": {
-      "total_trades": 5,
-      "wins": 2,
+      "total_trades": 6,
+      "wins": 3,
       "losses": 2,
-      "total_pnl": 0.031799999999999995,
+      "total_pnl": 0.2922,
       "max_consecutive_wins": 2,
       "max_consecutive_losses": 1,
       "current_streak": 1,
-      "current_streak_type": "loss"
+      "current_streak_type": "win"
     },
     "processed_trade_ids": [
       "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
       "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed"
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f"
     ],
-    "pending_trade_ids": [
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0"
-    ]
+    "pending_trade_ids": []
   },
   "trades": [
     {
@@ -289,10 +314,12 @@
         "SL: 0.1352 | TP1: 0.1421 | TP2: 0.1465"
       ],
       "confidence": "high",
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "open"
+      "result": "WIN",
+      "pnl": 0.2604,
+      "pnl_pct": 3.21,
+      "exit_reason": "CLOSED",
+      "exit_price": 0.14205,
+      "timestamp_exit": "1778102387970"
     }
   ]
 }
