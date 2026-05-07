@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-05-06T23:45:40.437359+00:00",
-  "balance": 10.43040569,
+  "updated_at": "2026-05-07T00:00:57.144458+00:00",
+  "balance": 10.42581201,
   "state": {
-    "trades_today": 0,
-    "last_trade_date": "2026-05-06",
-    "total_trades": 7,
+    "trades_today": 1,
+    "last_trade_date": "2026-05-07",
+    "total_trades": 8,
     "total_pnl": 0.2065,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-06T21:49:55.343207+00:00"
+    "last_trade_timestamp": "2026-05-07T00:00:18.409447+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-06T21:49:17.207376+00:00",
+    "last_updated": "2026-05-07T00:00:04.791595+00:00",
     "total_trades_analyzed": 6,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
@@ -169,12 +169,12 @@
       "current_streak_type": "win"
     },
     "processed_trade_ids": [
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f"
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed"
     ],
     "pending_trade_ids": []
   },
@@ -320,6 +320,28 @@
       "exit_reason": "CLOSED",
       "exit_price": 0.14205,
       "timestamp_exit": "1778102387970"
+    },
+    {
+      "id": "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "timestamp_entry": "2026-05-07T00:00:18.409385+00:00",
+      "symbol": "ARBUSDT",
+      "side": "LONG",
+      "entry_price": 0.12792,
+      "qty": 65.2,
+      "sl": 0.12566890413636897,
+      "tp": 0.13197197255453588,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia alcista (EMA20=0.13 > EMA50=0.13)",
+        "RSI en zona \u00f3ptima (62.4)",
+        "Volumen bajo (sin confirmaci\u00f3n)",
+        "SL: 0.1257 | TP1: 0.1320 | TP2: 0.1360"
+      ],
+      "confidence": "medium",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
