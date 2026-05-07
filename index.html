@@ -203,18 +203,18 @@ footer {
 <div class="grid">
     <div class="card">
         <h3>Balance Bybit</h3>
-        <div class="value">$10.43</div>
+        <div class="value">$10.26</div>
         <div class="change neutral">USDT disponible</div>
     </div>
     <div class="card">
         <h3>P&L Total</h3>
-        <div class="value positive">$+0.2922</div>
+        <div class="value positive">$+0.1227</div>
         <div class="change">Trades ejecutados</div>
     </div>
     <div class="card">
         <h3>Win Rate</h3>
-        <div class="value positive">60.0%</div>
-        <div class="change">3W / 2L / 1B</div>
+        <div class="value positive">50.0%</div>
+        <div class="change">3W / 3L / 1B</div>
     </div>
     <div class="card">
         <h3>Trades Hoy</h3>
@@ -255,8 +255,8 @@ footer {
                 <td>$0.1257</td>
                 <td>$0.1320</td>
                 <td>65.20</td>
-                <td><span class="badge badge-pending">PENDING</span></td>
-                <td class="neutral">$+0.0000</td>
+                <td><span class="badge badge-loss">LOSS</span></td>
+                <td class="negative">$-0.1695</td>
             </tr>
             <tr>
                 <td>2026-05-06T17:28</td>
@@ -351,6 +351,11 @@ footer {
             <p>Trades: 1 | WR: <span class="positive">100%</span></p>
             <p class="positive">P&L: $+0.2604</p>
         </div>
+        <div class="pair-card">
+            <h4>ARBUSDT</h4>
+            <p>Trades: 1 | WR: <span class="negative">0%</span></p>
+            <p class="negative">P&L: $-0.1695</p>
+        </div>
     </div>
 </div>
 
@@ -383,24 +388,24 @@ footer {
         </div>
         <div class="param">
             <div class="param-label">risk_multiplier</div>
-            <div class="param-value">0.731</div>
+            <div class="param-value">0.511</div>
         </div>
     </div>
 </div>
 
 <footer>
-    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-05-07 00:45:34 UTC</p>
+    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-05-07 01:00:47 UTC</p>
     <p style="margin-top: 5px;">Updates every 15 minutes</p>
 </footer>
 </div>
 
 <div class="last-update">
-    🔄 Last update: 00:45:34 UTC
+    🔄 Last update: 01:00:47 UTC
 </div>
 
 <script>
 // Equity Chart
-const equityData = [{"date": "2026-04-24", "pnl": 0}, {"date": "2026-04-25", "pnl": -0.0539}, {"date": "2026-04-27", "pnl": 0.087}, {"date": "2026-04-29", "pnl": 0.1417}, {"date": "2026-04-30", "pnl": 0.031799999999999995}, {"date": "2026-05-06", "pnl": 0.2922}, {"date": "2026-05-07", "pnl": 0.2922}];
+const equityData = [{"date": "2026-04-24", "pnl": 0}, {"date": "2026-04-25", "pnl": -0.0539}, {"date": "2026-04-27", "pnl": 0.087}, {"date": "2026-04-29", "pnl": 0.1417}, {"date": "2026-04-30", "pnl": 0.031799999999999995}, {"date": "2026-05-06", "pnl": 0.2922}, {"date": "2026-05-07", "pnl": 0.1227}];
 const canvas = document.getElementById('equityChart');
 const ctx = canvas.getContext('2d');
 
