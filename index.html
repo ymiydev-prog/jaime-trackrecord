@@ -188,7 +188,9 @@ footer {
 </head>
 <body>
 <div class="container">
-
+<div style="width:100%;max-width:900px;margin:0 auto 20px;border-radius:12px;overflow:hidden;border:1px solid var(--border);">
+    <img src="intro.gif" style="width:100%;display:block;" alt="JAIME Dashboard Intro">
+</div>
 <header>
     <h1>🐾 JAIME Dashboard</h1>
     <p style="color: var(--text-muted); margin-top: 10px;">Autonomous Trading Engine | Bybit Mainnet</p>
@@ -201,23 +203,23 @@ footer {
 <div class="grid">
     <div class="card">
         <h3>Balance Bybit</h3>
-        <div class="value">$10.26</div>
+        <div class="value">$10.36</div>
         <div class="change neutral">USDT disponible</div>
     </div>
     <div class="card">
         <h3>P&L Total</h3>
-        <div class="value positive">+$0.2171</div>
+        <div class="value positive">$+0.2171</div>
         <div class="change">Trades ejecutados</div>
     </div>
     <div class="card">
         <h3>Win Rate</h3>
-        <div class="value positive">50.0%</div>
-        <div class="change">4W / 4L</div>
+        <div class="value positive">57.1%</div>
+        <div class="change">4W / 3L / 1B</div>
     </div>
     <div class="card">
         <h3>Trades Hoy</h3>
         <div class="value">1</div>
-        <div class="change">Sin límite diario (1 activo)</div>
+        <div class="change">Límite: 1/día</div>
     </div>
 </div>
 
@@ -245,7 +247,6 @@ footer {
             </tr>
         </thead>
         <tbody>
-
             <tr>
                 <td>2026-05-08T00:00</td>
                 <td><strong>DOGEUSDT</strong></td>
@@ -255,7 +256,7 @@ footer {
                 <td>$0.1064</td>
                 <td>76.00</td>
                 <td><span class="badge badge-win">WIN</span></td>
-                <td class="positive">+$0.0944</td>
+                <td class="positive">$+0.0944</td>
             </tr>
             <tr>
                 <td>2026-05-07T00:00</td>
@@ -266,7 +267,7 @@ footer {
                 <td>$0.1320</td>
                 <td>65.20</td>
                 <td><span class="badge badge-loss">LOSS</span></td>
-                <td class="negative">-$0.1695</td>
+                <td class="negative">$-0.1695</td>
             </tr>
             <tr>
                 <td>2026-05-06T17:28</td>
@@ -277,7 +278,7 @@ footer {
                 <td>$0.1421</td>
                 <td>59.00</td>
                 <td><span class="badge badge-win">WIN</span></td>
-                <td class="positive">+$0.2604</td>
+                <td class="positive">$+0.2604</td>
             </tr>
             <tr>
                 <td>2026-04-30T16:02</td>
@@ -288,7 +289,7 @@ footer {
                 <td>$0.1091</td>
                 <td>77.00</td>
                 <td><span class="badge badge-loss">LOSS</span></td>
-                <td class="negative">-$0.1099</td>
+                <td class="negative">$-0.1099</td>
             </tr>
             <tr>
                 <td>2026-04-29T08:02</td>
@@ -299,18 +300,18 @@ footer {
                 <td>$0.0906</td>
                 <td>91.00</td>
                 <td><span class="badge badge-win">WIN</span></td>
-                <td class="positive">+$0.0547</td>
+                <td class="positive">$+0.0547</td>
             </tr>
             <tr>
                 <td>2026-04-27T19:01</td>
                 <td><strong>XRPUSDT</strong></td>
                 <td>SHORT</td>
-                <td>$1.40</td>
-                <td>$1.40</td>
-                <td>$1.38</td>
+                <td>$1.3953</td>
+                <td>$1.4035</td>
+                <td>$1.3806</td>
                 <td>10.70</td>
                 <td><span class="badge badge-win">WIN</span></td>
-                <td class="positive">+$0.1409</td>
+                <td class="positive">$+0.1409</td>
             </tr>
             <tr>
                 <td>2026-04-25T08:00</td>
@@ -321,7 +322,7 @@ footer {
                 <td>$0.0997</td>
                 <td>51.00</td>
                 <td><span class="badge badge-loss">LOSS</span></td>
-                <td class="negative">-$0.0539</td>
+                <td class="negative">$-0.0539</td>
             </tr>
             <tr>
                 <td>2026-04-24T08:57</td>
@@ -332,7 +333,7 @@ footer {
                 <td>$0.0994</td>
                 <td>52.00</td>
                 <td><span class="badge badge-closed">CLOSED</span></td>
-                <td class="neutral">$0.0000</td>
+                <td class="neutral">$+0.0000</td>
             </tr>
         </tbody>
     </table>
@@ -341,153 +342,165 @@ footer {
 <div class="section">
     <h2>📊 Performance por Par</h2>
     <div class="pairs-grid">
-
-            <div class="pair-card">
-                <h4>OPUSDT</h4>
-                <p>Trades: 1 | WR: <span class="positive">100.0%</span></p>
-                <p class="positive">P&amp;L: +$0.2604</p>
-            </div>
-            <div class="pair-card">
-                <h4>XRPUSDT</h4>
-                <p>Trades: 1 | WR: <span class="positive">100.0%</span></p>
-                <p class="positive">P&amp;L: +$0.1409</p>
-            </div>
-            <div class="pair-card">
-                <h4>HBARUSDT</h4>
-                <p>Trades: 1 | WR: <span class="positive">100.0%</span></p>
-                <p class="positive">P&amp;L: +$0.0547</p>
-            </div>
-            <div class="pair-card">
-                <h4>DOGEUSDT</h4>
-                <p>Trades: 4 | WR: <span class="negative">25.0%</span></p>
-                <p class="negative">P&amp;L: -$0.0694</p>
-            </div>
-            <div class="pair-card">
-                <h4>ARBUSDT</h4>
-                <p>Trades: 1 | WR: <span class="negative">0.0%</span></p>
-                <p class="negative">P&amp;L: -$0.1695</p>
-            </div>
+        <div class="pair-card">
+            <h4>DOGEUSDT</h4>
+            <p>Trades: 4 | WR: <span class="negative">25%</span></p>
+            <p class="negative">P&L: $-0.0694</p>
+        </div>
+        <div class="pair-card">
+            <h4>XRPUSDT</h4>
+            <p>Trades: 1 | WR: <span class="positive">100%</span></p>
+            <p class="positive">P&L: $+0.1409</p>
+        </div>
+        <div class="pair-card">
+            <h4>HBARUSDT</h4>
+            <p>Trades: 1 | WR: <span class="positive">100%</span></p>
+            <p class="positive">P&L: $+0.0547</p>
+        </div>
+        <div class="pair-card">
+            <h4>OPUSDT</h4>
+            <p>Trades: 1 | WR: <span class="positive">100%</span></p>
+            <p class="positive">P&L: $+0.2604</p>
+        </div>
+        <div class="pair-card">
+            <h4>ARBUSDT</h4>
+            <p>Trades: 1 | WR: <span class="negative">0%</span></p>
+            <p class="negative">P&L: $-0.1695</p>
+        </div>
     </div>
 </div>
 
 <div class="section">
     <h2>🧠 Brain Parameters</h2>
     <div class="params">
-
-            <div class="param">
-                <div class="param-label">version</div>
-                <div class="param-value">1.0</div>
-            </div>
-            <div class="param">
-                <div class="param-label">created</div>
-                <div class="param-value">2026-04-24T12:00:04.329990+00:00</div>
-            </div>
-            <div class="param">
-                <div class="param-label">last_updated</div>
-                <div class="param-value">2026-05-08T18:00:01.964348+00:00</div>
-            </div>
-            <div class="param">
-                <div class="param-label">total_trades_analyzed</div>
-                <div class="param-value">8</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.rsi_optimal_long_min</div>
-                <div class="param-value">40</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.rsi_optimal_long_max</div>
-                <div class="param-value">65</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.rsi_optimal_short_min</div>
-                <div class="param-value">35</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.rsi_optimal_short_max</div>
-                <div class="param-value">55</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.min_volume_ratio</div>
-                <div class="param-value">0.8</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.min_ema_distance_pct</div>
-                <div class="param-value">0.5</div>
-            </div>
-            <div class="param">
-                <div class="param-label">adaptive_params.risk_multiplier</div>
-                <div class="param-value">0.5962936046511628</div>
-            </div>
+        <div class="param">
+            <div class="param-label">rsi_optimal_long_min</div>
+            <div class="param-value">40.000</div>
+        </div>
+        <div class="param">
+            <div class="param-label">rsi_optimal_long_max</div>
+            <div class="param-value">65.000</div>
+        </div>
+        <div class="param">
+            <div class="param-label">rsi_optimal_short_min</div>
+            <div class="param-value">35.000</div>
+        </div>
+        <div class="param">
+            <div class="param-label">rsi_optimal_short_max</div>
+            <div class="param-value">55.000</div>
+        </div>
+        <div class="param">
+            <div class="param-label">min_volume_ratio</div>
+            <div class="param-value">0.800</div>
+        </div>
+        <div class="param">
+            <div class="param-label">min_ema_distance_pct</div>
+            <div class="param-value">0.500</div>
+        </div>
+        <div class="param">
+            <div class="param-label">risk_multiplier</div>
+            <div class="param-value">0.596</div>
+        </div>
     </div>
 </div>
 
 <footer>
-    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-05-08 21:10:01 UTC</p>
-    <p style="margin-top: 5px;">Updates every 10 minutes</p>
+    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-05-08 21:15:41 UTC</p>
+    <p style="margin-top: 5px;">Updates every 15 minutes</p>
 </footer>
 </div>
 
 <div class="last-update">
-    🔄 Last update: 21:10:01 UTC
+    🔄 Last update: 21:15:41 UTC
 </div>
 
 <script>
-const equityData = [{"date": "2026-04-24", "pnl": 0}, {"date": "2026-04-25", "pnl": -0.0539}, {"date": "2026-04-27", "pnl": 0.087}, {"date": "2026-04-29", "pnl": 0.1417}, {"date": "2026-04-30", "pnl": 0.0318}, {"date": "2026-05-06", "pnl": 0.2922}, {"date": "2026-05-07", "pnl": 0.1227}, {"date": "2026-05-08", "pnl": 0.2171}];
+// Equity Chart
+const equityData = [{"date": "2026-04-24", "pnl": 0}, {"date": "2026-04-25", "pnl": -0.0539}, {"date": "2026-04-27", "pnl": 0.087}, {"date": "2026-04-29", "pnl": 0.1417}, {"date": "2026-04-30", "pnl": 0.031799999999999995}, {"date": "2026-05-06", "pnl": 0.2922}, {"date": "2026-05-07", "pnl": 0.1227}, {"date": "2026-05-08", "pnl": 0.21710000000000002}];
 const canvas = document.getElementById('equityChart');
-if (canvas) {
-    const ctx = canvas.getContext('2d');
-    function resize() {
-        canvas.width = canvas.parentElement.offsetWidth;
-        canvas.height = canvas.parentElement.offsetHeight;
-        drawChart();
-    }
-    function drawChart() {
-        if (equityData.length === 0) return;
-        const w = canvas.width, h = canvas.height, pad = 40;
-        const pnls = equityData.map(d => d.pnl);
-        const minPnl = Math.min(...pnls, 0);
-        const maxPnl = Math.max(...pnls, 0);
-        const range = maxPnl - minPnl || 1;
-        ctx.clearRect(0, 0, w, h);
-        ctx.strokeStyle = '#30363d';
-        ctx.lineWidth = 1;
-        for (let i = 0; i <= 4; i++) {
-            const y = pad + (h - 2 * pad) * i / 4;
-            ctx.beginPath(); ctx.moveTo(pad, y); ctx.lineTo(w - pad, y); ctx.stroke();
-        }
-        const zeroY = pad + (maxPnl / range) * (h - 2 * pad);
-        ctx.strokeStyle = '#8b949e';
-        ctx.setLineDash([5, 5]);
-        ctx.beginPath(); ctx.moveTo(pad, zeroY); ctx.lineTo(w - pad, zeroY); ctx.stroke();
-        ctx.setLineDash([]);
-        ctx.strokeStyle = equityData[equityData.length-1].pnl >= 0 ? '#3fb950' : '#f85149';
-        ctx.lineWidth = 3;
-        ctx.beginPath();
-        equityData.forEach((d, i) => {
-            const x = pad + (w - 2 * pad) * i / (equityData.length - 1 || 1);
-            const y = pad + ((maxPnl - d.pnl) / range) * (h - 2 * pad);
-            if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-        });
-        ctx.stroke();
-        equityData.forEach((d, i) => {
-            const x = pad + (w - 2 * pad) * i / (equityData.length - 1 || 1);
-            const y = pad + ((maxPnl - d.pnl) / range) * (h - 2 * pad);
-            ctx.fillStyle = d.pnl >= 0 ? '#3fb950' : '#f85149';
-            ctx.beginPath(); ctx.arc(x, y, 5, 0, Math.PI * 2); ctx.fill();
-        });
-        ctx.fillStyle = '#8b949e';
-        ctx.font = '12px sans-serif';
-        ctx.textAlign = 'right';
-        for (let i = 0; i <= 4; i++) {
-            const val = maxPnl - (range * i / 4);
-            const y = pad + (h - 2 * pad) * i / 4;
-            ctx.fillText('$' + val.toFixed(2), pad - 10, y + 4);
-        }
-    }
-    window.addEventListener('resize', resize);
-    resize();
+const ctx = canvas.getContext('2d');
+
+function resize() {
+    canvas.width = canvas.parentElement.offsetWidth;
+    canvas.height = canvas.parentElement.offsetHeight;
+    drawChart();
 }
+
+function drawChart() {
+    if (equityData.length === 0) return;
+    
+    const w = canvas.width;
+    const h = canvas.height;
+    const padding = 40;
+    
+    const pnls = equityData.map(d => d.pnl);
+    const minPnl = Math.min(...pnls, 0);
+    const maxPnl = Math.max(...pnls, 0);
+    const range = maxPnl - minPnl || 1;
+    
+    ctx.clearRect(0, 0, w, h);
+    
+    // Grid lines
+    ctx.strokeStyle = '#30363d';
+    ctx.lineWidth = 1;
+    for (let i = 0; i <= 4; i++) {
+        const y = padding + (h - 2 * padding) * i / 4;
+        ctx.beginPath();
+        ctx.moveTo(padding, y);
+        ctx.lineTo(w - padding, y);
+        ctx.stroke();
+    }
+    
+    // Zero line
+    const zeroY = padding + (maxPnl / range) * (h - 2 * padding);
+    ctx.strokeStyle = '#8b949e';
+    ctx.setLineDash([5, 5]);
+    ctx.beginPath();
+    ctx.moveTo(padding, zeroY);
+    ctx.lineTo(w - padding, zeroY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    
+    // Line
+    ctx.strokeStyle = equityData[equityData.length-1].pnl >= 0 ? '#3fb950' : '#f85149';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    
+    equityData.forEach((d, i) => {
+        const x = padding + (w - 2 * padding) * i / (equityData.length - 1 || 1);
+        const y = padding + ((maxPnl - d.pnl) / range) * (h - 2 * padding);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+    
+    // Points
+    equityData.forEach((d, i) => {
+        const x = padding + (w - 2 * padding) * i / (equityData.length - 1 || 1);
+        const y = padding + ((maxPnl - d.pnl) / range) * (h - 2 * padding);
+        ctx.fillStyle = d.pnl >= 0 ? '#3fb950' : '#f85149';
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.fill();
+    });
+    
+    // Labels
+    ctx.fillStyle = '#8b949e';
+    ctx.font = '12px sans-serif';
+    ctx.textAlign = 'right';
+    for (let i = 0; i <= 4; i++) {
+        const val = maxPnl - (range * i / 4);
+        const y = padding + (h - 2 * padding) * i / 4;
+        ctx.fillText('$' + val.toFixed(2), padding - 10, y + 4);
+    }
+}
+
+window.addEventListener('resize', resize);
+resize();
+
+// Auto-refresh page every 60 seconds
 setTimeout(() => location.reload(), 60000);
 </script>
+
 </body>
 </html>
