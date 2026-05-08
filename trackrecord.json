@@ -1,7 +1,7 @@
 {
   "winRate": 50.0,
   "totalTrades": 8,
-  "pnl": 0.2171,
+  "pnl": 0.22,
   "followers": 0,
   "lastSignal": null,
   "history": [
@@ -13,13 +13,13 @@
       "entry": 0.09782,
       "sl": 0.09675795737122615,
       "tp": 0.09941306394316078,
-      "rr": 1.8,
+      "rr": 1.5,
       "qty": 52.0,
       "result": "CLOSED",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
-      "exit_time": ""
+      "exit_time": null
     },
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -29,7 +29,7 @@
       "entry": 0.09835,
       "sl": 0.09743054857321351,
       "tp": 0.09972917714017976,
-      "rr": 1.8,
+      "rr": 1.5,
       "qty": 51.0,
       "result": "LOSS",
       "pnl": -0.0539,
@@ -133,5 +133,6 @@
       "exit_price": 0.10647,
       "exit_time": "1778202827539"
     }
-  ]
+  ],
+  "updatedAt": "2026-05-08 11:48:51 UTC"
 }
