@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-09T11:31:38.276641+00:00",
-  "balance": 10.11722571,
+  "updated_at": "2026-05-09T12:01:05.560580+00:00",
+  "balance": 49.81722571,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-09",
@@ -14,7 +14,7 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-09T06:00:01.902522+00:00",
+    "last_updated": "2026-05-09T12:00:01.858505+00:00",
     "total_trades_analyzed": 9,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
@@ -23,7 +23,7 @@
       "rsi_optimal_short_max": 55,
       "min_volume_ratio": 0.8,
       "min_ema_distance_pct": 0.5,
-      "risk_multiplier": 0.5962936046511628
+      "risk_multiplier": 0.49588178294573637
     },
     "fingerprints": {
       "DOGEUSDT:LONG:high:morning:medium": {
@@ -73,6 +73,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.0944
+      },
+      "FILUSDT:LONG:high:night:high": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "pair_stats": {
@@ -105,6 +111,12 @@
         "wins": 0,
         "losses": 1,
         "pnl": -0.1695
+      },
+      "FILUSDT": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "hour_stats": {
@@ -129,7 +141,7 @@
         "losses": 0
       },
       "0": {
-        "trades": 2,
+        "trades": 3,
         "wins": 1,
         "losses": 1
       }
@@ -197,10 +209,19 @@
         "pnl_pct": 1.15,
         "fingerprint": "DOGEUSDT:SHORT:mid:night:medium",
         "insight": "DOGEUSDT: Ganancia de 1.1%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-05-09T12:00:01.858476+00:00",
+        "trade_id": "f738348b-493d-4186-9932-0f48a621001a",
+        "symbol": "FILUSDT",
+        "result": "CLOSED",
+        "pnl_pct": 0,
+        "fingerprint": "FILUSDT:LONG:high:night:high",
+        "insight": "FILUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
       }
     ],
     "global_stats": {
-      "total_trades": 8,
+      "total_trades": 9,
       "wins": 4,
       "losses": 3,
       "total_pnl": 0.21710000000000002,
@@ -210,18 +231,17 @@
       "current_streak_type": "win"
     },
     "processed_trade_ids": [
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
       "09b42257-75a7-40a4-a3d5-07f3f794a18f",
       "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
       "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "c747ea50-d143-4932-9862-ee32cdf2c455"
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b"
     ],
-    "pending_trade_ids": [
-      "f738348b-493d-4186-9932-0f48a621001a"
-    ]
+    "pending_trade_ids": []
   },
   "trades": [
     {
