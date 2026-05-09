@@ -211,8 +211,8 @@ footer {
     </div>
     <div class="card">
         <h3>Win Rate</h3>
-        <div class="value positive">50.0%</div>
-        <div class="change">4W / 4L</div>
+        <div class="value negative">44.4%</div>
+        <div class="change">4W / 5L</div>
     </div>
     <div class="card">
         <h3>Trades Hoy</h3>
@@ -246,6 +246,17 @@ footer {
         </thead>
         <tbody>
 
+            <tr>
+                <td>2026-05-09T00:00</td>
+                <td><strong>FILUSDT</strong></td>
+                <td>LONG</td>
+                <td>$1.29</td>
+                <td>$1.24</td>
+                <td>$1.37</td>
+                <td>6.40</td>
+                <td><span class="badge badge-closed">CLOSED</span></td>
+                <td class="neutral">$0.0000</td>
+            </tr>
             <tr>
                 <td>2026-05-08T00:00</td>
                 <td><strong>DOGEUSDT</strong></td>
@@ -358,6 +369,11 @@ footer {
                 <p class="positive">P&amp;L: +$0.0547</p>
             </div>
             <div class="pair-card">
+                <h4>FILUSDT</h4>
+                <p>Trades: 1 | WR: <span class="negative">0.0%</span></p>
+                <p class="positive">P&amp;L: +$0.0000</p>
+            </div>
+            <div class="pair-card">
                 <h4>DOGEUSDT</h4>
                 <p>Trades: 4 | WR: <span class="negative">25.0%</span></p>
                 <p class="negative">P&amp;L: -$0.0694</p>
@@ -384,11 +400,11 @@ footer {
             </div>
             <div class="param">
                 <div class="param-label">last_updated</div>
-                <div class="param-value">2026-05-09T00:00:09.208082+00:00</div>
+                <div class="param-value">2026-05-09T06:00:01.902522+00:00</div>
             </div>
             <div class="param">
                 <div class="param-label">total_trades_analyzed</div>
-                <div class="param-value">8</div>
+                <div class="param-value">9</div>
             </div>
             <div class="param">
                 <div class="param-label">adaptive_params.rsi_optimal_long_min</div>
@@ -422,17 +438,17 @@ footer {
 </div>
 
 <footer>
-    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-05-09 06:00:01 UTC</p>
+    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-05-09 06:10:01 UTC</p>
     <p style="margin-top: 5px;">Updates every 10 minutes</p>
 </footer>
 </div>
 
 <div class="last-update">
-    🔄 Last update: 06:00:01 UTC
+    🔄 Last update: 06:10:01 UTC
 </div>
 
 <script>
-const equityData = [{"date": "2026-04-24", "pnl": 0}, {"date": "2026-04-25", "pnl": -0.0539}, {"date": "2026-04-27", "pnl": 0.087}, {"date": "2026-04-29", "pnl": 0.1417}, {"date": "2026-04-30", "pnl": 0.0318}, {"date": "2026-05-06", "pnl": 0.2922}, {"date": "2026-05-07", "pnl": 0.1227}, {"date": "2026-05-08", "pnl": 0.2171}];
+const equityData = [{"date": "2026-04-24", "pnl": 0}, {"date": "2026-04-25", "pnl": -0.0539}, {"date": "2026-04-27", "pnl": 0.087}, {"date": "2026-04-29", "pnl": 0.1417}, {"date": "2026-04-30", "pnl": 0.0318}, {"date": "2026-05-06", "pnl": 0.2922}, {"date": "2026-05-07", "pnl": 0.1227}, {"date": "2026-05-08", "pnl": 0.2171}, {"date": "2026-05-09", "pnl": 0.2171}];
 const canvas = document.getElementById('equityChart');
 if (canvas) {
     const ctx = canvas.getContext('2d');
