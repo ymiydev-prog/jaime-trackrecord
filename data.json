@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-09T20:45:31.872823+00:00",
+  "updated_at": "2026-05-09T21:02:03.123949+00:00",
   "balance": 49.81722571,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-09",
-    "total_trades": 10,
+    "total_trades": 9,
     "total_pnl": 0.2065,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
@@ -14,7 +14,7 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-09T18:00:03.033116+00:00",
+    "last_updated": "2026-05-09T21:01:57.211107+00:00",
     "total_trades_analyzed": 9,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
