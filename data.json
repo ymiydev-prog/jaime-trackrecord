@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T11:15:44.569756+00:00",
+  "updated_at": "2026-05-10T11:31:14.290669+00:00",
   "balance": 49.31258172,
   "state": {
     "trades_today": 1,
@@ -14,8 +14,8 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-10T06:00:02.198241+00:00",
-    "total_trades_analyzed": 9,
+    "last_updated": "2026-05-10T11:30:05.371657+00:00",
+    "total_trades_analyzed": 10,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
       "rsi_optimal_long_max": 65,
@@ -23,7 +23,7 @@
       "rsi_optimal_short_max": 55,
       "min_volume_ratio": 0.8,
       "min_ema_distance_pct": 0.5,
-      "risk_multiplier": 0.49588178294573637
+      "risk_multiplier": 0.3
     },
     "fingerprints": {
       "DOGEUSDT:LONG:high:morning:medium": {
@@ -79,6 +79,12 @@
         "wins": 0,
         "losses": 0,
         "pnl": 0.0
+      },
+      "OPUSDT:SHORT:mid:morning:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.5046
       }
     },
     "pair_stats": {
@@ -101,10 +107,10 @@
         "pnl": 0.0547
       },
       "OPUSDT": {
-        "trades": 1,
+        "trades": 2,
         "wins": 1,
-        "losses": 0,
-        "pnl": 0.2604
+        "losses": 1,
+        "pnl": -0.24420000000000003
       },
       "ARBUSDT": {
         "trades": 1,
@@ -143,6 +149,11 @@
       "0": {
         "trades": 3,
         "wins": 1,
+        "losses": 1
+      },
+      "6": {
+        "trades": 1,
+        "wins": 0,
         "losses": 1
       }
     },
@@ -218,28 +229,38 @@
         "pnl_pct": 0,
         "fingerprint": "FILUSDT:LONG:high:night:high",
         "insight": "FILUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
+      },
+      {
+        "timestamp": "2026-05-10T11:30:05.371619+00:00",
+        "trade_id": "4d8513be-0bb9-47da-9a99-4f1027191354",
+        "symbol": "OPUSDT",
+        "result": "LOSS",
+        "pnl_pct": -1.27,
+        "fingerprint": "OPUSDT:SHORT:mid:morning:medium",
+        "insight": "OPUSDT: Entrar sin confirmaci\u00f3n de volumen = alto riesgo de fakeout."
       }
     ],
     "global_stats": {
-      "total_trades": 9,
+      "total_trades": 10,
       "wins": 4,
-      "losses": 3,
-      "total_pnl": 0.21710000000000002,
+      "losses": 4,
+      "total_pnl": -0.28750000000000003,
       "max_consecutive_wins": 2,
       "max_consecutive_losses": 1,
       "current_streak": 1,
-      "current_streak_type": "win"
+      "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
       "f738348b-493d-4186-9932-0f48a621001a",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
       "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
       "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "c747ea50-d143-4932-9862-ee32cdf2c455"
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0"
     ],
     "pending_trade_ids": []
   },
@@ -473,10 +494,12 @@
         "SL: 0.1641 | TP1: 0.1594 | TP2: 0.1563"
       ],
       "confidence": "medium",
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "open"
+      "result": "LOSS",
+      "pnl": -0.5046,
+      "pnl_pct": -1.27,
+      "exit_reason": "CLOSED",
+      "exit_price": 0.16412607,
+      "timestamp_exit": "1778411214491"
     }
   ]
 }
