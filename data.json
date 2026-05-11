@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-05-11T05:46:29.154976+00:00",
-  "balance": 48.86011554,
+  "updated_at": "2026-05-11T06:00:38.282838+00:00",
+  "balance": 48.83865861,
   "state": {
-    "trades_today": 0,
+    "trades_today": 1,
     "last_trade_date": "2026-05-11",
-    "total_trades": 11,
+    "total_trades": 12,
     "total_pnl": 0.2065,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-10T12:00:13.002551+00:00"
+    "last_trade_timestamp": "2026-05-11T06:00:12.887003+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-11T00:00:02.844041+00:00",
+    "last_updated": "2026-05-11T06:00:02.500065+00:00",
     "total_trades_analyzed": 11,
     "adaptive_params": {
       "rsi_optimal_long_min": 40,
       "rsi_optimal_long_max": 65,
       "rsi_optimal_short_min": 35,
       "rsi_optimal_short_max": 55,
-      "min_volume_ratio": 1.1,
+      "min_volume_ratio": 1.2000000000000002,
       "min_ema_distance_pct": 0.5,
       "risk_multiplier": 0.21
     },
@@ -271,17 +271,17 @@
       "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "f738348b-493d-4186-9932-0f48a621001a",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "c747ea50-d143-4932-9862-ee32cdf2c455"
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627"
     ],
     "pending_trade_ids": []
   },
@@ -545,6 +545,28 @@
       "exit_reason": "CLOSED",
       "exit_price": 1.1851,
       "timestamp_exit": "1778434106519"
+    },
+    {
+      "id": "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "timestamp_entry": "2026-05-11T06:00:12.886940+00:00",
+      "symbol": "SEIUSDT",
+      "side": "LONG",
+      "entry_price": 0.07593,
+      "qty": 514.0,
+      "sl": 0.07435266917839232,
+      "tp": 0.07876919547889381,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "Tendencia alcista (EMA20=0.07 > EMA50=0.07)",
+        "RSI en zona \u00f3ptima (64.2)",
+        "Volumen confirmado (1.28x promedio)",
+        "SL: 0.0744 | TP1: 0.0788 | TP2: 0.0816"
+      ],
+      "confidence": "high",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
