@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-14T00:00:18.114849+00:00",
+  "updated_at": "2026-05-14T00:15:40.676318+00:00",
   "balance": 48.04457011,
   "state": {
     "trades_today": 0,
-    "last_trade_date": "2026-05-13",
+    "last_trade_date": "2026-05-14",
     "total_trades": 12,
     "total_pnl": -1.5555,
     "live_mode_activated": true,
