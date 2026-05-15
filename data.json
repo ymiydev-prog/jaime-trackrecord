@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T22:30:26.122764+00:00",
+  "updated_at": "2026-05-15T22:45:55.046053+00:00",
   "balance": 48.04457011,
   "state": {
     "trades_today": 0,
@@ -18,10 +18,10 @@
     "last_updated": "2026-05-15T18:00:02.785112+00:00",
     "total_trades_analyzed": 12,
     "adaptive_params": {
-      "rsi_optimal_long_min": 55,
-      "rsi_optimal_long_max": 58,
-      "rsi_optimal_short_min": 42,
-      "rsi_optimal_short_max": 48,
+      "rsi_optimal_long_min": 48,
+      "rsi_optimal_long_max": 65,
+      "rsi_optimal_short_min": 35,
+      "rsi_optimal_short_max": 52,
       "min_volume_ratio": 1.5,
       "min_ema_distance_pct": 1.0,
       "risk_multiplier": 0.5,
