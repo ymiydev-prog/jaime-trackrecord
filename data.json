@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T07:46:04.728585+00:00",
+  "updated_at": "2026-05-16T08:00:20.685743+00:00",
   "balance": 48.04457011,
   "state": {
     "trades_today": 0,
@@ -15,7 +15,7 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-16T07:26:37.342681+00:00",
+    "last_updated": "2026-05-16T08:00:03.103755+00:00",
     "total_trades_analyzed": 12,
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
@@ -294,18 +294,18 @@
       "current_streak_type": null
     },
     "processed_trade_ids": [
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
       "f4607180-3900-49d2-8881-9d2d2867c629",
       "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed"
+      "c747ea50-d143-4932-9862-ee32cdf2c455"
     ],
     "pending_trade_ids": []
   },
