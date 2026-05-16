@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T19:30:49.981283+00:00",
+  "updated_at": "2026-05-16T19:46:26.330870+00:00",
   "balance": 48.04457011,
   "state": {
     "trades_today": 0,
@@ -10,7 +10,7 @@
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-11T06:00:12.887003+00:00",
-    "win_rate": 33.3
+    "win_rate": 40.0
   },
   "brain": {
     "version": "1.0",
