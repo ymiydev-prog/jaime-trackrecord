@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-05-18T13:00:06.549571+00:00",
-  "balance": 47.41823807,
+  "updated_at": "2026-05-18T13:00:25.459330+00:00",
+  "balance": 47.39741512,
   "state": {
-    "trades_today": 4,
+    "trades_today": 5,
     "last_trade_date": "2026-05-18",
-    "total_trades": 16,
+    "total_trades": 17,
     "total_pnl": -2.1401,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-18T12:00:16.858384+00:00",
+    "last_trade_timestamp": "2026-05-18T13:00:19.068576+00:00",
     "win_rate": 40.0
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-18T12:00:03.870824+00:00",
-    "total_trades_analyzed": 15,
+    "last_updated": "2026-05-18T13:00:05.483297+00:00",
+    "total_trades_analyzed": 16,
     "adaptive_params": {
       "rsi_optimal_long_min": 45,
       "rsi_optimal_long_max": 58,
@@ -338,23 +338,25 @@
       "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "da151be8-1f49-43c2-9425-6af9bd0d74ed",
       "a99124eb-88e2-4158-8c1f-7de05bbf9320",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "f738348b-493d-4186-9932-0f48a621001a",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
       "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
       "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
       "f7d77cb4-3103-4f9d-b103-62101388b60b"
     ],
-    "pending_trade_ids": []
+    "pending_trade_ids": [
+      "026040b4-d098-4595-b006-565abea6ea21"
+    ]
   },
   "trades": [
     {
@@ -726,6 +728,29 @@
         "Volumen normal (1.35x)",
         "Entry: 1.236100 | SL: 1.254641 | TP1: 1.174295 | TP2: 1.137212",
         "R:R: 3.33 | ATR: 0.006165"
+      ],
+      "confidence": "medium",
+      "result": "CLOSED",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "sync_fallback"
+    },
+    {
+      "id": "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "timestamp_entry": "2026-05-18T13:00:19.068490+00:00",
+      "symbol": "FILUSDT",
+      "side": "SHORT",
+      "entry_price": 0.947,
+      "qty": 40.0,
+      "sl": 0.961205,
+      "tp": 0.89965,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "RSI 60.2 cruz\u00f3 desde overbought (66.9)",
+        "Precio en banda superior Bollinger (BB pos: 92%)",
+        "Volumen normal (1.17x)",
+        "Entry: 0.947000 | SL: 0.961205 | TP1: 0.899650 | TP2: 0.871240",
+        "R:R: 3.33 | ATR: 0.005255"
       ],
       "confidence": "medium",
       "result": "PENDING",
