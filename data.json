@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-18T08:00:04.556803+00:00",
-  "balance": 47.69482528,
+  "updated_at": "2026-05-18T08:00:47.587618+00:00",
+  "balance": 47.67386581,
   "state": {
-    "trades_today": 1,
+    "trades_today": 2,
     "last_trade_date": "2026-05-18",
-    "total_trades": 13,
+    "total_trades": 14,
     "total_pnl": -1.9052,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-18T00:00:24.811211+00:00",
+    "last_trade_timestamp": "2026-05-18T08:00:15.539499+00:00",
     "win_rate": 40.0
   },
   "brain": {
@@ -634,6 +634,27 @@
       "exit_reason": "CLOSED",
       "exit_price": 0.06059,
       "timestamp_exit": "1779062815727"
+    },
+    {
+      "id": "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "timestamp_entry": "2026-05-18T08:00:15.539445+00:00",
+      "symbol": "HBARUSDT",
+      "side": "LONG",
+      "entry_price": 0.08877,
+      "qty": 429.0,
+      "sl": 0.08835154991801866,
+      "tp": 0.0896577,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "RSI 38.0 saliendo de oversold, cerca de BB inferior",
+        "Entry: 0.088770 | SL: 0.088352 | TP1: 0.089658 | TP2: 0.090102",
+        "R:R: 2.12 | ATR: 0.000349"
+      ],
+      "confidence": "low",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
