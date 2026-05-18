@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T09:00:05.325247+00:00",
+  "updated_at": "2026-05-18T09:01:04.025092+00:00",
   "balance": 47.67386581,
   "state": {
     "trades_today": 2,
@@ -15,8 +15,8 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-18T08:00:03.740831+00:00",
-    "total_trades_analyzed": 13,
+    "last_updated": "2026-05-18T09:00:05.011066+00:00",
+    "total_trades_analyzed": 14,
     "adaptive_params": {
       "rsi_optimal_long_min": 45,
       "rsi_optimal_long_max": 58,
@@ -25,7 +25,7 @@
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
       "risk_multiplier": 0.3,
-      "atr_multiplier": 2.5
+      "atr_multiplier": 3.0
     },
     "fingerprints": {
       "DOGEUSDT:LONG:high:morning:medium": {
@@ -309,21 +309,23 @@
       "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "f738348b-493d-4186-9932-0f48a621001a",
       "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
       "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
       "f4607180-3900-49d2-8881-9d2d2867c629",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "f738348b-493d-4186-9932-0f48a621001a",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f"
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed"
     ],
-    "pending_trade_ids": []
+    "pending_trade_ids": [
+      "cf328e87-4c3c-4fa6-a658-177476ee2067"
+    ]
   },
   "trades": [
     {
@@ -651,10 +653,10 @@
         "R:R: 2.12 | ATR: 0.000349"
       ],
       "confidence": "low",
-      "result": "PENDING",
+      "result": "CLOSED",
       "pnl": 0,
       "pnl_pct": 0,
-      "exit_reason": "open"
+      "exit_reason": "sync_fallback"
     }
   ]
 }
