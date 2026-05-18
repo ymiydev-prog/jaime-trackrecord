@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T07:15:56.757060+00:00",
+  "updated_at": "2026-05-18T07:30:25.793683+00:00",
   "balance": 47.69482528,
   "state": {
     "trades_today": 1,
@@ -18,14 +18,14 @@
     "last_updated": "2026-05-18T07:00:02.245793+00:00",
     "total_trades_analyzed": 13,
     "adaptive_params": {
-      "rsi_optimal_long_min": 48,
-      "rsi_optimal_long_max": 65,
-      "rsi_optimal_short_min": 35,
+      "rsi_optimal_long_min": 45,
+      "rsi_optimal_long_max": 58,
+      "rsi_optimal_short_min": 40,
       "rsi_optimal_short_max": 52,
-      "min_volume_ratio": 1.5,
-      "min_ema_distance_pct": 1.0,
-      "risk_multiplier": 0.3,
-      "atr_multiplier": 5.0
+      "min_volume_ratio": 1.0,
+      "min_ema_distance_pct": 0.4,
+      "risk_multiplier": 1.0,
+      "atr_multiplier": null
     },
     "fingerprints": {
       "DOGEUSDT:LONG:high:morning:medium": {
