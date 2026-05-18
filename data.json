@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-18T00:30:03.142430+00:00",
+  "updated_at": "2026-05-18T00:30:41.652358+00:00",
   "balance": 47.69482528,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-18",
     "total_trades": 13,
-    "total_pnl": -1.5555,
+    "total_pnl": -1.9052,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
@@ -15,8 +15,8 @@
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-18T00:00:02.607611+00:00",
-    "total_trades_analyzed": 12,
+    "last_updated": "2026-05-18T00:30:06.525360+00:00",
+    "total_trades_analyzed": 13,
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
       "rsi_optimal_long_max": 65,
@@ -99,6 +99,12 @@
         "wins": 0,
         "losses": 1,
         "pnl": -0.8155
+      },
+      "SEIUSDT:LONG:mid:night:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.3497
       }
     },
     "pair_stats": {
@@ -139,10 +145,10 @@
         "pnl": -0.4525
       },
       "SEIUSDT": {
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "losses": 1,
-        "pnl": -0.8155
+        "losses": 2,
+        "pnl": -1.1652
       }
     },
     "hour_stats": {
@@ -167,9 +173,9 @@
         "losses": 0
       },
       "0": {
-        "trades": 3,
+        "trades": 4,
         "wins": 1,
-        "losses": 1
+        "losses": 2
       },
       "6": {
         "trades": 2,
@@ -281,29 +287,39 @@
         "pnl_pct": -2.09,
         "fingerprint": "SEIUSDT:LONG:high:morning:high",
         "insight": "SEIUSDT: P\u00e9rdida de 2.1%. Revisar setup y condiciones de mercado."
+      },
+      {
+        "timestamp": "2026-05-18T00:30:06.525319+00:00",
+        "trade_id": "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+        "symbol": "SEIUSDT",
+        "result": "LOSS",
+        "pnl_pct": -0.91,
+        "fingerprint": "SEIUSDT:LONG:mid:night:medium",
+        "insight": "SEIUSDT: P\u00e9rdida de 0.9%. Revisar setup y condiciones de mercado."
       }
     ],
     "global_stats": {
-      "total_trades": 12,
+      "total_trades": 13,
       "wins": 4,
-      "losses": 6,
-      "total_pnl": -1.5554999999999999,
+      "losses": 7,
+      "total_pnl": -1.9051999999999998,
       "max_consecutive_wins": 2,
       "max_consecutive_losses": 3,
-      "current_streak": 0,
-      "current_streak_type": null
+      "current_streak": 1,
+      "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "f4607180-3900-49d2-8881-9d2d2867c629",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "f738348b-493d-4186-9932-0f48a621001a",
       "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
       "da151be8-1f49-43c2-9425-6af9bd0d74ed",
       "5d699c0c-ae2a-4452-ab1a-964092f86627"
     ],
@@ -612,10 +628,12 @@
         "R:R: 1.08 | ATR: 0.000377"
       ],
       "confidence": "medium",
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "open"
+      "result": "LOSS",
+      "pnl": -0.3497,
+      "pnl_pct": -0.91,
+      "exit_reason": "CLOSED",
+      "exit_price": 0.06059,
+      "timestamp_exit": "1779062815727"
     }
   ]
 }
