@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-19T11:00:04.066781+00:00",
-  "balance": 46.09661568,
+  "updated_at": "2026-05-19T11:01:06.046039+00:00",
+  "balance": 46.08496497,
   "state": {
-    "trades_today": 3,
+    "trades_today": 4,
     "last_trade_date": "2026-05-19",
-    "total_trades": 21,
+    "total_trades": 22,
     "total_pnl": -2.1401,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-19T07:00:17.834823+00:00",
+    "last_trade_timestamp": "2026-05-19T11:00:18.293243+00:00",
     "win_rate": 40.0
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-19T10:00:04.717801+00:00",
+    "last_updated": "2026-05-19T11:00:03.502987+00:00",
     "total_trades_analyzed": 21,
     "adaptive_params": {
       "rsi_optimal_long_min": 45,
@@ -460,27 +460,27 @@
       "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "f738348b-493d-4186-9932-0f48a621001a",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "026040b4-d098-4595-b006-565abea6ea21",
       "ae859bb4-c4de-4b11-93da-69400529cd71",
       "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "f738348b-493d-4186-9932-0f48a621001a",
       "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "026040b4-d098-4595-b006-565abea6ea21",
       "5dc9a656-f3aa-4dac-8974-7d05cf46ea2e",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b"
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0"
     ],
     "pending_trade_ids": []
   },
@@ -967,6 +967,27 @@
       "pnl": 0,
       "pnl_pct": 0,
       "exit_reason": "sync_fallback"
+    },
+    {
+      "id": "e0ec2f70-4c42-4a53-a68d-13169b833a58",
+      "timestamp_entry": "2026-05-19T11:00:18.293187+00:00",
+      "symbol": "ETHUSDT",
+      "side": "LONG",
+      "entry_price": 2117.4,
+      "qty": 0.01,
+      "sl": 2085.639,
+      "tp": 2223.27,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "RSI 41.5 saliendo de oversold, cerca de BB inferior",
+        "Entry: 2117.400000 | SL: 2085.639000 | TP1: 2223.270000 | TP2: 2286.792000",
+        "R:R: 3.33 | ATR: 7.772702"
+      ],
+      "confidence": "low",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
