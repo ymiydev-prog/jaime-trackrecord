@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T14:15:59.110241+00:00",
+  "updated_at": "2026-05-19T14:30:03.610512+00:00",
   "balance": 46.71226634,
   "state": {
     "trades_today": 0,
@@ -521,10 +521,7 @@
         "R:R: 3.33 | ATR: 0.000591"
       ],
       "confidence": "low",
-      "result": "VOID",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "void_no_close"
+      "result": "OPEN"
     },
     {
       "id": "5dc9a656-f3aa-4dac-8974-7d05cf46ea2e",
@@ -542,10 +539,7 @@
         "R:R: 3.33 | ATR: 0.041220"
       ],
       "confidence": "low",
-      "result": "VOID",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "void_no_close"
+      "result": "OPEN"
     },
     {
       "id": "e0ec2f70-4c42-4a53-a68d-13169b833a58",
@@ -563,10 +557,7 @@
         "R:R: 3.33 | ATR: 7.772702"
       ],
       "confidence": "low",
-      "result": "VOID",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_reason": "void_no_close"
+      "result": "OPEN"
     },
     {
       "id": "ed5d76b4-6571-4578-8c48-50a25c45bb86",
