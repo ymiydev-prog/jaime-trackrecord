@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-19T01:00:03.689198+00:00",
-  "balance": 46.13532529,
+  "updated_at": "2026-05-19T01:00:46.186042+00:00",
+  "balance": 46.11505169,
   "state": {
-    "trades_today": 1,
+    "trades_today": 2,
     "last_trade_date": "2026-05-19",
-    "total_trades": 19,
+    "total_trades": 20,
     "total_pnl": -2.1401,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-19T00:00:18.974857+00:00",
+    "last_trade_timestamp": "2026-05-19T01:00:19.820004+00:00",
     "win_rate": 40.0
   },
   "brain": {
@@ -857,6 +857,27 @@
         "RSI 63.1 saliendo de overbought, cerca de BB superior",
         "Entry: 0.129390 | SL: 0.131331 | TP1: 0.122921 | TP2: 0.119039",
         "R:R: 3.33 | ATR: 0.000686"
+      ],
+      "confidence": "low",
+      "result": "CLOSED",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "sync_fallback"
+    },
+    {
+      "id": "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",
+      "timestamp_entry": "2026-05-19T01:00:19.819953+00:00",
+      "symbol": "ARBUSDT",
+      "side": "SHORT",
+      "entry_price": 0.11802,
+      "qty": 312.70000000000005,
+      "sl": 0.1197903,
+      "tp": 0.112119,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "RSI 62.1 saliendo de overbought, cerca de BB superior",
+        "Entry: 0.118020 | SL: 0.119790 | TP1: 0.112119 | TP2: 0.108578",
+        "R:R: 3.33 | ATR: 0.000591"
       ],
       "confidence": "low",
       "result": "PENDING",
