@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T18:45:24.698672+00:00",
+  "updated_at": "2026-05-19T19:00:03.440618+00:00",
   "balance": 46.70294173,
   "state": {
     "trades_today": 0,
@@ -13,7 +13,57 @@
     "win_rate": 36.8
   },
   "brain": {
-    "current_streak": 1,
+    "version": "1.0",
+    "created": "2026-05-19T13:58:00+00:00",
+    "last_updated": "2026-05-19T19:00:03.018042+00:00",
+    "total_trades_analyzed": 23,
+    "processed_trade_ids": [
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "026040b4-d098-4595-b006-565abea6ea21"
+    ],
+    "pending_trade_ids": [],
+    "adaptive_params": {
+      "rsi_optimal_long_min": 45,
+      "rsi_optimal_long_max": 58,
+      "rsi_optimal_short_min": 40,
+      "rsi_optimal_short_max": 52,
+      "min_volume_ratio": 1.0,
+      "min_ema_distance_pct": 0.4,
+      "risk_multiplier": 0.3,
+      "atr_multiplier": null
+    },
+    "fingerprints": {},
+    "pair_stats": {},
+    "hour_stats": {},
+    "lessons": [],
+    "global_stats": {
+      "total_trades": 19,
+      "wins": 7,
+      "losses": 12,
+      "total_pnl": -3.02,
+      "max_consecutive_wins": 3,
+      "max_consecutive_losses": 9,
+      "current_streak": 0,
+      "current_streak_type": "win"
+    },
+    "current_streak": 0,
     "max_consecutive_losses": 9,
     "total_trades": 19,
     "wins": 7,
@@ -42,14 +92,24 @@
       1
     ],
     "recent_win_rate": 30.0,
-    "avg_win": 0.2569,
+    "avg_win": 0.254,
     "avg_loss": 0.3995,
     "kelly_fraction": 0.01,
     "adaptive_risk_factor": 0.005,
     "adaptive_sl": 3.0,
     "adaptive_tp": 5.0,
     "total_pnl": -3.02,
-    "last_updated": "2026-05-19T13:58:00"
+    "performance": {
+      "total_pnl": -3.02,
+      "win_rate": 36.8,
+      "avg_return": -0.1587,
+      "max_drawdown": -3.02,
+      "sharpe_ratio": null
+    },
+    "regime_analysis": {
+      "preferred_regime": "range",
+      "regime_wr": {}
+    }
   },
   "trades": [
     {
