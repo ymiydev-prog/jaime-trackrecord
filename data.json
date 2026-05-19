@@ -1,517 +1,55 @@
 {
-  "updated_at": "2026-05-19T14:00:49.053848+00:00",
+  "updated_at": "2026-05-19T14:15:02.665773+00:00",
   "balance": 46.71226634,
   "state": {
-    "trades_today": 5,
+    "trades_today": 0,
     "last_trade_date": "2026-05-19",
-    "total_trades": 23,
-    "total_pnl": -2.9954,
+    "total_trades": 19,
+    "total_pnl": -3.016,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-19T12:00:23.660967+00:00",
-    "win_rate": 40.0
+    "last_trade_timestamp": "2026-05-19T12:00:23.660920+00:00",
+    "win_rate": 36.8
   },
   "brain": {
-    "version": "1.0",
-    "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-19T14:00:02.388027+00:00",
-    "total_trades_analyzed": 23,
-    "adaptive_params": {
-      "rsi_optimal_long_min": 45,
-      "rsi_optimal_long_max": 58,
-      "rsi_optimal_short_min": 40,
-      "rsi_optimal_short_max": 52,
-      "min_volume_ratio": 1.0,
-      "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.24,
-      "atr_multiplier": 3.5
-    },
-    "fingerprints": {
-      "DOGEUSDT:LONG:high:morning:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "DOGEUSDT:LONG:mid:morning:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.0539
-      },
-      "XRPUSDT:SHORT:mid:evening:medium": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0,
-        "pnl": 0.1409
-      },
-      "HBARUSDT:LONG:mid:morning:medium": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0,
-        "pnl": 0.0547
-      },
-      "DOGEUSDT:LONG:mid:afternoon:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.1099
-      },
-      "OPUSDT:LONG:high:afternoon:high": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0,
-        "pnl": 0.2604
-      },
-      "ARBUSDT:LONG:high:night:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.1695
-      },
-      "DOGEUSDT:SHORT:mid:night:medium": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0,
-        "pnl": 0.0944
-      },
-      "FILUSDT:LONG:high:night:high": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "OPUSDT:SHORT:mid:morning:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.5046
-      },
-      "FILUSDT:SHORT:low:afternoon:high": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.4525
-      },
-      "SEIUSDT:LONG:high:morning:high": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.8155
-      },
-      "SEIUSDT:LONG:mid:night:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.3497
-      },
-      "HBARUSDT:LONG:mid:morning:low": {
-        "trades": 2,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.2349
-      },
-      "DOTUSDT:SHORT:overbought:afternoon:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "FILUSDT:SHORT:overbought:afternoon:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "SEIUSDT:SHORT:mid:evening:low": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "OPUSDT:SHORT:mid:night:low": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "ARBUSDT:SHORT:mid:night:low": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "LINKUSDT:SHORT:mid:morning:low": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "ETHUSDT:LONG:mid:morning:low": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "OPUSDT:LONG:mid:afternoon:medium": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      }
-    },
-    "pair_stats": {
-      "DOGEUSDT": {
-        "trades": 4,
-        "wins": 1,
-        "losses": 2,
-        "pnl": -0.0694
-      },
-      "XRPUSDT": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0,
-        "pnl": 0.1409
-      },
-      "HBARUSDT": {
-        "trades": 3,
-        "wins": 1,
-        "losses": 1,
-        "pnl": -0.1802
-      },
-      "OPUSDT": {
-        "trades": 4,
-        "wins": 1,
-        "losses": 1,
-        "pnl": -0.24420000000000003
-      },
-      "ARBUSDT": {
-        "trades": 2,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.1695
-      },
-      "FILUSDT": {
-        "trades": 3,
-        "wins": 0,
-        "losses": 1,
-        "pnl": -0.4525
-      },
-      "SEIUSDT": {
-        "trades": 3,
-        "wins": 0,
-        "losses": 2,
-        "pnl": -1.1652
-      },
-      "DOTUSDT": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "LINKUSDT": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      },
-      "ETHUSDT": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0,
-        "pnl": 0.0
-      }
-    },
-    "hour_stats": {
-      "8": {
-        "trades": 4,
-        "wins": 1,
-        "losses": 1
-      },
-      "19": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0
-      },
-      "16": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 1
-      },
-      "17": {
-        "trades": 1,
-        "wins": 1,
-        "losses": 0
-      },
-      "0": {
-        "trades": 5,
-        "wins": 1,
-        "losses": 2
-      },
-      "6": {
-        "trades": 2,
-        "wins": 0,
-        "losses": 2
-      },
-      "12": {
-        "trades": 3,
-        "wins": 0,
-        "losses": 1
-      },
-      "11": {
-        "trades": 2,
-        "wins": 0,
-        "losses": 1
-      },
-      "13": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0
-      },
-      "22": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0
-      },
-      "1": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0
-      },
-      "7": {
-        "trades": 1,
-        "wins": 0,
-        "losses": 0
-      }
-    },
-    "lessons": [
-      {
-        "timestamp": "2026-04-28T17:41:27.662000+00:00",
-        "trade_id": "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-        "symbol": "DOGEUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "DOGEUSDT:LONG:high:morning:medium",
-        "insight": "DOGEUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-04-28T17:41:27.662032+00:00",
-        "trade_id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
-        "symbol": "DOGEUSDT",
-        "result": "LOSS",
-        "pnl_pct": -1.07,
-        "fingerprint": "DOGEUSDT:LONG:mid:morning:medium",
-        "insight": "DOGEUSDT: Entrar sin confirmaci\u00f3n de volumen = alto riesgo de fakeout."
-      },
-      {
-        "timestamp": "2026-04-28T17:41:27.662050+00:00",
-        "trade_id": "f7d77cb4-3103-4f9d-b103-62101388b60b",
-        "symbol": "XRPUSDT",
-        "result": "WIN",
-        "pnl_pct": 0.94,
-        "fingerprint": "XRPUSDT:SHORT:mid:evening:medium",
-        "insight": "XRPUSDT: Ganancia de 0.9%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-04-29T10:00:04.044313+00:00",
-        "trade_id": "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-        "symbol": "HBARUSDT",
-        "result": "WIN",
-        "pnl_pct": 0.67,
-        "fingerprint": "HBARUSDT:LONG:mid:morning:medium",
-        "insight": "HBARUSDT: Ganancia de 0.7%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-06T21:49:17.207345+00:00",
-        "trade_id": "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-        "symbol": "OPUSDT",
-        "result": "WIN",
-        "pnl_pct": 3.21,
-        "fingerprint": "OPUSDT:LONG:high:afternoon:high",
-        "insight": "OPUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
-      },
-      {
-        "timestamp": "2026-05-07T01:00:04.976125+00:00",
-        "trade_id": "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-        "symbol": "ARBUSDT",
-        "result": "LOSS",
-        "pnl_pct": -2.03,
-        "fingerprint": "ARBUSDT:LONG:high:night:medium",
-        "insight": "ARBUSDT: Entrar sin confirmaci\u00f3n de volumen = alto riesgo de fakeout."
-      },
-      {
-        "timestamp": "2026-05-08T01:30:05.054999+00:00",
-        "trade_id": "c747ea50-d143-4932-9862-ee32cdf2c455",
-        "symbol": "DOGEUSDT",
-        "result": "WIN",
-        "pnl_pct": 1.15,
-        "fingerprint": "DOGEUSDT:SHORT:mid:night:medium",
-        "insight": "DOGEUSDT: Ganancia de 1.1%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-09T12:00:01.858476+00:00",
-        "trade_id": "f738348b-493d-4186-9932-0f48a621001a",
-        "symbol": "FILUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "FILUSDT:LONG:high:night:high",
-        "insight": "FILUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
-      },
-      {
-        "timestamp": "2026-05-10T11:30:05.371619+00:00",
-        "trade_id": "4d8513be-0bb9-47da-9a99-4f1027191354",
-        "symbol": "OPUSDT",
-        "result": "LOSS",
-        "pnl_pct": -1.27,
-        "fingerprint": "OPUSDT:SHORT:mid:morning:medium",
-        "insight": "OPUSDT: Entrar sin confirmaci\u00f3n de volumen = alto riesgo de fakeout."
-      },
-      {
-        "timestamp": "2026-05-10T17:30:05.469785+00:00",
-        "trade_id": "f4607180-3900-49d2-8881-9d2d2867c629",
-        "symbol": "FILUSDT",
-        "result": "LOSS",
-        "pnl_pct": -1.15,
-        "fingerprint": "FILUSDT:SHORT:low:afternoon:high",
-        "insight": "FILUSDT: P\u00e9rdida de 1.1%. Revisar setup y condiciones de mercado."
-      },
-      {
-        "timestamp": "2026-05-11T08:30:05.512840+00:00",
-        "trade_id": "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-        "symbol": "SEIUSDT",
-        "result": "LOSS",
-        "pnl_pct": -2.09,
-        "fingerprint": "SEIUSDT:LONG:high:morning:high",
-        "insight": "SEIUSDT: P\u00e9rdida de 2.1%. Revisar setup y condiciones de mercado."
-      },
-      {
-        "timestamp": "2026-05-18T00:30:06.525319+00:00",
-        "trade_id": "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-        "symbol": "SEIUSDT",
-        "result": "LOSS",
-        "pnl_pct": -0.91,
-        "fingerprint": "SEIUSDT:LONG:mid:night:medium",
-        "insight": "SEIUSDT: P\u00e9rdida de 0.9%. Revisar setup y condiciones de mercado."
-      },
-      {
-        "timestamp": "2026-05-18T10:00:02.450090+00:00",
-        "trade_id": "cf328e87-4c3c-4fa6-a658-177476ee2067",
-        "symbol": "HBARUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "HBARUSDT:LONG:mid:morning:low",
-        "insight": "HBARUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-18T11:30:05.882904+00:00",
-        "trade_id": "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-        "symbol": "HBARUSDT",
-        "result": "LOSS",
-        "pnl_pct": -0.62,
-        "fingerprint": "HBARUSDT:LONG:mid:morning:low",
-        "insight": "HBARUSDT: P\u00e9rdida de 0.6%. Revisar setup y condiciones de mercado."
-      },
-      {
-        "timestamp": "2026-05-18T14:00:02.695871+00:00",
-        "trade_id": "026040b4-d098-4595-b006-565abea6ea21",
-        "symbol": "DOTUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "DOTUSDT:SHORT:overbought:afternoon:medium",
-        "insight": "DOTUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-18T15:00:02.902109+00:00",
-        "trade_id": "ae859bb4-c4de-4b11-93da-69400529cd71",
-        "symbol": "FILUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "FILUSDT:SHORT:overbought:afternoon:medium",
-        "insight": "FILUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-19T00:00:02.557741+00:00",
-        "trade_id": "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-        "symbol": "SEIUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "SEIUSDT:SHORT:mid:evening:low",
-        "insight": "SEIUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-19T02:00:02.824807+00:00",
-        "trade_id": "ed5710fe-f635-48b6-9969-a190a608a5cd",
-        "symbol": "OPUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "OPUSDT:SHORT:mid:night:low",
-        "insight": "OPUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-19T03:00:02.531697+00:00",
-        "trade_id": "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",
-        "symbol": "ARBUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "ARBUSDT:SHORT:mid:night:low",
-        "insight": "ARBUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-19T09:00:03.406584+00:00",
-        "trade_id": "5dc9a656-f3aa-4dac-8974-7d05cf46ea2e",
-        "symbol": "LINKUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "LINKUSDT:SHORT:mid:morning:low",
-        "insight": "LINKUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      },
-      {
-        "timestamp": "2026-05-19T13:00:02.645266+00:00",
-        "trade_id": "e0ec2f70-4c42-4a53-a68d-13169b833a58",
-        "symbol": "ETHUSDT",
-        "result": "CLOSED",
-        "pnl_pct": 0,
-        "fingerprint": "ETHUSDT:LONG:mid:morning:low",
-        "insight": "ETHUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
-      }
+    "current_streak": 1,
+    "max_consecutive_losses": 9,
+    "total_trades": 19,
+    "wins": 7,
+    "losses": 12,
+    "win_rate": 36.8,
+    "loss_rate": 63.2,
+    "recent_results": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
     ],
-    "global_stats": {
-      "total_trades": 23,
-      "wins": 4,
-      "losses": 8,
-      "total_pnl": -2.1401,
-      "max_consecutive_wins": 2,
-      "max_consecutive_losses": 3,
-      "current_streak": 2,
-      "current_streak_type": "loss"
-    },
-    "processed_trade_ids": [
-      "026040b4-d098-4595-b006-565abea6ea21",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "5dc9a656-f3aa-4dac-8974-7d05cf46ea2e",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",
-      "e0ec2f70-4c42-4a53-a68d-13169b833a58",
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "ae859bb4-c4de-4b11-93da-69400529cd71"
-    ],
-    "pending_trade_ids": []
+    "recent_win_rate": 30.0,
+    "avg_win": 0.2569,
+    "avg_loss": 0.3995,
+    "kelly_fraction": 0.01,
+    "adaptive_risk_factor": 0.005,
+    "adaptive_sl": 3.0,
+    "adaptive_tp": 5.0,
+    "total_pnl": -3.02,
+    "last_updated": "2026-05-19T13:58:00"
   },
   "trades": [
     {
@@ -1035,7 +573,7 @@
       "timestamp_entry": "2026-05-19T12:00:23.660920+00:00",
       "symbol": "OPUSDT",
       "side": "LONG",
-      "entry_price": 0.12717,
+      "entry_price": 0.127045,
       "qty": 289.90000000000003,
       "sl": 0.12526245,
       "tp": 0.13352850000000002,
@@ -1049,10 +587,10 @@
       ],
       "confidence": "medium",
       "result": "WIN",
-      "pnl": 0.6273,
-      "pnl_pct": 1.7,
+      "pnl": 0.6067,
+      "pnl_pct": 1.65,
       "exit_reason": "CLOSED",
-      "exit_price": 0.12928521,
+      "exit_price": 0.129285,
       "timestamp_exit": "2026-05-19T13:59:57.818401+00:00"
     }
   ]
