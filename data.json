@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-19T12:00:10.995522+00:00",
-  "balance": 46.08496497,
+  "updated_at": "2026-05-19T12:15:02.460884+00:00",
+  "balance": 46.71226634,
   "state": {
-    "trades_today": 4,
+    "trades_today": 5,
     "last_trade_date": "2026-05-19",
-    "total_trades": 22,
+    "total_trades": 23,
     "total_pnl": -2.1401,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-19T11:00:18.293243+00:00",
+    "last_trade_timestamp": "2026-05-19T12:00:23.660967+00:00",
     "win_rate": 40.0
   },
   "brain": {
@@ -990,6 +990,29 @@
       "pnl": 0,
       "pnl_pct": 0,
       "exit_reason": "sync_fallback"
+    },
+    {
+      "id": "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "timestamp_entry": "2026-05-19T12:00:23.660920+00:00",
+      "symbol": "OPUSDT",
+      "side": "LONG",
+      "entry_price": 0.12717,
+      "qty": 289.90000000000003,
+      "sl": 0.12526245,
+      "tp": 0.13352850000000002,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "RSI 36.4 cruz\u00f3 oversold desde 32.5",
+        "Precio en/cerca banda inferior Bollinger (BB pos: 2%)",
+        "Volumen normal (1.83x)",
+        "Entry: 0.127170 | SL: 0.125262 | TP1: 0.133529 | TP2: 0.137344",
+        "R:R: 3.33 | ATR: 0.000688"
+      ],
+      "confidence": "medium",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
