@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-19T00:00:03.017988+00:00",
-  "balance": 46.75729084,
+  "updated_at": "2026-05-19T00:00:55.655897+00:00",
+  "balance": 46.73674091,
   "state": {
-    "trades_today": 6,
-    "last_trade_date": "2026-05-18",
-    "total_trades": 18,
+    "trades_today": 1,
+    "last_trade_date": "2026-05-19",
+    "total_trades": 19,
     "total_pnl": -2.1401,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-18T22:00:16.248420+00:00",
+    "last_trade_timestamp": "2026-05-19T00:00:18.974857+00:00",
     "win_rate": 40.0
   },
   "brain": {
     "version": "1.0",
     "created": "2026-04-24T12:00:04.329990+00:00",
-    "last_updated": "2026-05-18T23:00:05.880474+00:00",
+    "last_updated": "2026-05-19T00:00:02.557777+00:00",
     "total_trades_analyzed": 18,
     "adaptive_params": {
       "rsi_optimal_long_min": 45,
@@ -123,6 +123,12 @@
         "wins": 0,
         "losses": 0,
         "pnl": 0.0
+      },
+      "SEIUSDT:SHORT:mid:evening:low": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "pair_stats": {
@@ -163,7 +169,7 @@
         "pnl": -0.4525
       },
       "SEIUSDT": {
-        "trades": 2,
+        "trades": 3,
         "wins": 0,
         "losses": 2,
         "pnl": -1.1652
@@ -217,6 +223,11 @@
         "losses": 1
       },
       "13": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 0
+      },
+      "22": {
         "trades": 1,
         "wins": 0,
         "losses": 0
@@ -366,10 +377,19 @@
         "pnl_pct": 0,
         "fingerprint": "FILUSDT:SHORT:overbought:afternoon:medium",
         "insight": "FILUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-05-19T00:00:02.557741+00:00",
+        "trade_id": "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+        "symbol": "SEIUSDT",
+        "result": "CLOSED",
+        "pnl_pct": 0,
+        "fingerprint": "SEIUSDT:SHORT:mid:evening:low",
+        "insight": "SEIUSDT: Ganancia de 0.0%. Replicar condiciones de este setup."
       }
     ],
     "global_stats": {
-      "total_trades": 17,
+      "total_trades": 18,
       "wins": 4,
       "losses": 8,
       "total_pnl": -2.1401,
@@ -379,27 +399,26 @@
       "current_streak_type": "loss"
     },
     "processed_trade_ids": [
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
       "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
-      "026040b4-d098-4595-b006-565abea6ea21",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
       "f4607180-3900-49d2-8881-9d2d2867c629",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "f738348b-493d-4186-9932-0f48a621001a"
+      "026040b4-d098-4595-b006-565abea6ea21",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9"
     ],
-    "pending_trade_ids": [
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5"
-    ]
+    "pending_trade_ids": []
   },
   "trades": [
     {
@@ -821,6 +840,27 @@
       "pnl": 0,
       "pnl_pct": 0,
       "exit_reason": "sync_fallback"
+    },
+    {
+      "id": "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "timestamp_entry": "2026-05-19T00:00:18.974790+00:00",
+      "symbol": "OPUSDT",
+      "side": "SHORT",
+      "entry_price": 0.12939,
+      "qty": 289.0,
+      "sl": 0.13133085,
+      "tp": 0.1229205,
+      "leverage": 2.0,
+      "setup_reasons": [
+        "RSI 63.1 saliendo de overbought, cerca de BB superior",
+        "Entry: 0.129390 | SL: 0.131331 | TP1: 0.122921 | TP2: 0.119039",
+        "R:R: 3.33 | ATR: 0.000686"
+      ],
+      "confidence": "low",
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_reason": "open"
     }
   ]
 }
