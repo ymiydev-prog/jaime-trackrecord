@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T08:00:04.997153+00:00",
+  "updated_at": "2026-05-19T08:00:16.222613+00:00",
   "balance": 46.09661568,
   "state": {
     "trades_today": 3,
@@ -938,10 +938,10 @@
         "R:R: 3.33 | ATR: 0.041220"
       ],
       "confidence": "low",
-      "result": "PENDING",
+      "result": "CLOSED",
       "pnl": 0,
       "pnl_pct": 0,
-      "exit_reason": "open"
+      "exit_reason": "sync_fallback"
     }
   ]
 }
