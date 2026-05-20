@@ -379,6 +379,7 @@ function renderTrades() {
     }
     
     const rows = filtered.map(t => {
+        const result = t.result || '—';
         const ts = (t.timestamp_entry || t.timestamp || '').substring(0, 16).replace('T', ' ');
         const entry = (t.entry_price || t.entry) ? '$' + (t.entry_price || t.entry).toFixed((t.entry_price || t.entry) < 1 ? 4 : 2) : '—';
         let exitPrice;
@@ -394,7 +395,6 @@ function renderTrades() {
         const qty = t.qty ? t.qty.toFixed(t.qty < 1 ? 4 : 2) : '—';
         const side = t.side ? t.side.toUpperCase() : '—';
         const sideClass = side === 'LONG' ? 'side-long' : side === 'SHORT' ? 'side-short' : '';
-        const result = t.result || '—';
         
         let badgeClass = 'badge-open';
         if (result === 'WIN') badgeClass = 'badge-win';
