@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T04:33:12.494945+00:00",
-  "balance": 46.8317233,
+  "updated_at": "2026-05-20T04:45:02.038694+00:00",
+  "balance": 46.99689082,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-20",
@@ -686,10 +686,10 @@
         "SL: 0.1042 | TP1: 0.0998 | TP2: 0.0968"
       ],
       "confidence": "high",
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     }
   ]
 }
