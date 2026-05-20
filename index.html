@@ -193,6 +193,7 @@ tr:hover { background: rgba(88, 166, 255, 0.04); }
         <div class="card"><h3>P&L Total</h3><div class="value" id="pnlDisplay">--</div><div class="change">Trades ejecutados</div></div>
         <div class="card"><h3>Win Rate</h3><div class="value" id="wrDisplay">--</div><div class="change" id="wlDisplay">-</div></div>
         <div class="card"><h3>Trades Hoy</h3><div class="value" id="todayDisplay">--</div><div class="change">Máx: 1 activo por vez</div></div>
+        <div class="card"><h3>Abiertos</h3><div class="value" id="openDisplay">--</div><div class="change">Posiciones activas</div></div>
         <div class="card"><h3>Risk Multiplier</h3><div class="value" id="riskDisplay">--</div><div class="change" id="riskLabel">Ajuste dinámico</div></div>
         <div class="card"><h3>Streak</h3><div class="value" id="streakDisplay">--</div><div class="change" id="streakLabel">Consecutivas</div></div>
     </div>
@@ -285,11 +286,14 @@ function renderDashboard(data) {
     document.getElementById('wrDisplay').className = 'value ' + (winRate >= 50 ? 'positive' : 'negative');
     document.getElementById('wlDisplay').textContent = wins + 'W / ' + losses + 'L';
     
-    // Trades today from state
+    // Trades today + open positions
     const state = data.state || {};
     const tradesToday = state.trades_today || 0;
+    const openPositions = data.open_positions || 0;
     document.getElementById('todayDisplay').textContent = tradesToday;
     document.getElementById('todayDisplay').className = 'value ' + (tradesToday > 0 ? 'positive' : 'neutral');
+    document.getElementById('openDisplay').textContent = openPositions;
+    document.getElementById('openDisplay').className = 'value ' + (openPositions > 0 ? 'positive' : 'neutral');
     
     // Brain params — brain is the FULL brain object now
     const brain = data.brain || {};
@@ -307,10 +311,10 @@ function renderDashboard(data) {
     document.getElementById('streakLabel').textContent = streakType === 'win' ? 'Ganando' : streakType === 'loss' ? 'Perdiendo' : 'Sin streak';
     
     // Brain adaptive params section
-    if (ap.rsi_optimal_long_min !== undefined) {
+    if (Object.keys(ap).length > 0) {
         document.getElementById('brainSection').style.display = 'block';
-        document.getElementById('rsiLongDisplay').textContent = ap.rsi_optimal_long_min + '-' + ap.rsi_optimal_long_max;
-        document.getElementById('rsiShortDisplay').textContent = ap.rsi_optimal_short_min + '-' + ap.rsi_optimal_short_max;
+        document.getElementById('rsiLongDisplay').textContent = (ap.rsi_optimal_long_min || '?') + '-' + (ap.rsi_optimal_long_max || '?');
+        document.getElementById('rsiShortDisplay').textContent = (ap.rsi_optimal_short_min || '?') + '-' + (ap.rsi_optimal_short_max || '?');
         document.getElementById('volDisplay').textContent = (ap.min_volume_ratio || 1.0).toFixed(1) + 'x';
         document.getElementById('emaDisplay').textContent = (ap.min_ema_distance_pct || 0.5).toFixed(1) + '%';
     }
@@ -361,7 +365,9 @@ document.getElementById('filterButtons').addEventListener('click', function(e) {
 function renderTrades() {
     const tbody = document.getElementById('tradesBody');
     let filtered = allTrades;
-    if (currentFilter !== 'all') {
+    if (currentFilter === 'OPEN') {
+        filtered = allTrades.filter(t => t.result === 'OPEN' || t.result === 'PENDING');
+    } else if (currentFilter !== 'all') {
         filtered = allTrades.filter(t => t.result === currentFilter);
     }
     // Sort by timestamp descending (most recent first)
@@ -375,7 +381,14 @@ function renderTrades() {
     const rows = filtered.map(t => {
         const ts = (t.timestamp_entry || t.timestamp || '').substring(0, 16).replace('T', ' ');
         const entry = (t.entry_price || t.entry) ? '$' + (t.entry_price || t.entry).toFixed((t.entry_price || t.entry) < 1 ? 4 : 2) : '—';
-        const exitPrice = (t.exit_price || t.exitPrice) ? '$' + (t.exit_price || t.exitPrice).toFixed((t.exit_price || t.exitPrice) < 1 ? 4 : 2) : '—';
+        let exitPrice;
+        if (t.exit_price) {
+            exitPrice = '$' + t.exit_price.toFixed(t.exit_price < 1 ? 4 : 2);
+        } else if (result === 'OPEN' || result === 'PENDING') {
+            exitPrice = '<span style="color:var(--yellow)">Abierto</span>';
+        } else {
+            exitPrice = '—';
+        }
         const sl = t.sl ? '$' + t.sl.toFixed(t.sl < 1 ? 4 : 2) : '—';
         const tp = t.tp ? '$' + t.tp.toFixed(t.tp < 1 ? 4 : 2) : '—';
         const qty = t.qty ? t.qty.toFixed(t.qty < 1 ? 4 : 2) : '—';
@@ -386,6 +399,7 @@ function renderTrades() {
         let badgeClass = 'badge-open';
         if (result === 'WIN') badgeClass = 'badge-win';
         else if (result === 'LOSS') badgeClass = 'badge-loss';
+        else if (result === 'PENDING') badgeClass = 'badge-open';
         
         const pnlVal = t.pnl || 0;
         const pnlStr = pnlVal > 0 ? '+$' + pnlVal.toFixed(4) : pnlVal < 0 ? '-$' + Math.abs(pnlVal).toFixed(4) : '$0.0000';
@@ -396,7 +410,8 @@ function renderTrades() {
         
         // Exit reason (human readable)
         let exitReason = t.exit_reason || '—';
-        if (exitReason === 'CLOSED') exitReason = 'SL/TP ejecutado';
+        if (result === 'OPEN' || result === 'PENDING') exitReason = 'En curso';
+        else if (exitReason === 'CLOSED') exitReason = 'SL/TP ejecutado';
         else if (exitReason === 'sync_fallback') exitReason = 'Cierre automático';
         else if (exitReason === 'bybit_sl_tp') exitReason = 'SL/TP Bybit';
         else if (exitReason === 'never_opened') exitReason = 'No se ejecutó';
