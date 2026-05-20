@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T05:30:05.631505+00:00",
-  "balance": 46.99689082,
+  "updated_at": "2026-05-20T05:45:02.145464+00:00",
+  "balance": 47.08148715,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-20",
@@ -620,7 +620,8 @@
         "R:R: 3.33 | ATR: 7.772702"
       ],
       "confidence": "low",
-      "result": "OPEN"
+      "result": "CLOSED_AUTO",
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "ed5d76b4-6571-4578-8c48-50a25c45bb86",
