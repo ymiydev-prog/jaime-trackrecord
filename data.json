@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T14:46:02.010888+00:00",
+  "updated_at": "2026-05-20T14:47:50.411719+00:00",
   "balance": 48.84,
   "pnl": -0.8951,
   "winRate": 47.8,
@@ -180,8 +180,23 @@
   },
   "trades": [
     {
+      "id": "09b42257-75a7-40a4-a3d5-07f3f794a18f",
+      "timestamp_entry": "2026-04-24T08:57:33.781925+00:00",
+      "symbol": "DOGEUSDT",
+      "side": "long",
+      "entry_price": 0.09782,
+      "sl": 0.09675795737122615,
+      "tp": 0.09941306394316078,
+      "qty": 52.0,
+      "result": "CLOSED",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "unknown"
+    },
+    {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "timestamp": "2026-04-25T08:00:03.730658+00:00",
       "timestamp_entry": "2026-04-25T08:00:03.730658+00:00",
       "symbol": "DOGEUSDT",
       "side": "long",
@@ -198,7 +213,6 @@
     },
     {
       "id": "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "timestamp": "2026-04-27T19:01:33.677709+00:00",
       "timestamp_entry": "2026-04-27T19:01:33.677709+00:00",
       "symbol": "XRPUSDT",
       "side": "short",
@@ -215,7 +229,6 @@
     },
     {
       "id": "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "timestamp": "2026-04-29T08:02:59.331015+00:00",
       "timestamp_entry": "2026-04-29T08:02:59.331015+00:00",
       "symbol": "HBARUSDT",
       "side": "long",
@@ -232,7 +245,6 @@
     },
     {
       "id": "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "timestamp": "2026-04-30T16:02:29.996430+00:00",
       "timestamp_entry": "2026-04-30T16:02:29.996430+00:00",
       "symbol": "DOGEUSDT",
       "side": "long",
@@ -249,7 +261,6 @@
     },
     {
       "id": "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "timestamp": "2026-05-06T17:28:28.761812+00:00",
       "timestamp_entry": "2026-05-06T17:28:28.761812+00:00",
       "symbol": "OPUSDT",
       "side": "long",
@@ -266,7 +277,6 @@
     },
     {
       "id": "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "timestamp": "2026-05-07T00:00:18.409385+00:00",
       "timestamp_entry": "2026-05-07T00:00:18.409385+00:00",
       "symbol": "ARBUSDT",
       "side": "long",
@@ -283,7 +293,6 @@
     },
     {
       "id": "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "timestamp": "2026-05-08T00:00:16.539036+00:00",
       "timestamp_entry": "2026-05-08T00:00:16.539036+00:00",
       "symbol": "DOGEUSDT",
       "side": "short",
@@ -300,7 +309,6 @@
     },
     {
       "id": "f738348b-493d-4186-9932-0f48a621001a",
-      "timestamp": "2026-05-09T00:00:24.987524+00:00",
       "timestamp_entry": "2026-05-09T00:00:24.987524+00:00",
       "symbol": "FILUSDT",
       "side": "long",
@@ -317,7 +325,6 @@
     },
     {
       "id": "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "timestamp": "2026-05-10T06:00:12.477356+00:00",
       "timestamp_entry": "2026-05-10T06:00:12.477356+00:00",
       "symbol": "OPUSDT",
       "side": "short",
@@ -334,7 +341,6 @@
     },
     {
       "id": "f4607180-3900-49d2-8881-9d2d2867c629",
-      "timestamp": "2026-05-10T12:00:13.002491+00:00",
       "timestamp_entry": "2026-05-10T12:00:13.002491+00:00",
       "symbol": "FILUSDT",
       "side": "short",
@@ -351,7 +357,6 @@
     },
     {
       "id": "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "timestamp": "2026-05-11T06:00:12.886940+00:00",
       "timestamp_entry": "2026-05-11T06:00:12.886940+00:00",
       "symbol": "SEIUSDT",
       "side": "long",
@@ -368,7 +373,6 @@
     },
     {
       "id": "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "timestamp": "2026-05-18T00:00:24.810847+00:00",
       "timestamp_entry": "2026-05-18T00:00:24.810847+00:00",
       "symbol": "SEIUSDT",
       "side": "long",
@@ -385,7 +389,6 @@
     },
     {
       "id": "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "timestamp": "2026-05-18T08:00:15.539445+00:00",
       "timestamp_entry": "2026-05-18T08:00:15.539445+00:00",
       "symbol": "HBARUSDT",
       "side": "long",
@@ -402,7 +405,6 @@
     },
     {
       "id": "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "timestamp": "2026-05-18T11:00:16.802894+00:00",
       "timestamp_entry": "2026-05-18T11:00:16.802894+00:00",
       "symbol": "HBARUSDT",
       "side": "long",
@@ -419,7 +421,6 @@
     },
     {
       "id": "026040b4-d098-4595-b006-565abea6ea21",
-      "timestamp": "2026-05-18T12:00:16.858315+00:00",
       "timestamp_entry": "2026-05-18T12:00:16.858315+00:00",
       "symbol": "DOTUSDT",
       "side": "short",
@@ -436,7 +437,6 @@
     },
     {
       "id": "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "timestamp": "2026-05-18T13:00:19.068490+00:00",
       "timestamp_entry": "2026-05-18T13:00:19.068490+00:00",
       "symbol": "FILUSDT",
       "side": "short",
@@ -453,7 +453,6 @@
     },
     {
       "id": "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "timestamp": "2026-05-18T22:00:16.248351+00:00",
       "timestamp_entry": "2026-05-18T22:00:16.248351+00:00",
       "symbol": "SEIUSDT",
       "side": "short",
@@ -470,7 +469,6 @@
     },
     {
       "id": "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "timestamp": "2026-05-19T00:00:18.974790+00:00",
       "timestamp_entry": "2026-05-19T00:00:18.974790+00:00",
       "symbol": "OPUSDT",
       "side": "short",
@@ -487,7 +485,6 @@
     },
     {
       "id": "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",
-      "timestamp": "2026-05-19T01:00:19.819953+00:00",
       "timestamp_entry": "2026-05-19T01:00:19.819953+00:00",
       "symbol": "ARBUSDT",
       "side": "short",
@@ -503,8 +500,23 @@
       "exit_reason": "CLOSED"
     },
     {
+      "id": "5dc9a656-f3aa-4dac-8974-7d05cf46ea2e",
+      "timestamp_entry": "2026-05-19T07:00:17.834755+00:00",
+      "symbol": "LINKUSDT",
+      "side": "short",
+      "entry_price": 9.764,
+      "sl": 9.916549999999999,
+      "tp": 9.2815,
+      "qty": 3.7,
+      "result": "OPEN",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": ""
+    },
+    {
       "id": "e0ec2f70-4c42-4a53-a68d-13169b833a58",
-      "timestamp": "2026-05-19T11:00:18.293187+00:00",
       "timestamp_entry": "2026-05-19T11:00:18.293187+00:00",
       "symbol": "ETHUSDT",
       "side": "long",
@@ -521,7 +533,6 @@
     },
     {
       "id": "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "timestamp": "2026-05-19T12:00:23.660920+00:00",
       "timestamp_entry": "2026-05-19T12:00:23.660920+00:00",
       "symbol": "OPUSDT",
       "side": "long",
@@ -538,7 +549,6 @@
     },
     {
       "id": "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
-      "timestamp": "2026-05-19T20:00:21.511098+00:00",
       "timestamp_entry": "2026-05-19T20:00:21.511098+00:00",
       "symbol": "FILUSDT",
       "side": "short",
@@ -555,7 +565,6 @@
     },
     {
       "id": "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "timestamp": "2026-05-20T02:00:20.464674+00:00",
       "timestamp_entry": "2026-05-20T02:00:20.464674+00:00",
       "symbol": "DOGEUSDT",
       "side": "short",
@@ -569,6 +578,22 @@
       "exit_price": 0.10226,
       "exit_time": "1779251816266",
       "exit_reason": "CLOSED"
+    },
+    {
+      "id": "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "timestamp_entry": "2026-05-20T14:00:20.966381+00:00",
+      "symbol": "OPUSDT",
+      "side": "long",
+      "entry_price": 0.12560033,
+      "sl": 0.121832,
+      "tp": 0.13188,
+      "qty": 311.3,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
     }
   ]
 }
