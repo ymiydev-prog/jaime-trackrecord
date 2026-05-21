@@ -1,11 +1,11 @@
 {
-  "winRate": 48.0,
-  "totalTrades": 25,
-  "wins": 12,
+  "winRate": 50.0,
+  "totalTrades": 26,
+  "wins": 13,
   "losses": 13,
-  "pnl": -1.3456,
-  "balance": 48.43,
-  "updated_at": "2026-05-21T18:00:01.372222+00:00",
+  "pnl": 0.5739,
+  "balance": 50.36,
+  "updated_at": "2026-05-21T18:00:07.115355+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -365,6 +365,21 @@
       "pnl": 0.1446,
       "pnl_pct": 0.39,
       "exit_price": 0.10226,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "timestamp": "2026-05-20T14:00:20.966381+00:00",
+      "symbol": "OPUSDT",
+      "side": "long",
+      "entry_price": 0.12560034,
+      "sl": 0.121832,
+      "tp": 0.13188,
+      "qty": 311.3,
+      "result": "WIN",
+      "pnl": 1.9195,
+      "pnl_pct": 4.91,
+      "exit_price": 0.13188,
       "exit_reason": "CLOSED"
     },
     {
