@@ -570,7 +570,10 @@ let livePrices = {};
 
 async function fetchBybitPrice(symbol) {
     try {
-        const r = await fetch(`https://api.bybit.com/v5/market/tickers?category=spot&symbol=${symbol}USDT`, { timeout: 5000 });
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        const r = await fetch(`https://api.bybit.com/v5/market/tickers?category=spot&symbol=${symbol}USDT`, { signal: controller.signal });
+        clearTimeout(timeout);
         const d = await r.json();
         if (d?.result?.list?.[0]?.lastPrice) {
             return parseFloat(d.result.list[0].lastPrice);
