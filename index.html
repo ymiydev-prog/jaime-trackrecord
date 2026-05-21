@@ -161,6 +161,27 @@ tr:hover { background: rgba(88, 166, 255, 0.04); }
     font-weight: 600;
     font-size: 0.8rem;
 }
+/* OPEN POSITIONS LIVE */
+.open-pos {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.open-pos .icon { font-size: 22px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.04); border-radius: 10px; }
+.open-pos .info { flex: 1; min-width: 0; }
+.open-pos .sym { font-size: 14px; font-weight: 700; }
+.open-pos .side { font-size: 9px; font-weight: 700; text-transform: uppercase; padding: 2px 6px; border-radius: 4px; letter-spacing: 0.5px; }
+.open-pos .side.long { background: rgba(63,185,80,0.12); color: var(--green); }
+.open-pos .side.short { background: rgba(248,81,73,0.12); color: var(--red); }
+.open-pos .details { font-size: 10px; color: var(--text-muted); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 5px; }
+.open-pos .details span { background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px; }
+.open-pos .pnl { text-align: right; margin-left: auto; }
+.open-pos .pnl .v { font-size: 18px; font-weight: 800; }
+.open-pos .pnl .p { font-size: 10px; font-weight: 600; }
 .footer {
     text-align: center;
     padding: 20px;
@@ -206,6 +227,12 @@ tr:hover { background: rgba(88, 166, 255, 0.04); }
             <div class="card"><h3>Min Vol Ratio</h3><div class="value" id="volDisplay" style="font-size:1.2rem;">--</div></div>
             <div class="card"><h3>Min EMA Dist</h3><div class="value" id="emaDisplay" style="font-size:1.2rem;">--</div></div>
         </div>
+    </div>
+
+    <!-- OPEN POSITIONS LIVE -->
+    <div class="chart-container" id="openPositionsSection" style="display:none;">
+        <h2>🔴 Posiciones Abiertas (En Vivo)</h2>
+        <div id="openPositionsList" style="margin-top:12px;display:flex;flex-direction:column;gap:8px;"></div>
     </div>
 
     <div class="chart-container">
@@ -535,10 +562,98 @@ function drawEquityChart() {
 window.addEventListener('resize', resizeChart);
 setupCanvas();
 
+// ===== LIVE OPEN POSITIONS (fetch prices from Bybit API) =====
+let livePrices = {};
+
+async function fetchBybitPrice(symbol) {
+    try {
+        const r = await fetch(`https://api.bybit.com/v5/market/tickers?category=spot&symbol=${symbol}USDT`, { timeout: 5000 });
+        const d = await r.json();
+        if (d?.result?.list?.[0]?.lastPrice) {
+            return parseFloat(d.result.list[0].lastPrice);
+        }
+    } catch(e) { console.warn('Price fetch failed for', symbol, e.message); }
+    return null;
+}
+
+async function renderOpenPositions() {
+    const section = document.getElementById('openPositionsSection');
+    const list = document.getElementById('openPositionsList');
+    
+    // Find open trades from allTrades
+    const open = allTrades.filter(t => t.result === 'OPEN' || t.result === 'PENDING');
+    
+    if (open.length === 0) {
+        section.style.display = 'none';
+        return;
+    }
+    
+    section.style.display = 'block';
+    
+    // Fetch live prices for all open symbols
+    const symbols = [...new Set(open.map(t => t.symbol))];
+    for (const sym of symbols) {
+        const price = await fetchBybitPrice(sym);
+        if (price) livePrices[sym] = price;
+    }
+    
+    let html = '';
+    for (const t of open) {
+        const sym = t.symbol;
+        const side = (t.side || '').toUpperCase();
+        const isLong = side === 'LONG';
+        const entry = t.entry_price || t.entry || 0;
+        const qty = t.qty || 0;
+        const sl = t.sl || 0;
+        const tp = t.tp || 0;
+        const live = livePrices[sym];
+        
+        let pnlVal = 0, pnlPct = 0;
+        if (live && entry > 0) {
+            const diff = isLong ? (live - entry) : (entry - live);
+            pnlVal = diff * qty;
+            pnlPct = (diff / entry) * 100;
+        }
+        
+        const pnlClass = pnlVal > 0 ? 'positive' : pnlVal < 0 ? 'negative' : 'neutral';
+        const icon = isLong ? '📈' : '📉';
+        const entryStr = entry < 1 ? entry.toFixed(6) : entry.toFixed(4);
+        const liveStr = live ? (live < 1 ? live.toFixed(6) : live.toFixed(4)) : '—';
+        const slPct = entry > 0 && sl ? (Math.abs(entry - sl) / entry * 100).toFixed(1) : '?';
+        const tpPct = entry > 0 && tp ? (Math.abs(tp - entry) / entry * 100).toFixed(1) : '?';
+        
+        html += `
+            <div class="open-pos">
+                <div class="icon">${icon}</div>
+                <div class="info">
+                    <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px;">
+                        <span class="sym">${sym}</span>
+                        <span class="side ${side.toLowerCase()}">${side}</span>
+                        <span class="badge-open">LIVE</span>
+                    </div>
+                    <div class="details">
+                        <span>Entry ${entryStr}</span>
+                        ${live ? `<span style="color:var(--green)">Live ${liveStr}</span>` : ''}
+                        <span>SL ${slPct}%</span>
+                        <span>TP ${tpPct}%</span>
+                        <span>Qty ${qty}</span>
+                    </div>
+                </div>
+                <div class="pnl">
+                    <div class="v ${pnlClass}">${pnlVal >= 0 ? '+' : ''}$${Math.abs(pnlVal).toFixed(2)}</div>
+                    <div class="p ${pnlClass}">${pnlVal >= 0 ? '+' : ''}${pnlPct.toFixed(2)}%</div>
+                </div>
+            </div>
+        `;
+    }
+    list.innerHTML = html;
+}
+
 // ===== INIT =====
 loadData();
 // Auto-refresh every 60 seconds
 setInterval(loadData, 15000);
+setInterval(renderOpenPositions, 10000);
 </script>
 </body>
 </html>
