@@ -1,58 +1,58 @@
 {
-  "updated_at": "2026-05-21T01:30:01.713827+00:00",
-  "balance": 48.85,
-  "pnl": -0.8951,
-  "winRate": 47.8,
-  "totalTrades": 23,
-  "wins": 11,
-  "losses": 12,
-  "open_positions": 3,
+  "updated_at": "2026-05-21T01:30:10.056589+00:00",
+  "balance": 48.42,
+  "pnl": -1.3456,
+  "winRate": 48.0,
+  "totalTrades": 25,
+  "wins": 12,
+  "losses": 13,
+  "open_positions": 2,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-05-21",
-    "total_trades": 23,
-    "total_pnl": -0.8951,
+    "total_trades": 25,
+    "total_pnl": -1.3456,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-20T14:00:20.966492+00:00",
     "win_rate": 36.8,
-    "balance": 48.85,
-    "total_wins": 11,
-    "total_losses": 12,
-    "last_sync": "2026-05-21T01:00:05.551614+00:00"
+    "balance": 48.42,
+    "total_wins": 12,
+    "total_losses": 13,
+    "last_sync": "2026-05-21T01:30:05.228393+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-21T01:00:02.733957+00:00",
+    "last_updated": "2026-05-21T01:30:09.980447+00:00",
     "total_trades_analyzed": 28,
     "processed_trade_ids": [
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
       "026040b4-d098-4595-b006-565abea6ea21",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
       "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "795527cd-16eb-4a87-a850-de428a504679",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
       "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "f738348b-493d-4186-9932-0f48a621001a"
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0"
     ],
     "pending_trade_ids": [
       "53ccc779-f750-46ab-8a73-078a5ff36a20",
-      "795527cd-16eb-4a87-a850-de428a504679",
       "3e533d88-3cc7-4401-b748-670b785d31c8"
     ],
     "adaptive_params": {
@@ -62,7 +62,7 @@
       "rsi_optimal_short_max": 52,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.5357895874709602,
+      "risk_multiplier": 0.4852826092180642,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -77,6 +77,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.1446
+      },
+      "SEIUSDT:SHORT:mid:evening:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.5677
       }
     },
     "pair_stats": {
@@ -91,6 +97,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.1446
+      },
+      "SEIUSDT": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.5677
       }
     },
     "hour_stats": {
@@ -103,6 +115,11 @@
         "trades": 1,
         "wins": 1,
         "losses": 0
+      },
+      "21": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1
       }
     },
     "lessons": [
@@ -123,17 +140,26 @@
         "pnl_pct": 0.39,
         "fingerprint": "DOGEUSDT:SHORT:mid:night:high",
         "insight": "DOGEUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
+      },
+      {
+        "timestamp": "2026-05-21T01:30:09.980418+00:00",
+        "trade_id": "795527cd-16eb-4a87-a850-de428a504679",
+        "symbol": "SEIUSDT",
+        "result": "LOSS",
+        "pnl_pct": -1.52,
+        "fingerprint": "SEIUSDT:SHORT:mid:evening:medium",
+        "insight": "SEIUSDT: P\u00e9rdida de 1.5%. Revisar setup y condiciones de mercado."
       }
     ],
     "global_stats": {
-      "total_trades": 21,
+      "total_trades": 22,
       "wins": 9,
-      "losses": 12,
-      "total_pnl": -2.7298,
+      "losses": 13,
+      "total_pnl": -3.2975,
       "max_consecutive_wins": 3,
       "max_consecutive_losses": 9,
-      "current_streak": 2,
-      "current_streak_type": "win"
+      "current_streak": 1,
+      "current_streak_type": "loss"
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
@@ -193,12 +219,12 @@
       "sl": 0.06296,
       "tp": 0.05707,
       "qty": 612.0,
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_price": null,
-      "exit_time": "",
-      "exit_reason": "open"
+      "result": "LOSS",
+      "pnl": -0.5677,
+      "pnl_pct": -1.52,
+      "exit_price": 0.06201,
+      "exit_time": "1779326161548",
+      "exit_reason": "CLOSED"
     },
     {
       "id": "3e533d88-3cc7-4401-b748-670b785d31c8",
@@ -305,12 +331,12 @@
       "sl": 9.916549999999999,
       "tp": 9.2815,
       "qty": 3.7,
-      "result": "CLOSED_AUTO",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_price": null,
-      "exit_time": "",
-      "exit_reason": "bybit_sl_tp"
+      "result": "WIN",
+      "pnl": 0.1172,
+      "pnl_pct": 0.32,
+      "exit_price": 9.723,
+      "exit_time": "1779326112828",
+      "exit_reason": "CLOSED"
     },
     {
       "id": "d8250548-0e3f-41b0-8d9b-f2d6c2ed22cc",

@@ -1,11 +1,11 @@
 {
-  "winRate": 47.8,
-  "totalTrades": 23,
-  "wins": 11,
-  "losses": 12,
-  "pnl": -0.8951,
-  "balance": 48.85,
-  "updated_at": "2026-05-21T01:30:01.710795+00:00",
+  "winRate": 48.0,
+  "totalTrades": 25,
+  "wins": 12,
+  "losses": 13,
+  "pnl": -1.3456,
+  "balance": 48.42,
+  "updated_at": "2026-05-21T01:30:10.055568+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -293,6 +293,21 @@
       "exit_reason": "CLOSED"
     },
     {
+      "id": "5dc9a656-f3aa-4dac-8974-7d05cf46ea2e",
+      "timestamp": "2026-05-19T07:00:17.834755+00:00",
+      "symbol": "LINKUSDT",
+      "side": "short",
+      "entry_price": 9.764,
+      "sl": 9.916549999999999,
+      "tp": 9.2815,
+      "qty": 3.7,
+      "result": "WIN",
+      "pnl": 0.1172,
+      "pnl_pct": 0.32,
+      "exit_price": 9.723,
+      "exit_reason": "CLOSED"
+    },
+    {
       "id": "e0ec2f70-4c42-4a53-a68d-13169b833a58",
       "timestamp": "2026-05-19T11:00:18.293187+00:00",
       "symbol": "ETHUSDT",
@@ -350,6 +365,21 @@
       "pnl": 0.1446,
       "pnl_pct": 0.39,
       "exit_price": 0.10226,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "795527cd-16eb-4a87-a850-de428a504679",
+      "timestamp": "2026-05-20T21:32:30.909624+00:00",
+      "symbol": "SEIUSDT",
+      "side": "short",
+      "entry_price": 0.06113,
+      "sl": 0.06296,
+      "tp": 0.05707,
+      "qty": 612.0,
+      "result": "LOSS",
+      "pnl": -0.5677,
+      "pnl_pct": -1.52,
+      "exit_price": 0.06201,
       "exit_reason": "CLOSED"
     }
   ]
