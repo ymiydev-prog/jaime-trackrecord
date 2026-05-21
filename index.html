@@ -352,6 +352,9 @@ function renderDashboard(data) {
     applyFilter('all');
     drawEquityChart();
     
+    // Render open positions with live prices
+    renderOpenPositions();
+    
     // Update timestamp
     const updated = data.updated_at ? new Date(data.updated_at).toLocaleString() : '—';
     document.getElementById('footerText').textContent = 'JAIME v2.0 | Live Mode | Actualizado: ' + updated;
@@ -597,13 +600,16 @@ async function renderOpenPositions() {
         if (price) livePrices[sym] = price;
     }
     
+    let totalUnrealized = 0;
     let html = '';
+    
     for (const t of open) {
         const sym = t.symbol;
         const side = (t.side || '').toUpperCase();
         const isLong = side === 'LONG';
         const entry = t.entry_price || t.entry || 0;
         const qty = t.qty || 0;
+        const leverage = t.leverage || 2.0;
         const sl = t.sl || 0;
         const tp = t.tp || 0;
         const live = livePrices[sym];
@@ -611,16 +617,21 @@ async function renderOpenPositions() {
         let pnlVal = 0, pnlPct = 0;
         if (live && entry > 0) {
             const diff = isLong ? (live - entry) : (entry - live);
-            pnlVal = diff * qty;
+            pnlVal = diff * qty * leverage;  // Leverage multiplies PnL
             pnlPct = (diff / entry) * 100;
         }
+        totalUnrealized += pnlVal;
         
         const pnlClass = pnlVal > 0 ? 'positive' : pnlVal < 0 ? 'negative' : 'neutral';
         const icon = isLong ? '📈' : '📉';
         const entryStr = entry < 1 ? entry.toFixed(6) : entry.toFixed(4);
         const liveStr = live ? (live < 1 ? live.toFixed(6) : live.toFixed(4)) : '—';
+        const slStr = sl ? (sl < 1 ? sl.toFixed(6) : sl.toFixed(4)) : '—';
+        const tpStr = tp ? (tp < 1 ? tp.toFixed(6) : tp.toFixed(4)) : '—';
         const slPct = entry > 0 && sl ? (Math.abs(entry - sl) / entry * 100).toFixed(1) : '?';
         const tpPct = entry > 0 && tp ? (Math.abs(tp - entry) / entry * 100).toFixed(1) : '?';
+        const distanceToSl = live && sl ? (Math.abs(live - sl) / entry * 100).toFixed(2) : '?';
+        const distanceToTp = live && tp ? (Math.abs(tp - live) / entry * 100).toFixed(2) : '?';
         
         html += `
             <div class="open-pos">
@@ -630,12 +641,15 @@ async function renderOpenPositions() {
                         <span class="sym">${sym}</span>
                         <span class="side ${side.toLowerCase()}">${side}</span>
                         <span class="badge-open">LIVE</span>
+                        <span style="font-size:10px;color:var(--text-muted)">${leverage}x</span>
                     </div>
                     <div class="details">
                         <span>Entry ${entryStr}</span>
                         ${live ? `<span style="color:var(--green)">Live ${liveStr}</span>` : ''}
-                        <span>SL ${slPct}%</span>
-                        <span>TP ${tpPct}%</span>
+                        <span style="color:var(--red)">SL ${slStr} (${slPct}%)</span>
+                        <span style="color:var(--green)">TP ${tpStr} (${tpPct}%)</span>
+                        ${live ? `<span>Dist SL ${distanceToSl}%</span>` : ''}
+                        ${live ? `<span>Dist TP ${distanceToTp}%</span>` : ''}
                         <span>Qty ${qty}</span>
                     </div>
                 </div>
@@ -646,6 +660,11 @@ async function renderOpenPositions() {
             </div>
         `;
     }
+    
+    // Add total unrealized P&L header
+    const totalClass = totalUnrealized > 0 ? 'positive' : totalUnrealized < 0 ? 'negative' : 'neutral';
+    html = `<div style="text-align:right;padding:8px 0;font-size:13px;font-weight:600;color:var(${totalClass === 'positive' ? '--green' : totalClass === 'negative' ? '--red' : '--text-muted'})">P&L Acumulado Abiertos: ${totalUnrealized >= 0 ? '+' : ''}$${totalUnrealized.toFixed(2)}</div>` + html;
+    
     list.innerHTML = html;
 }
 
