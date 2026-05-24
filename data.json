@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-05-24T08:00:07.385958+00:00",
+  "updated_at": "2026-05-24T08:02:02.432870+00:00",
   "balance": 49.85,
   "pnl": 0.0268,
   "winRate": 50.0,
   "totalTrades": 28,
   "wins": 14,
   "losses": 14,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "entry": 86.08,
+      "qty": 0.4,
+      "leverage": 2.0,
+      "sl": 83.4976,
+      "tp": 90.384,
+      "live_price": 86.08,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "timestamp": "2026-05-24T08:00:21.141172+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 3.0,
+      "tp_pct": 5.0,
+      "distance_to_tp_pct": 5.0
+    }
+  ],
+  "unrealized_total": 0.0,
   "state": {
-    "trades_today": 1,
+    "trades_today": 2,
     "last_trade_date": "2026-05-24",
-    "total_trades": 28,
+    "total_trades": 29,
     "total_pnl": 0.0268,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-24T06:00:22.386986+00:00",
+    "last_trade_timestamp": "2026-05-24T08:00:21.141300+00:00",
     "win_rate": 36.8,
     "balance": 49.85,
     "total_wins": 14,
     "total_losses": 14,
-    "last_sync": "2026-05-24T08:00:06.855512+00:00"
+    "last_sync": "2026-05-24T07:30:02.894359+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -285,6 +304,22 @@
     }
   },
   "trades": [
+    {
+      "id": "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "timestamp_entry": "2026-05-24T08:00:21.141172+00:00",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "entry_price": 86.08,
+      "sl": 83.4976,
+      "tp": 90.384,
+      "qty": 0.4,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "f5664a21-046a-47a2-a9a3-16970dbc9582",
       "timestamp_entry": "2026-05-24T06:00:22.386910+00:00",
