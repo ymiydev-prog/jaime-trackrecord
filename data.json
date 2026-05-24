@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T11:50:01.976728+00:00",
+  "updated_at": "2026-05-24T11:52:01.708940+00:00",
   "balance": 49.98,
   "pnl": 0.1568,
   "winRate": 51.7,
@@ -27,7 +27,7 @@
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-24T11:00:02.886663+00:00",
+    "last_updated": "2026-05-24T11:51:00+00:00",
     "total_trades_analyzed": 30,
     "processed_trade_ids": [
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
@@ -59,12 +59,12 @@
     ],
     "pending_trade_ids": [],
     "adaptive_params": {
-      "rsi_optimal_long_min": 45,
-      "rsi_optimal_long_max": 58,
-      "rsi_optimal_short_min": 40,
-      "rsi_optimal_short_max": 52,
-      "min_volume_ratio": 1.0,
-      "min_ema_distance_pct": 0.4,
+      "rsi_optimal_long_min": 48,
+      "rsi_optimal_long_max": 56,
+      "rsi_optimal_short_min": 42,
+      "rsi_optimal_short_max": 50,
+      "min_volume_ratio": 1.5,
+      "min_ema_distance_pct": 0.6,
       "risk_multiplier": 0.6985779098690894,
       "atr_multiplier": null
     },
