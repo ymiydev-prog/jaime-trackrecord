@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-05-24T20:00:05.619704+00:00",
-  "balance": 49.98,
+  "updated_at": "2026-05-24T20:00:52.039034+00:00",
+  "balance": 49.96,
   "pnl": 0.1568,
   "winRate": 51.7,
   "totalTrades": 29,
   "wins": 15,
   "losses": 14,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "symbol": "FILUSDT",
+      "side": "long",
+      "entry": 0.9532,
+      "qty": 41.900000000000006,
+      "leverage": 2.0,
+      "sl": 0.924604,
+      "tp": 1.00086,
+      "live_price": 0.9542,
+      "unrealized_pnl": 0.0838,
+      "unrealized_pnl_pct": 0.1,
+      "timestamp": "2026-05-24T20:00:19.749804+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 3.1,
+      "tp_pct": 5.0,
+      "distance_to_tp_pct": 4.9
+    }
+  ],
+  "unrealized_total": 0.0838,
   "state": {
-    "trades_today": 2,
+    "trades_today": 3,
     "last_trade_date": "2026-05-24",
     "total_trades": 29,
     "total_pnl": 0.1568,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-24T08:00:21.141300+00:00",
+    "last_trade_timestamp": "2026-05-24T20:00:19.749944+00:00",
     "win_rate": 36.8,
-    "balance": 49.98,
+    "balance": 49.96,
     "total_wins": 15,
     "total_losses": 14,
-    "last_sync": "2026-05-24T20:00:04.707755+00:00"
+    "last_sync": "2026-05-24T20:00:51.660897+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -312,6 +331,22 @@
     }
   },
   "trades": [
+    {
+      "id": "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "timestamp_entry": "2026-05-24T20:00:19.749804+00:00",
+      "symbol": "FILUSDT",
+      "side": "long",
+      "entry_price": 0.9532,
+      "sl": 0.924604,
+      "tp": 1.00086,
+      "qty": 41.900000000000006,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "6fcb7911-4920-40e9-a5ab-47cc791119ba",
       "timestamp_entry": "2026-05-24T08:00:21.141172+00:00",
