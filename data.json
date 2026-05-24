@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T00:00:20.790537+00:00",
+  "updated_at": "2026-05-24T00:02:01.141686+00:00",
   "balance": 49.71,
   "pnl": -0.1185,
   "winRate": 48.1,
@@ -11,7 +11,7 @@
   "unrealized_total": 0,
   "state": {
     "trades_today": 0,
-    "last_trade_date": "2026-05-23",
+    "last_trade_date": "2026-05-24",
     "total_trades": 27,
     "total_pnl": -0.1185,
     "live_mode_activated": true,
