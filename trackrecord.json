@@ -1,11 +1,11 @@
 {
-  "winRate": 51.7,
-  "totalTrades": 29,
+  "winRate": 50.0,
+  "totalTrades": 30,
   "wins": 15,
-  "losses": 14,
+  "losses": 15,
   "pnl": 0.1568,
   "balance": 49.96,
-  "updated_at": "2026-05-25T09:02:01.970208+00:00",
+  "updated_at": "2026-05-25T09:04:01.509972+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -441,6 +441,21 @@
       "pnl_pct": 0.38,
       "exit_price": 86.5,
       "exit_reason": "CLOSED"
+    },
+    {
+      "id": "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "timestamp": "2026-05-24T20:00:19.749804+00:00",
+      "symbol": "FILUSDT",
+      "side": "long",
+      "entry_price": 0.9532,
+      "sl": 0.924604,
+      "tp": 1.00086,
+      "qty": 41.900000000000006,
+      "result": "WIN",
+      "pnl": 0,
+      "pnl_pct": 1.78,
+      "exit_price": null,
+      "exit_reason": "brain_auto_exit"
     }
   ]
 }
