@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-05-26T06:24:01.862897+00:00",
+  "updated_at": "2026-05-26T06:26:01.923072+00:00",
   "balance": 50.44,
   "pnl": 0.8368,
   "winRate": 50.0,
   "totalTrades": 32,
   "wins": 16,
   "losses": 16,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "dbaf290b-2bcd-4908-b479-f038b68674d7",
-      "symbol": "FILUSDT",
-      "side": "long",
-      "entry": 0.97234361,
-      "qty": 41.5,
-      "leverage": 2.0,
-      "sl": 0.978664,
-      "tp": 1.020961,
-      "live_price": 0.9871,
-      "unrealized_pnl": 1.2248,
-      "unrealized_pnl_pct": 1.52,
-      "timestamp": "2026-05-26T02:00:20.950910+00:00",
-      "sl_pct": 0.7,
-      "distance_to_sl_pct": 0.87,
-      "tp_pct": 5.0,
-      "distance_to_tp_pct": 3.48
-    }
-  ],
-  "unrealized_total": 1.2248,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-26",
@@ -401,12 +382,12 @@
       "sl": 0.943173,
       "tp": 1.020961,
       "qty": 41.5,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "sync-ADAUSDT-20260526010002",
