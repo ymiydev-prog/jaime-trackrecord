@@ -1,11 +1,11 @@
 {
-  "winRate": 51.6,
-  "totalTrades": 31,
+  "winRate": 50.0,
+  "totalTrades": 32,
   "wins": 16,
-  "losses": 15,
+  "losses": 16,
   "pnl": 0.8368,
   "balance": 50.62,
-  "updated_at": "2026-05-26T01:00:01.794707+00:00",
+  "updated_at": "2026-05-26T01:02:01.576293+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -470,6 +470,21 @@
       "pnl": 0,
       "pnl_pct": -0.61,
       "exit_price": 0.2429,
+      "exit_reason": "brain_auto_exit"
+    },
+    {
+      "id": "sync-ADAUSDT-20260526010002",
+      "timestamp": "2026-05-26T01:00:02.637420+00:00",
+      "symbol": "ADAUSDT",
+      "side": "short",
+      "entry_price": 0.2428,
+      "sl": 0.250084,
+      "tp": 0.23066,
+      "qty": 165.0,
+      "result": "WIN",
+      "pnl": 0,
+      "pnl_pct": 0.49,
+      "exit_price": null,
       "exit_reason": "brain_auto_exit"
     }
   ]
