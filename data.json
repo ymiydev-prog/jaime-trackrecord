@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-26T06:30:01.939724+00:00",
-  "balance": 50.44,
-  "pnl": 0.8368,
-  "winRate": 50.0,
-  "totalTrades": 32,
-  "wins": 16,
+  "updated_at": "2026-05-26T06:30:06.558201+00:00",
+  "balance": 50.98,
+  "pnl": 1.3505,
+  "winRate": 51.5,
+  "totalTrades": 33,
+  "wins": 17,
   "losses": 16,
   "open_positions": 0,
   "open_positions_detail": [],
@@ -12,57 +12,56 @@
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-26",
-    "total_trades": 32,
-    "total_pnl": 0.8368,
+    "total_trades": 33,
+    "total_pnl": 1.3505,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-26T02:00:20.951053+00:00",
     "win_rate": 36.8,
-    "balance": 50.44,
-    "total_wins": 18,
+    "balance": 50.98,
+    "total_wins": 19,
     "total_losses": 14,
-    "last_sync": "2026-05-26T06:02:06.344106+00:00"
+    "last_sync": "2026-05-26T06:30:03.897015+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-26T06:00:02.845735+00:00",
+    "last_updated": "2026-05-26T06:30:06.391813+00:00",
     "total_trades_analyzed": 34,
     "processed_trade_ids": [
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "026040b4-d098-4595-b006-565abea6ea21",
       "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
-      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
-      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
       "f4607180-3900-49d2-8881-9d2d2867c629",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "3e533d88-3cc7-4401-b748-670b785d31c8",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "795527cd-16eb-4a87-a850-de428a504679",
-      "f5664a21-046a-47a2-a9a3-16970dbc9582",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "dbaf290b-2bcd-4908-b479-f038b68674d7",
       "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "sync-ADAUSDT-20260526010002",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "026040b4-d098-4595-b006-565abea6ea21",
+      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
       "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86"
+      "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "sync-ADAUSDT-20260526010002",
+      "795527cd-16eb-4a87-a850-de428a504679",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "f5664a21-046a-47a2-a9a3-16970dbc9582",
+      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "3e533d88-3cc7-4401-b748-670b785d31c8",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed"
     ],
-    "pending_trade_ids": [
-      "dbaf290b-2bcd-4908-b479-f038b68674d7"
-    ],
+    "pending_trade_ids": [],
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
       "rsi_optimal_long_max": 56,
@@ -70,7 +69,7 @@
       "rsi_optimal_short_max": 50,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.8998986768438306,
+      "risk_multiplier": 0.944420127815047,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -133,14 +132,20 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.0
+      },
+      "FILUSDT:LONG:mid:night:low": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.5137
       }
     },
     "pair_stats": {
       "FILUSDT": {
-        "trades": 2,
-        "wins": 2,
+        "trades": 3,
+        "wins": 3,
         "losses": 0,
-        "pnl": 0.1456
+        "pnl": 0.6593
       },
       "DOGEUSDT": {
         "trades": 1,
@@ -192,8 +197,8 @@
         "losses": 0
       },
       "2": {
-        "trades": 1,
-        "wins": 1,
+        "trades": 2,
+        "wins": 2,
         "losses": 0
       },
       "21": {
@@ -312,16 +317,25 @@
         "pnl_pct": 0.49,
         "fingerprint": "ADAUSDT:short:mid:night:medium",
         "insight": "ADAUSDT: Ganancia de 0.5%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-05-26T06:30:06.391770+00:00",
+        "trade_id": "dbaf290b-2bcd-4908-b479-f038b68674d7",
+        "symbol": "FILUSDT",
+        "result": "WIN",
+        "pnl_pct": 1.27,
+        "fingerprint": "FILUSDT:LONG:mid:night:low",
+        "insight": "FILUSDT: Ganancia de 1.3%. Replicar condiciones de este setup."
       }
     ],
     "global_stats": {
-      "total_trades": 29,
-      "wins": 15,
+      "total_trades": 30,
+      "wins": 16,
       "losses": 14,
-      "total_pnl": -1.7950999999999997,
-      "max_consecutive_wins": 5,
+      "total_pnl": -1.2813999999999997,
+      "max_consecutive_wins": 6,
       "max_consecutive_losses": 9,
-      "current_streak": 5,
+      "current_streak": 6,
       "current_streak_type": "win"
     },
     "current_streak": 0,
@@ -378,16 +392,16 @@
       "timestamp_entry": "2026-05-26T02:00:20.950910+00:00",
       "symbol": "FILUSDT",
       "side": "long",
-      "entry_price": 0.97234361,
+      "entry_price": 0.97234362,
       "sl": 0.943173,
       "tp": 1.020961,
       "qty": 41.5,
-      "result": "CLOSED_AUTO",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_price": null,
-      "exit_time": "",
-      "exit_reason": "bybit_sl_tp"
+      "result": "WIN",
+      "pnl": 0.5137,
+      "pnl_pct": 1.27,
+      "exit_price": 0.9858,
+      "exit_time": "1779776591750",
+      "exit_reason": "CLOSED"
     },
     {
       "id": "sync-ADAUSDT-20260526010002",
