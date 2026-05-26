@@ -285,7 +285,7 @@ let equityData = [];
 
 async function loadData() {
     try {
-        const resp = await fetch('data.json?_=' + Date.now());
+        const resp = await fetch('data.json?_=' + Math.random().toString(36).substring(2) + Date.now());
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         const data = await resp.json();
         renderDashboard(data);
