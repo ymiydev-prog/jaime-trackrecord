@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-05-27T09:00:04.993026+00:00",
+  "updated_at": "2026-05-27T09:02:01.497483+00:00",
   "balance": 49.51,
-  "pnl": 0.1299,
-  "winRate": 48.6,
-  "totalTrades": 37,
+  "pnl": 0.0545,
+  "winRate": 47.4,
+  "totalTrades": 38,
   "wins": 18,
-  "losses": 19,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "sync-NEARUSDT-20260527080144",
-      "symbol": "NEARUSDT",
-      "side": "long",
-      "entry": 2.5266,
-      "qty": 15.7,
-      "leverage": 2.0,
-      "sl": 2.450802,
-      "tp": 2.65293,
-      "live_price": 2.524,
-      "unrealized_pnl": -0.0816,
-      "unrealized_pnl_pct": -0.1,
-      "timestamp": "2026-05-27T08:01:44.474497+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.9,
-      "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.1
-    }
-  ],
-  "unrealized_total": -0.0816,
+  "losses": 20,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-27",
@@ -41,7 +22,7 @@
     "balance": 49.51,
     "total_wins": 22,
     "total_losses": 15,
-    "last_sync": "2026-05-27T09:00:04.489946+00:00"
+    "last_sync": "2026-05-27T08:40:32.481717+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -488,12 +469,12 @@
       "sl": 2.450802,
       "tp": 2.65293,
       "qty": 15.7,
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_price": null,
+      "result": "LOSS",
+      "pnl": -0.0754,
+      "pnl_pct": -0.19,
+      "exit_price": 2.5218,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "brain_auto_exit"
     },
     {
       "id": "901ba627-2dbd-4810-8f89-904339a162ad",
