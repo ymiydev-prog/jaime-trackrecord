@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-05-27T13:06:02.270616+00:00",
+  "updated_at": "2026-05-27T13:08:01.716779+00:00",
   "balance": 49.41,
   "pnl": 0.0545,
   "winRate": 47.4,
   "totalTrades": 38,
   "wins": 18,
   "losses": 20,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "d6e6b95c-6a88-4798-b9f2-bde9847b217c",
-      "symbol": "FILUSDT",
-      "side": "short",
-      "entry": 1.07571417,
-      "qty": 36.7,
-      "leverage": 2.0,
-      "sl": 1.107986,
-      "tp": 1.021928,
-      "live_price": 1.0774,
-      "unrealized_pnl": -0.1237,
-      "unrealized_pnl_pct": -0.16,
-      "timestamp": "2026-05-27T13:00:18.690709+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.84,
-      "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.16
-    }
-  ],
-  "unrealized_total": -0.1237,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-05-27",
@@ -502,12 +483,12 @@
       "sl": 1.107986,
       "tp": 1.021928,
       "qty": 36.7,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "sync-NEARUSDT-20260527080144",
