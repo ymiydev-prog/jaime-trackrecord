@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T15:00:02.186117+00:00",
+  "updated_at": "2026-05-27T15:00:04.380849+00:00",
   "balance": 49.32,
   "pnl": 0.0002,
   "winRate": 45.0,
@@ -17,17 +17,17 @@
       "leverage": 2.0,
       "sl": 1.294401,
       "tp": 1.193865,
-      "live_price": 1.254,
-      "unrealized_pnl": 0.1701,
-      "unrealized_pnl_pct": 0.21,
+      "live_price": 1.253,
+      "unrealized_pnl": 0.2331,
+      "unrealized_pnl_pct": 0.29,
       "timestamp": "2026-05-27T14:01:34.789135+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 3.21,
+      "distance_to_sl_pct": 3.29,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 4.79
+      "distance_to_tp_pct": 4.71
     }
   ],
-  "unrealized_total": 0.1701,
+  "unrealized_total": 0.2331,
   "state": {
     "trades_today": 3,
     "last_trade_date": "2026-05-27",
@@ -41,52 +41,55 @@
     "balance": 49.32,
     "total_wins": 23,
     "total_losses": 17,
-    "last_sync": "2026-05-27T14:30:04.410782+00:00"
+    "last_sync": "2026-05-27T15:00:03.816906+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-27T14:00:03.650424+00:00",
-    "total_trades_analyzed": 40,
+    "last_updated": "2026-05-27T15:00:02.586767+00:00",
+    "total_trades_analyzed": 42,
     "processed_trade_ids": [
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "sync-NEARUSDT-20260527080144",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "53ccc779-f750-46ab-8a73-078a5ff36a20",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "3e533d88-3cc7-4401-b748-670b785d31c8",
-      "795527cd-16eb-4a87-a850-de428a504679",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "sync-ADAUSDT-20260526010002",
       "36c31630-fabf-440c-959d-15edf374a353",
+      "026040b4-d098-4595-b006-565abea6ea21",
       "dbaf290b-2bcd-4908-b479-f038b68674d7",
       "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "d6e6b95c-6a88-4798-b9f2-bde9847b217c",
-      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "sync-FILUSDT-20260526160156",
-      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "026040b4-d098-4595-b006-565abea6ea21",
-      "f5664a21-046a-47a2-a9a3-16970dbc9582",
-      "901ba627-2dbd-4810-8f89-904339a162ad",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
       "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "sync-ADAUSDT-20260526010002",
+      "88b42a58-d482-4013-86c3-32aef1c38b61",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
+      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "d6e6b95c-6a88-4798-b9f2-bde9847b217c",
+      "901ba627-2dbd-4810-8f89-904339a162ad",
+      "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "f5664a21-046a-47a2-a9a3-16970dbc9582",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "sync-NEARUSDT-20260527080144",
+      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
+      "sync-FILUSDT-20260526160156",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "3e533d88-3cc7-4401-b748-670b785d31c8",
+      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
       "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9"
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "795527cd-16eb-4a87-a850-de428a504679"
     ],
-    "pending_trade_ids": [],
+    "pending_trade_ids": [
+      "sync-DOTUSDT-20260527140134"
+    ],
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
       "rsi_optimal_long_max": 56,
@@ -94,7 +97,7 @@
       "rsi_optimal_short_max": 50,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.4862852875740011,
+      "risk_multiplier": 0.6097116371487604,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -199,6 +202,12 @@
         "wins": 0,
         "losses": 1,
         "pnl": -0.0543
+      },
+      "DOTUSDT:LONG:mid:afternoon:low": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "pair_stats": {
@@ -255,6 +264,12 @@
         "wins": 1,
         "losses": 1,
         "pnl": -0.0754
+      },
+      "DOTUSDT": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "hour_stats": {
@@ -274,8 +289,8 @@
         "losses": 2
       },
       "14": {
-        "trades": 1,
-        "wins": 1,
+        "trades": 2,
+        "wins": 2,
         "losses": 0
       },
       "6": {
@@ -453,17 +468,26 @@
         "pnl_pct": -0.14,
         "fingerprint": "FILUSDT:SHORT:overbought:afternoon:medium",
         "insight": "FILUSDT: P\u00e9rdida de 0.1%. Revisar setup y condiciones de mercado."
+      },
+      {
+        "timestamp": "2026-05-27T15:00:02.586725+00:00",
+        "trade_id": "88b42a58-d482-4013-86c3-32aef1c38b61",
+        "symbol": "DOTUSDT",
+        "result": "WIN",
+        "pnl_pct": 0.07,
+        "fingerprint": "DOTUSDT:LONG:mid:afternoon:low",
+        "insight": "DOTUSDT: Ganancia de 0.1%. Replicar condiciones de este setup."
       }
     ],
     "global_stats": {
-      "total_trades": 36,
-      "wins": 19,
+      "total_trades": 37,
+      "wins": 20,
       "losses": 17,
       "total_pnl": -2.6317,
       "max_consecutive_wins": 8,
       "max_consecutive_losses": 9,
-      "current_streak": 2,
-      "current_streak_type": "loss"
+      "current_streak": 1,
+      "current_streak_type": "win"
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
