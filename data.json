@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T09:02:01.497483+00:00",
+  "updated_at": "2026-05-27T09:04:01.502549+00:00",
   "balance": 49.51,
   "pnl": 0.0545,
   "winRate": 47.4,
@@ -27,47 +27,46 @@
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-27T09:00:02.988399+00:00",
+    "last_updated": "2026-05-27T09:03:57.277832+00:00",
     "total_trades_analyzed": 39,
     "processed_trade_ids": [
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "f5664a21-046a-47a2-a9a3-16970dbc9582",
       "901ba627-2dbd-4810-8f89-904339a162ad",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "53ccc779-f750-46ab-8a73-078a5ff36a20",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
-      "dbaf290b-2bcd-4908-b479-f038b68674d7",
-      "795527cd-16eb-4a87-a850-de428a504679",
-      "sync-ADAUSDT-20260526010002",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
       "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
       "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "f5664a21-046a-47a2-a9a3-16970dbc9582",
+      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "dbaf290b-2bcd-4908-b479-f038b68674d7",
+      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "sync-NEARUSDT-20260527080144",
+      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "sync-ADAUSDT-20260526010002",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "026040b4-d098-4595-b006-565abea6ea21",
+      "36c31630-fabf-440c-959d-15edf374a353",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "795527cd-16eb-4a87-a850-de428a504679",
       "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
       "3e533d88-3cc7-4401-b748-670b785d31c8",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
       "sync-FILUSDT-20260526160156",
-      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "026040b4-d098-4595-b006-565abea6ea21",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "36c31630-fabf-440c-959d-15edf374a353"
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067"
     ],
-    "pending_trade_ids": [
-      "sync-NEARUSDT-20260527080144"
-    ],
+    "pending_trade_ids": [],
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
       "rsi_optimal_long_max": 56,
@@ -75,7 +74,7 @@
       "rsi_optimal_short_max": 50,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.6384119725628769,
+      "risk_multiplier": 0.6215826392394413,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -168,6 +167,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.0
+      },
+      "NEARUSDT:LONG:mid:morning:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.0754
       }
     },
     "pair_stats": {
@@ -220,10 +225,10 @@
         "pnl": 0.0
       },
       "NEARUSDT": {
-        "trades": 1,
+        "trades": 2,
         "wins": 1,
-        "losses": 0,
-        "pnl": 0.0
+        "losses": 1,
+        "pnl": -0.0754
       }
     },
     "hour_stats": {
@@ -253,9 +258,9 @@
         "losses": 0
       },
       "8": {
-        "trades": 2,
+        "trades": 3,
         "wins": 2,
-        "losses": 0
+        "losses": 1
       },
       "1": {
         "trades": 1,
@@ -399,17 +404,26 @@
         "pnl_pct": -0.41,
         "fingerprint": "NEARUSDT:SHORT:mid:morning:high",
         "insight": "NEARUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
+      },
+      {
+        "timestamp": "2026-05-27T09:03:57.277808+00:00",
+        "trade_id": "sync-NEARUSDT-20260527080144",
+        "symbol": "NEARUSDT",
+        "result": "LOSS",
+        "pnl_pct": -0.19,
+        "fingerprint": "NEARUSDT:LONG:mid:morning:medium",
+        "insight": "NEARUSDT: P\u00e9rdida de 0.2%. Revisar setup y condiciones de mercado."
       }
     ],
     "global_stats": {
-      "total_trades": 34,
+      "total_trades": 35,
       "wins": 19,
-      "losses": 15,
-      "total_pnl": -2.502,
+      "losses": 16,
+      "total_pnl": -2.5774,
       "max_consecutive_wins": 8,
       "max_consecutive_losses": 9,
       "current_streak": 1,
-      "current_streak_type": "win"
+      "current_streak_type": "loss"
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
