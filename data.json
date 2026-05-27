@@ -1,90 +1,70 @@
 {
-  "updated_at": "2026-05-27T07:00:03.792844+00:00",
-  "balance": 51.0,
-  "pnl": 1.4174,
-  "winRate": 51.4,
-  "totalTrades": 35,
+  "updated_at": "2026-05-27T07:00:08.715537+00:00",
+  "balance": 49.74,
+  "pnl": 0.1299,
+  "winRate": 50.0,
+  "totalTrades": 36,
   "wins": 18,
-  "losses": 17,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "sync-FILUSDT-20260526160156",
-      "symbol": "FILUSDT",
-      "side": "short",
-      "entry": 1.0235,
-      "qty": 39.7,
-      "leverage": 2.0,
-      "sl": 1.054205,
-      "tp": 0.972325,
-      "live_price": 1.0569,
-      "unrealized_pnl": -2.652,
-      "unrealized_pnl_pct": -3.26,
-      "timestamp": "2026-05-26T16:01:56.816404+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 0.26,
-      "tp_pct": 5.0,
-      "distance_to_tp_pct": 8.26
-    }
-  ],
-  "unrealized_total": -2.652,
+  "losses": 18,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-05-27",
-    "total_trades": 35,
-    "total_pnl": 1.4174,
+    "total_trades": 36,
+    "total_pnl": 0.1299,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-26T16:00:26.339863+00:00",
     "win_rate": 36.8,
-    "balance": 51.0,
+    "balance": 49.74,
     "total_wins": 21,
-    "total_losses": 14,
-    "last_sync": "2026-05-27T06:30:03.561396+00:00"
+    "total_losses": 15,
+    "last_sync": "2026-05-27T07:00:05.606850+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-27T06:00:03.512809+00:00",
+    "last_updated": "2026-05-27T07:00:08.495077+00:00",
     "total_trades_analyzed": 37,
     "processed_trade_ids": [
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "3e533d88-3cc7-4401-b748-670b785d31c8",
-      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "795527cd-16eb-4a87-a850-de428a504679",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "dbaf290b-2bcd-4908-b479-f038b68674d7",
-      "026040b4-d098-4595-b006-565abea6ea21",
-      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
-      "f5664a21-046a-47a2-a9a3-16970dbc9582",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
       "f738348b-493d-4186-9932-0f48a621001a",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "36c31630-fabf-440c-959d-15edf374a353",
-      "53ccc779-f750-46ab-8a73-078a5ff36a20",
-      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
-      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
-      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "dbaf290b-2bcd-4908-b479-f038b68674d7",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
       "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
       "sync-ADAUSDT-20260526010002",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
+      "36c31630-fabf-440c-959d-15edf374a353",
+      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "53ccc779-f750-46ab-8a73-078a5ff36a20",
       "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "c747ea50-d143-4932-9862-ee32cdf2c455"
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "3e533d88-3cc7-4401-b748-670b785d31c8",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
+      "sync-FILUSDT-20260526160156",
+      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "f5664a21-046a-47a2-a9a3-16970dbc9582",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "026040b4-d098-4595-b006-565abea6ea21",
+      "795527cd-16eb-4a87-a850-de428a504679"
     ],
-    "pending_trade_ids": [
-      "sync-FILUSDT-20260526160156"
-    ],
+    "pending_trade_ids": [],
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
       "rsi_optimal_long_max": 56,
@@ -92,7 +72,7 @@
       "rsi_optimal_short_max": 50,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.9599809518551237,
+      "risk_multiplier": 0.6361241713634903,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -173,14 +153,20 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.0
+      },
+      "FILUSDT:SHORT:mid:afternoon:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -1.2875
       }
     },
     "pair_stats": {
       "FILUSDT": {
-        "trades": 4,
+        "trades": 5,
         "wins": 4,
-        "losses": 0,
-        "pnl": 0.6593
+        "losses": 1,
+        "pnl": -0.6282000000000001
       },
       "DOGEUSDT": {
         "trades": 1,
@@ -267,9 +253,9 @@
         "losses": 0
       },
       "16": {
-        "trades": 1,
+        "trades": 2,
         "wins": 1,
-        "losses": 0
+        "losses": 1
       }
     },
     "lessons": [
@@ -380,17 +366,26 @@
         "pnl_pct": 0.17,
         "fingerprint": "LINKUSDT:SHORT:overbought:morning:medium",
         "insight": "LINKUSDT: Ganancia de 0.2%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-05-27T07:00:08.495029+00:00",
+        "trade_id": "sync-FILUSDT-20260526160156",
+        "symbol": "FILUSDT",
+        "result": "LOSS",
+        "pnl_pct": -3.17,
+        "fingerprint": "FILUSDT:SHORT:mid:afternoon:medium",
+        "insight": "FILUSDT: P\u00e9rdida de 3.2%. Revisar setup y condiciones de mercado."
       }
     ],
     "global_stats": {
-      "total_trades": 32,
+      "total_trades": 33,
       "wins": 18,
-      "losses": 14,
-      "total_pnl": -1.2144999999999997,
+      "losses": 15,
+      "total_pnl": -2.502,
       "max_consecutive_wins": 8,
       "max_consecutive_losses": 9,
-      "current_streak": 8,
-      "current_streak_type": "win"
+      "current_streak": 1,
+      "current_streak_type": "loss"
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
@@ -450,12 +445,12 @@
       "sl": 1.054205,
       "tp": 0.972325,
       "qty": 39.7,
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_price": null,
-      "exit_time": "",
-      "exit_reason": "open"
+      "result": "LOSS",
+      "pnl": -1.2875,
+      "pnl_pct": -3.17,
+      "exit_price": 1.0547,
+      "exit_time": "1779863761103",
+      "exit_reason": "CLOSED"
     },
     {
       "id": "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
