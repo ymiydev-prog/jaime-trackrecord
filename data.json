@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T08:40:32.794629+00:00",
+  "updated_at": "2026-05-27T08:42:02.084918+00:00",
   "balance": 49.51,
   "pnl": 0.1299,
   "winRate": 48.6,
@@ -17,17 +17,17 @@
       "leverage": 2.0,
       "sl": 2.450802,
       "tp": 2.65293,
-      "live_price": 2.569,
-      "unrealized_pnl": 1.3314,
-      "unrealized_pnl_pct": 1.68,
+      "live_price": 2.558,
+      "unrealized_pnl": 0.986,
+      "unrealized_pnl_pct": 1.24,
       "timestamp": "2026-05-27T08:01:44.474497+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 4.68,
+      "distance_to_sl_pct": 4.24,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 3.32
+      "distance_to_tp_pct": 3.76
     }
   ],
-  "unrealized_total": 1.3314,
+  "unrealized_total": 0.986,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-27",
@@ -46,44 +46,47 @@
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-27T08:00:03.773225+00:00",
-    "total_trades_analyzed": 37,
+    "last_updated": "2026-05-27T08:40:46.080877+00:00",
+    "total_trades_analyzed": 39,
     "processed_trade_ids": [
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "dbaf290b-2bcd-4908-b479-f038b68674d7",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "3e533d88-3cc7-4401-b748-670b785d31c8",
+      "36c31630-fabf-440c-959d-15edf374a353",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
       "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
+      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "f5664a21-046a-47a2-a9a3-16970dbc9582",
+      "901ba627-2dbd-4810-8f89-904339a162ad",
+      "795527cd-16eb-4a87-a850-de428a504679",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
+      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
+      "dbaf290b-2bcd-4908-b479-f038b68674d7",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "sync-FILUSDT-20260526160156",
+      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
       "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "sync-ADAUSDT-20260526010002",
       "c747ea50-d143-4932-9862-ee32cdf2c455",
       "f7d77cb4-3103-4f9d-b103-62101388b60b",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "3e533d88-3cc7-4401-b748-670b785d31c8",
-      "da151be8-1f49-43c2-9425-6af9bd0d74ed",
-      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
-      "sync-ADAUSDT-20260526010002",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "sync-FILUSDT-20260526160156",
-      "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "36c31630-fabf-440c-959d-15edf374a353",
-      "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
-      "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
-      "f5664a21-046a-47a2-a9a3-16970dbc9582",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "53ccc779-f750-46ab-8a73-078a5ff36a20",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "795527cd-16eb-4a87-a850-de428a504679",
-      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
-      "026040b4-d098-4595-b006-565abea6ea21"
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "026040b4-d098-4595-b006-565abea6ea21",
+      "f738348b-493d-4186-9932-0f48a621001a"
     ],
-    "pending_trade_ids": [],
+    "pending_trade_ids": [
+      "sync-NEARUSDT-20260527080144"
+    ],
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
       "rsi_optimal_long_max": 56,
@@ -91,7 +94,7 @@
       "rsi_optimal_short_max": 50,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.6361241713634903,
+      "risk_multiplier": 0.6384119725628769,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -178,6 +181,12 @@
         "wins": 0,
         "losses": 1,
         "pnl": -1.2875
+      },
+      "NEARUSDT:SHORT:mid:morning:high": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "pair_stats": {
@@ -228,6 +237,12 @@
         "wins": 2,
         "losses": 0,
         "pnl": 0.0
+      },
+      "NEARUSDT": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "pnl": 0.0
       }
     },
     "hour_stats": {
@@ -257,8 +272,8 @@
         "losses": 0
       },
       "8": {
-        "trades": 1,
-        "wins": 1,
+        "trades": 2,
+        "wins": 2,
         "losses": 0
       },
       "1": {
@@ -394,17 +409,26 @@
         "pnl_pct": -3.17,
         "fingerprint": "FILUSDT:SHORT:mid:afternoon:medium",
         "insight": "FILUSDT: P\u00e9rdida de 3.2%. Revisar setup y condiciones de mercado."
+      },
+      {
+        "timestamp": "2026-05-27T08:40:42.646201+00:00",
+        "trade_id": "901ba627-2dbd-4810-8f89-904339a162ad",
+        "symbol": "NEARUSDT",
+        "result": "WIN",
+        "pnl_pct": -0.41,
+        "fingerprint": "NEARUSDT:SHORT:mid:morning:high",
+        "insight": "NEARUSDT: Volumen confirmado = setup fuerte. Priorizar este indicador."
       }
     ],
     "global_stats": {
-      "total_trades": 33,
-      "wins": 18,
+      "total_trades": 34,
+      "wins": 19,
       "losses": 15,
       "total_pnl": -2.502,
       "max_consecutive_wins": 8,
       "max_consecutive_losses": 9,
       "current_streak": 1,
-      "current_streak_type": "loss"
+      "current_streak_type": "win"
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
