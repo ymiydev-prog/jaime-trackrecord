@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-27T13:15:47.924778+00:00",
-  "balance": 49.36,
+  "updated_at": "2026-05-27T13:16:01.471719+00:00",
+  "balance": 49.41,
   "pnl": 0.0545,
-  "winRate": 57.9,
-  "totalTrades": 39,
-  "wins": 22,
-  "losses": 16,
+  "winRate": 47.4,
+  "totalTrades": 38,
+  "wins": 18,
+  "losses": 20,
   "open_positions": 0,
   "open_positions_detail": [],
   "unrealized_total": 0,
@@ -487,6 +487,7 @@
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
+      "exit_time": "",
       "exit_reason": "bybit_sl_tp"
     },
     {
@@ -502,6 +503,7 @@
       "pnl": -0.0754,
       "pnl_pct": -0.19,
       "exit_price": 2.5218,
+      "exit_time": "",
       "exit_reason": "brain_auto_exit"
     },
     {
@@ -517,6 +519,7 @@
       "pnl": 0,
       "pnl_pct": -0.41,
       "exit_price": 2.5265,
+      "exit_time": "",
       "exit_reason": "brain_auto_exit"
     },
     {
@@ -532,6 +535,7 @@
       "pnl": -1.2875,
       "pnl_pct": -3.17,
       "exit_price": 1.0547,
+      "exit_time": "1779863761103",
       "exit_reason": "CLOSED"
     },
     {
@@ -547,6 +551,7 @@
       "pnl": 0,
       "pnl_pct": 0.08,
       "exit_price": 1.0237,
+      "exit_time": "",
       "exit_reason": "brain_auto_exit"
     },
     {
@@ -562,6 +567,7 @@
       "pnl": 0.0669,
       "pnl_pct": 0.17,
       "exit_price": 9.572,
+      "exit_time": "1779807087854",
       "exit_reason": "CLOSED"
     },
     {
@@ -577,6 +583,7 @@
       "pnl": 0.5137,
       "pnl_pct": 1.27,
       "exit_price": 0.9858,
+      "exit_time": "1779776591750",
       "exit_reason": "CLOSED"
     },
     {
@@ -592,6 +599,7 @@
       "pnl": 0,
       "pnl_pct": 0.49,
       "exit_price": null,
+      "exit_time": "",
       "exit_reason": "brain_auto_exit"
     },
     {
@@ -607,6 +615,7 @@
       "pnl": 0,
       "pnl_pct": -0.61,
       "exit_price": 0.2429,
+      "exit_time": "",
       "exit_reason": "brain_auto_exit"
     },
     {
@@ -622,6 +631,7 @@
       "pnl": 0.68,
       "pnl_pct": 1.78,
       "exit_price": 0.9702,
+      "exit_time": "",
       "exit_reason": "brain_auto_exit"
     },
     {
@@ -637,6 +647,7 @@
       "pnl": 0.13,
       "pnl_pct": 0.38,
       "exit_price": 86.5,
+      "exit_time": "1779613922690",
       "exit_reason": "CLOSED"
     },
     {
@@ -652,6 +663,7 @@
       "pnl": 0.1453,
       "pnl_pct": 0.37,
       "exit_price": 9.616,
+      "exit_time": "1779606244626",
       "exit_reason": "CLOSED"
     },
     {
@@ -667,6 +679,7 @@
       "pnl": -0.5677,
       "pnl_pct": -1.52,
       "exit_price": 0.06201,
+      "exit_time": "1779326161548",
       "exit_reason": "CLOSED"
     },
     {
@@ -682,6 +695,7 @@
       "pnl": -0.6924,
       "pnl_pct": -1.83,
       "exit_price": 0.08694,
+      "exit_time": "1779522154998",
       "exit_reason": "CLOSED"
     },
     {
@@ -697,6 +711,7 @@
       "pnl": 1.9195,
       "pnl_pct": 4.91,
       "exit_price": 0.13188,
+      "exit_time": "1779385804761",
       "exit_reason": "CLOSED"
     },
     {
@@ -712,6 +727,7 @@
       "pnl": 0.1446,
       "pnl_pct": 0.39,
       "exit_price": 0.10226,
+      "exit_time": "1779251816266",
       "exit_reason": "CLOSED"
     },
     {
@@ -727,6 +743,7 @@
       "pnl": 0.1456,
       "pnl_pct": 0.39,
       "exit_price": 0.9357,
+      "exit_time": "1779229979620",
       "exit_reason": "CLOSED"
     },
     {
@@ -742,6 +759,7 @@
       "pnl": 0.6067,
       "pnl_pct": 1.65,
       "exit_price": 0.129285,
+      "exit_time": "2026-05-19T13:59:57.818401+00:00",
       "exit_reason": "CLOSED"
     },
     {
@@ -757,6 +775,7 @@
       "pnl": 0.0704,
       "pnl_pct": 0.33,
       "exit_price": 2127.94,
+      "exit_time": "1779255219792",
       "exit_reason": "CLOSED"
     },
     {
@@ -772,6 +791,7 @@
       "pnl": 0.1172,
       "pnl_pct": 0.32,
       "exit_price": 9.723,
+      "exit_time": "1779326112828",
       "exit_reason": "CLOSED"
     },
     {
@@ -787,6 +807,7 @@
       "pnl": 1.7603,
       "pnl_pct": 4.78,
       "exit_price": 0.11213,
+      "exit_time": "1779284461299",
       "exit_reason": "CLOSED"
     },
     {
@@ -802,6 +823,7 @@
       "pnl": 0.6106,
       "pnl_pct": 1.63,
       "exit_price": 0.12704453,
+      "exit_time": "1779192023566",
       "exit_reason": "CLOSED"
     },
     {
@@ -817,6 +839,7 @@
       "pnl": 0.01,
       "pnl_pct": 0.03,
       "exit_price": 0.06108,
+      "exit_time": "2026-05-19T13:59:56.118676+00:00",
       "exit_reason": "CLOSED"
     },
     {
@@ -832,6 +855,7 @@
       "pnl": -0.6354,
       "pnl_pct": -1.68,
       "exit_price": 0.9612,
+      "exit_time": "1779140011129",
       "exit_reason": "CLOSED"
     },
     {
@@ -847,6 +871,7 @@
       "pnl": -0.6236,
       "pnl_pct": -1.64,
       "exit_price": 1.2547,
+      "exit_time": "1779149800467",
       "exit_reason": "CLOSED"
     },
     {
@@ -862,6 +887,7 @@
       "pnl": -0.2349,
       "pnl_pct": -0.62,
       "exit_price": 0.08838,
+      "exit_time": "1779098042988",
       "exit_reason": "CLOSED"
     },
     {
@@ -877,6 +903,7 @@
       "pnl": -0.2349,
       "pnl_pct": -0.62,
       "exit_price": 0.08838,
+      "exit_time": "1779098042988",
       "exit_reason": "CLOSED"
     },
     {
@@ -892,6 +919,7 @@
       "pnl": -0.3497,
       "pnl_pct": -0.91,
       "exit_price": 0.06059,
+      "exit_time": "1779062815727",
       "exit_reason": "CLOSED"
     },
     {
@@ -907,6 +935,7 @@
       "pnl": -0.8155,
       "pnl_pct": -2.09,
       "exit_price": 0.07439,
+      "exit_time": "1778487762067",
       "exit_reason": "CLOSED"
     },
     {
@@ -922,6 +951,7 @@
       "pnl": -0.4525,
       "pnl_pct": -1.15,
       "exit_price": 1.1851,
+      "exit_time": "1778434106519",
       "exit_reason": "CLOSED"
     },
     {
@@ -937,6 +967,7 @@
       "pnl": -0.5046,
       "pnl_pct": -1.27,
       "exit_price": 0.16412607,
+      "exit_time": "1778411214491",
       "exit_reason": "CLOSED"
     },
     {
@@ -952,6 +983,7 @@
       "pnl": -0.6093,
       "pnl_pct": -1.58,
       "exit_price": 0.946497,
+      "exit_time": "2026-05-19T13:59:55.673478+00:00",
       "exit_reason": "CLOSED"
     },
     {
@@ -967,6 +999,7 @@
       "pnl": 0.0944,
       "pnl_pct": 1.15,
       "exit_price": 0.10647,
+      "exit_time": "1778202827539",
       "exit_reason": "CLOSED"
     },
     {
@@ -982,6 +1015,7 @@
       "pnl": -0.1695,
       "pnl_pct": -2.03,
       "exit_price": 0.12564,
+      "exit_time": "1778115098799",
       "exit_reason": "CLOSED"
     },
     {
@@ -997,6 +1031,7 @@
       "pnl": 0.2604,
       "pnl_pct": 3.21,
       "exit_price": 0.14205,
+      "exit_time": "1778102387970",
       "exit_reason": "CLOSED"
     },
     {
@@ -1012,6 +1047,7 @@
       "pnl": -0.1099,
       "pnl_pct": -1.34,
       "exit_price": 0.10542,
+      "exit_time": "1777570374496",
       "exit_reason": "CLOSED"
     },
     {
@@ -1027,6 +1063,7 @@
       "pnl": 0.0547,
       "pnl_pct": 0.67,
       "exit_price": 0.09058,
+      "exit_time": "1777456189319",
       "exit_reason": "CLOSED"
     },
     {
@@ -1042,6 +1079,7 @@
       "pnl": 0.1409,
       "pnl_pct": 0.94,
       "exit_price": 1.3807,
+      "exit_time": "1777376900988",
       "exit_reason": "CLOSED"
     },
     {
@@ -1057,6 +1095,7 @@
       "pnl": -0.0539,
       "pnl_pct": -1.07,
       "exit_price": 0.09741,
+      "exit_time": "1777140869237",
       "exit_reason": "CLOSED"
     },
     {
@@ -1072,6 +1111,7 @@
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
+      "exit_time": "",
       "exit_reason": "unknown"
     }
   ]
