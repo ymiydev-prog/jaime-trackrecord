@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-05-28T16:00:04.591591+00:00",
-  "balance": 49.16,
-  "pnl": -0.0141,
-  "winRate": 42.2,
-  "totalTrades": 45,
+  "updated_at": "2026-05-28T16:02:01.476973+00:00",
+  "balance": 49.17,
+  "pnl": -0.2616,
+  "winRate": 41.3,
+  "totalTrades": 46,
   "wins": 19,
-  "losses": 26,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "sync-ETHUSDT-20260528160002",
-      "symbol": "ETHUSDT",
-      "side": "long",
-      "entry": 1992.08,
-      "qty": 0.09,
-      "leverage": 2.0,
-      "sl": 1932.3176,
-      "tp": 2091.684,
-      "live_price": 1990.18,
-      "unrealized_pnl": -0.342,
-      "unrealized_pnl_pct": -0.1,
-      "timestamp": "2026-05-28T16:00:02.802125+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.9,
-      "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.1
-    }
-  ],
-  "unrealized_total": -0.342,
+  "losses": 27,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-05-28",
@@ -38,10 +19,10 @@
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-28T14:00:19.993366+00:00",
     "win_rate": 36.8,
-    "balance": 49.16,
+    "balance": 49.17,
     "total_wins": 26,
     "total_losses": 19,
-    "last_sync": "2026-05-28T16:00:04.131399+00:00"
+    "last_sync": "2026-05-28T15:30:03.168553+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -638,12 +619,12 @@
       "sl": 1932.3176,
       "tp": 2091.684,
       "qty": 0.09,
-      "result": "PENDING",
-      "pnl": 0,
-      "pnl_pct": 0,
-      "exit_price": null,
+      "result": "LOSS",
+      "pnl": -0.2475,
+      "pnl_pct": -0.14,
+      "exit_price": 1989.33,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "brain_auto_exit"
     },
     {
       "id": "sync-ETHUSDT-20260528140550",
