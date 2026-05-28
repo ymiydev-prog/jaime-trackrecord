@@ -1,11 +1,11 @@
 {
-  "winRate": 44.2,
-  "totalTrades": 43,
+  "winRate": 43.2,
+  "totalTrades": 44,
   "wins": 19,
-  "losses": 24,
+  "losses": 25,
   "pnl": 0.1066,
   "balance": 49.44,
-  "updated_at": "2026-05-28T14:00:04.193028+00:00",
+  "updated_at": "2026-05-28T14:02:01.744602+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -650,6 +650,21 @@
       "pnl": -0.0385,
       "pnl_pct": -0.1,
       "exit_price": 1.2338,
+      "exit_reason": "brain_auto_exit"
+    },
+    {
+      "id": "55907546-ff2b-4513-9949-ac9b94b1b929",
+      "timestamp": "2026-05-28T14:00:19.993227+00:00",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "entry_price": 1981.07,
+      "sl": 1921.6379,
+      "tp": 2080.1235,
+      "qty": 0.01,
+      "result": "WIN",
+      "pnl": 0,
+      "pnl_pct": -0.02,
+      "exit_price": 1980.63,
       "exit_reason": "brain_auto_exit"
     }
   ]
