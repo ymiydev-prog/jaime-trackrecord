@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-05-28T00:00:07.464067+00:00",
+  "updated_at": "2026-05-28T00:02:01.994444+00:00",
   "balance": 49.44,
   "pnl": 0.1451,
-  "winRate": 46.3,
-  "totalTrades": 41,
+  "winRate": 45.2,
+  "totalTrades": 42,
   "wins": 19,
-  "losses": 22,
+  "losses": 23,
   "open_positions": 0,
   "open_positions_detail": [],
   "unrealized_total": 0,
   "state": {
-    "trades_today": 3,
-    "last_trade_date": "2026-05-27",
-    "total_trades": 41,
+    "trades_today": 1,
+    "last_trade_date": "2026-05-28",
+    "total_trades": 42,
     "total_pnl": 0.1451,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-27T14:00:22.137337+00:00",
+    "last_trade_timestamp": "2026-05-28T00:00:24.916968+00:00",
     "win_rate": 36.8,
     "balance": 49.44,
     "total_wins": 24,
     "total_losses": 17,
-    "last_sync": "2026-05-28T00:00:07.235492+00:00"
+    "last_sync": "2026-05-27T23:30:03.585184+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -533,6 +533,22 @@
     }
   },
   "trades": [
+    {
+      "id": "8cbae339-9655-49e7-be5e-2d2b5a1483a5",
+      "timestamp_entry": "2026-05-28T00:00:24.916834+00:00",
+      "symbol": "DOTUSDT",
+      "side": "long",
+      "entry_price": 1.2285,
+      "sl": 1.191645,
+      "tp": 1.289925,
+      "qty": 32.1,
+      "result": "WIN",
+      "pnl": 0,
+      "pnl_pct": 0.33,
+      "exit_price": 1.2325,
+      "exit_time": "",
+      "exit_reason": "brain_auto_exit"
+    },
     {
       "id": "sync-DOTUSDT-20260527140134",
       "timestamp_entry": "2026-05-27T14:01:34.789135+00:00",

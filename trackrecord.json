@@ -1,11 +1,11 @@
 {
-  "winRate": 46.3,
-  "totalTrades": 41,
+  "winRate": 45.2,
+  "totalTrades": 42,
   "wins": 19,
-  "losses": 22,
+  "losses": 23,
   "pnl": 0.1451,
   "balance": 49.44,
-  "updated_at": "2026-05-28T00:00:07.462471+00:00",
+  "updated_at": "2026-05-28T00:02:01.990933+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -620,6 +620,21 @@
       "pnl": 0.1449,
       "pnl_pct": 0.37,
       "exit_price": 1.2521,
+      "exit_reason": "brain_auto_exit"
+    },
+    {
+      "id": "8cbae339-9655-49e7-be5e-2d2b5a1483a5",
+      "timestamp": "2026-05-28T00:00:24.916834+00:00",
+      "symbol": "DOTUSDT",
+      "side": "long",
+      "entry_price": 1.2285,
+      "sl": 1.191645,
+      "tp": 1.289925,
+      "qty": 32.1,
+      "result": "WIN",
+      "pnl": 0,
+      "pnl_pct": 0.33,
+      "exit_price": 1.2325,
       "exit_reason": "brain_auto_exit"
     }
   ]
