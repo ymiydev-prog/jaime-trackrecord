@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-05-28T16:08:02.021980+00:00",
-  "balance": 49.17,
+  "updated_at": "2026-05-28T16:08:11.275957+00:00",
+  "balance": 48.8,
   "pnl": -0.2616,
   "winRate": 41.3,
   "totalTrades": 46,
   "wins": 19,
   "losses": 27,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "sync-ETHUSDT-20260528160808",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "entry": 1989.24,
+      "qty": 0.01,
+      "leverage": 2.0,
+      "sl": 2048.9172,
+      "tp": 1889.778,
+      "live_price": 1988.34,
+      "unrealized_pnl": 0.018,
+      "unrealized_pnl_pct": 0.05,
+      "timestamp": "2026-05-28T16:08:08.538673+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 3.05,
+      "tp_pct": 5.0,
+      "distance_to_tp_pct": 4.95
+    }
+  ],
+  "unrealized_total": 0.018,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-05-28",
-    "total_trades": 45,
+    "total_trades": 46,
     "total_pnl": -0.2616,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-28T14:00:19.993366+00:00",
     "win_rate": 36.8,
-    "balance": 49.17,
+    "balance": 48.8,
     "total_wins": 26,
-    "total_losses": 19,
-    "last_sync": "2026-05-28T15:30:03.168553+00:00"
+    "total_losses": 20,
+    "last_sync": "2026-05-28T16:08:10.698573+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -610,6 +629,22 @@
     }
   },
   "trades": [
+    {
+      "id": "sync-ETHUSDT-20260528160808",
+      "timestamp_entry": "2026-05-28T16:08:08.538673+00:00",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "entry_price": 1989.24,
+      "sl": 2048.9172,
+      "tp": 1889.778,
+      "qty": 0.01,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "sync-ETHUSDT-20260528160002",
       "timestamp_entry": "2026-05-28T16:00:02.802125+00:00",
