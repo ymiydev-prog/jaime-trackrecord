@@ -1,14 +1,33 @@
 {
-  "updated_at": "2026-05-28T16:00:02.026375+00:00",
-  "balance": 49.17,
+  "updated_at": "2026-05-28T16:00:04.591591+00:00",
+  "balance": 49.16,
   "pnl": -0.0141,
   "winRate": 42.2,
   "totalTrades": 45,
   "wins": 19,
   "losses": 26,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "sync-ETHUSDT-20260528160002",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "entry": 1992.08,
+      "qty": 0.09,
+      "leverage": 2.0,
+      "sl": 1932.3176,
+      "tp": 2091.684,
+      "live_price": 1990.18,
+      "unrealized_pnl": -0.342,
+      "unrealized_pnl_pct": -0.1,
+      "timestamp": "2026-05-28T16:00:02.802125+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 2.9,
+      "tp_pct": 5.0,
+      "distance_to_tp_pct": 5.1
+    }
+  ],
+  "unrealized_total": -0.342,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-05-28",
@@ -19,61 +38,62 @@
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-28T14:00:19.993366+00:00",
     "win_rate": 36.8,
-    "balance": 49.17,
+    "balance": 49.16,
     "total_wins": 26,
     "total_losses": 19,
-    "last_sync": "2026-05-28T15:30:03.168553+00:00"
+    "last_sync": "2026-05-28T16:00:04.131399+00:00"
   },
   "brain": {
     "version": "1.0",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-28T15:00:03.086131+00:00",
-    "total_trades_analyzed": 46,
+    "last_updated": "2026-05-28T16:00:02.896822+00:00",
+    "total_trades_analyzed": 47,
     "processed_trade_ids": [
-      "dbaf290b-2bcd-4908-b479-f038b68674d7",
-      "sync-ADAUSDT-20260526010002",
       "617ffdc2-d8af-4dc3-b27a-5261af391a6a",
-      "8cbae339-9655-49e7-be5e-2d2b5a1483a5",
-      "3e533d88-3cc7-4401-b748-670b785d31c8",
-      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
-      "f4607180-3900-49d2-8881-9d2d2867c629",
-      "d6e6b95c-6a88-4798-b9f2-bde9847b217c",
-      "36c31630-fabf-440c-959d-15edf374a353",
-      "ae859bb4-c4de-4b11-93da-69400529cd71",
-      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
-      "cf328e87-4c3c-4fa6-a658-177476ee2067",
-      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
-      "sync-DOTUSDT-20260527140134",
-      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
-      "ed5710fe-f635-48b6-9969-a190a608a5cd",
-      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
-      "4d8513be-0bb9-47da-9a99-4f1027191354",
-      "88b42a58-d482-4013-86c3-32aef1c38b61",
-      "53ccc779-f750-46ab-8a73-078a5ff36a20",
-      "795527cd-16eb-4a87-a850-de428a504679",
-      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
-      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
-      "sync-FILUSDT-20260526160156",
-      "sync-DOTUSDT-20260528000229",
-      "c747ea50-d143-4932-9862-ee32cdf2c455",
-      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
-      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
       "4cea290e-777a-495d-a4b4-1ab80bd37c6b",
-      "5d699c0c-ae2a-4452-ab1a-964092f86627",
       "fbdf9c78-063a-4d77-8b51-a6d95f0e3fec",
-      "f738348b-493d-4186-9932-0f48a621001a",
-      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
-      "sync-NEARUSDT-20260527080144",
-      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
-      "55907546-ff2b-4513-9949-ac9b94b1b929",
-      "026040b4-d098-4595-b006-565abea6ea21",
-      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "cf328e87-4c3c-4fa6-a658-177476ee2067",
       "da151be8-1f49-43c2-9425-6af9bd0d74ed",
+      "e7e2b109-f16f-4af7-926c-ed8d00faf340",
+      "f18bb6c5-4faa-44c6-9daf-f95fd01d2b50",
       "f5664a21-046a-47a2-a9a3-16970dbc9582",
-      "901ba627-2dbd-4810-8f89-904339a162ad"
+      "f738348b-493d-4186-9932-0f48a621001a",
+      "d6e6b95c-6a88-4798-b9f2-bde9847b217c",
+      "4d8513be-0bb9-47da-9a99-4f1027191354",
+      "ed5710fe-f635-48b6-9969-a190a608a5cd",
+      "026040b4-d098-4595-b006-565abea6ea21",
+      "5d699c0c-ae2a-4452-ab1a-964092f86627",
+      "f7d77cb4-3103-4f9d-b103-62101388b60b",
+      "sync-DOTUSDT-20260527140134",
+      "sync-ADAUSDT-20260526010002",
+      "88b42a58-d482-4013-86c3-32aef1c38b61",
+      "55907546-ff2b-4513-9949-ac9b94b1b929",
+      "cfc3d1cc-2a9d-4fd8-8e79-08a298e25ca5",
+      "ae859bb4-c4de-4b11-93da-69400529cd71",
+      "f4607180-3900-49d2-8881-9d2d2867c629",
+      "sync-ETHUSDT-20260528140550",
+      "a99124eb-88e2-4158-8c1f-7de05bbf9320",
+      "ed5d76b4-6571-4578-8c48-50a25c45bb86",
+      "8cbae339-9655-49e7-be5e-2d2b5a1483a5",
+      "53ccc779-f750-46ab-8a73-078a5ff36a20",
+      "140e0486-6c8c-41b6-b7d4-ee7b9f12ca09",
+      "sync-DOTUSDT-20260528000229",
+      "dbaf290b-2bcd-4908-b479-f038b68674d7",
+      "sync-NEARUSDT-20260527080144",
+      "sync-FILUSDT-20260526160156",
+      "2356a965-7d4c-4c66-b33a-d8c0d01e76a8",
+      "2ea95fda-e68b-4f23-bd3a-a8fd74c8ce25",
+      "c747ea50-d143-4932-9862-ee32cdf2c455",
+      "901ba627-2dbd-4810-8f89-904339a162ad",
+      "fc1e8e3b-924b-46f6-9ae2-20c4360570b0",
+      "3e533d88-3cc7-4401-b748-670b785d31c8",
+      "795527cd-16eb-4a87-a850-de428a504679",
+      "c0852e3c-c76f-4459-a8a0-9bfe62d25fc9",
+      "6fcb7911-4920-40e9-a5ab-47cc791119ba",
+      "36c31630-fabf-440c-959d-15edf374a353"
     ],
     "pending_trade_ids": [
-      "sync-ETHUSDT-20260528140550"
+      "sync-ETHUSDT-20260528160002"
     ],
     "adaptive_params": {
       "rsi_optimal_long_min": 48,
@@ -82,7 +102,7 @@
       "rsi_optimal_short_max": 50,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.6130876684746681,
+      "risk_multiplier": 0.5967792506831344,
       "atr_multiplier": null
     },
     "fingerprints": {
@@ -217,6 +237,12 @@
         "wins": 1,
         "losses": 0,
         "pnl": 0.0
+      },
+      "ETHUSDT:SHORT:mid:afternoon:medium": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "pnl": -0.1207
       }
     },
     "pair_stats": {
@@ -281,10 +307,10 @@
         "pnl": 0.1064
       },
       "ETHUSDT": {
-        "trades": 1,
+        "trades": 2,
         "wins": 1,
-        "losses": 0,
-        "pnl": 0.0
+        "losses": 1,
+        "pnl": -0.1207
       }
     },
     "hour_stats": {
@@ -304,9 +330,9 @@
         "losses": 2
       },
       "14": {
-        "trades": 4,
+        "trades": 5,
         "wins": 4,
-        "losses": 0
+        "losses": 1
       },
       "6": {
         "trades": 1,
@@ -533,17 +559,26 @@
         "pnl_pct": -0.02,
         "fingerprint": "ETHUSDT:LONG:mid:afternoon:medium",
         "insight": "ETHUSDT: Ganancia de -0.0%. Replicar condiciones de este setup."
+      },
+      {
+        "timestamp": "2026-05-28T16:00:02.896782+00:00",
+        "trade_id": "sync-ETHUSDT-20260528140550",
+        "symbol": "ETHUSDT",
+        "result": "LOSS",
+        "pnl_pct": -0.61,
+        "fingerprint": "ETHUSDT:SHORT:mid:afternoon:medium",
+        "insight": "ETHUSDT: P\u00e9rdida de 0.6%. Revisar setup y condiciones de mercado."
       }
     ],
     "global_stats": {
-      "total_trades": 41,
+      "total_trades": 42,
       "wins": 23,
-      "losses": 18,
-      "total_pnl": -2.5253,
+      "losses": 19,
+      "total_pnl": -2.646,
       "max_consecutive_wins": 8,
       "max_consecutive_losses": 9,
       "current_streak": 1,
-      "current_streak_type": "win"
+      "current_streak_type": "loss"
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
@@ -594,6 +629,22 @@
     }
   },
   "trades": [
+    {
+      "id": "sync-ETHUSDT-20260528160002",
+      "timestamp_entry": "2026-05-28T16:00:02.802125+00:00",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "entry_price": 1992.08,
+      "sl": 1932.3176,
+      "tp": 2091.684,
+      "qty": 0.09,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "sync-ETHUSDT-20260528140550",
       "timestamp_entry": "2026-05-28T14:05:50.169262+00:00",
