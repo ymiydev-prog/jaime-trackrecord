@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-05-29T13:12:02.267069+00:00",
+  "updated_at": "2026-05-29T13:14:01.642700+00:00",
   "balance": 48.42,
   "pnl": -0.6343,
   "winRate": 40.4,
   "totalTrades": 47,
   "wins": 19,
   "losses": 28,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "0f7af283-8217-4b89-b088-438b3a2ff7a9",
-      "symbol": "XRPUSDT",
-      "side": "short",
-      "entry": 1.3229,
-      "qty": 29.200000000000003,
-      "leverage": 2.0,
-      "sl": 1.320916,
-      "tp": 1.307567,
-      "live_price": 1.3013,
-      "unrealized_pnl": 1.2614,
-      "unrealized_pnl_pct": 1.63,
-      "timestamp": "2026-05-29T10:00:20.393741+00:00",
-      "sl_pct": 0.1,
-      "distance_to_sl_pct": 1.48,
-      "tp_pct": 1.2,
-      "distance_to_tp_pct": 0.47
-    }
-  ],
-  "unrealized_total": 1.2614,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-05-29",
@@ -658,12 +639,12 @@
       "sl": 1.330567,
       "tp": 1.307567,
       "qty": 29.200000000000003,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "sync-ETHUSDT-20260528160808",
