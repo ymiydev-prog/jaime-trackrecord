@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T21:22:01.624100+00:00",
+  "updated_at": "2026-05-30T21:24:01.712929+00:00",
   "balance": 47.84,
   "pnl": -1.2301,
   "winRate": 40.8,
@@ -25,9 +25,9 @@
     "last_sync": "2026-05-30T20:30:03.522003+00:00"
   },
   "brain": {
-    "version": "1.0",
+    "version": "3.1",
     "created": "2026-05-19T13:58:00+00:00",
-    "last_updated": "2026-05-30T21:00:02.514552+00:00",
+    "last_updated": "2026-05-30T21:25:00+00:00",
     "total_trades_analyzed": 50,
     "processed_trade_ids": [
       "sync-DOTUSDT-20260527140134",
@@ -78,14 +78,19 @@
     ],
     "pending_trade_ids": [],
     "adaptive_params": {
-      "rsi_optimal_long_min": 50,
-      "rsi_optimal_long_max": 56,
-      "rsi_optimal_short_min": 43,
-      "rsi_optimal_short_max": 49,
+      "rsi_optimal_long_min": 45,
+      "rsi_optimal_long_max": 58,
+      "rsi_optimal_short_min": 42,
+      "rsi_optimal_short_max": 52,
       "min_volume_ratio": 1.0,
       "min_ema_distance_pct": 0.4,
-      "risk_multiplier": 0.5358815652432672,
-      "atr_multiplier": null
+      "risk_multiplier": 1.0,
+      "atr_multiplier": null,
+      "rsi_oversold": 30,
+      "rsi_overbought": 70,
+      "mr_min_volume_ratio": 0.6,
+      "stop_atr_mult": 1.5,
+      "target_atr_mult": 2.5
     },
     "fingerprints": {
       "FILUSDT:SHORT:low:evening:high": {
@@ -594,6 +599,11 @@
         "pnl_pct": 1.64,
         "fingerprint": "XRPUSDT:SHORT:mid:morning:low",
         "insight": "XRPUSDT: Ganancia de 1.6%. Replicar condiciones de este setup."
+      },
+      {
+        "date": "2026-05-30",
+        "change": "v3.1: SL/TP din\u00e1micos por ATR (1.5\u00d7ATR / 2.5\u00d7ATR). Trending mode reactivado con ADX+DI filter.",
+        "reason": "WR real 55% pero ratio avg win/avg loss 0.71 mataba expectativa. SL fijo 3% era muy ancho para pares calmos."
       }
     ],
     "global_stats": {
