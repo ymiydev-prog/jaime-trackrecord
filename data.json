@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-05-30T17:00:04.300420+00:00",
+  "updated_at": "2026-05-30T17:02:01.786918+00:00",
   "balance": 49.07,
   "pnl": -0.0019,
   "winRate": 41.7,
   "totalTrades": 48,
   "wins": 20,
   "losses": 28,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "a682e6c0-a522-42ae-9613-a14b11442287",
+      "symbol": "NEARUSDT",
+      "side": "long",
+      "entry": 2.3467,
+      "qty": 16.7,
+      "leverage": 2.0,
+      "sl": 2.308461,
+      "tp": 2.423179,
+      "live_price": 2.35,
+      "unrealized_pnl": 0.1102,
+      "unrealized_pnl_pct": 0.14,
+      "timestamp": "2026-05-30T17:00:21.789285+00:00",
+      "sl_pct": 1.6,
+      "distance_to_sl_pct": 1.77,
+      "tp_pct": 3.3,
+      "distance_to_tp_pct": 3.12
+    }
+  ],
+  "unrealized_total": 0.1102,
   "state": {
-    "trades_today": 0,
+    "trades_today": 1,
     "last_trade_date": "2026-05-30",
-    "total_trades": 48,
+    "total_trades": 49,
     "total_pnl": -0.0019,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-29T10:00:20.393839+00:00",
+    "last_trade_timestamp": "2026-05-30T17:00:21.789430+00:00",
     "win_rate": 36.8,
     "balance": 49.07,
     "total_wins": 27,
     "total_losses": 21,
-    "last_sync": "2026-05-30T17:00:04.123017+00:00"
+    "last_sync": "2026-05-30T16:30:03.515065+00:00"
   },
   "brain": {
     "version": "1.0",
@@ -655,6 +674,22 @@
     }
   },
   "trades": [
+    {
+      "id": "a682e6c0-a522-42ae-9613-a14b11442287",
+      "timestamp_entry": "2026-05-30T17:00:21.789285+00:00",
+      "symbol": "NEARUSDT",
+      "side": "long",
+      "entry_price": 2.3467,
+      "sl": 2.308461,
+      "tp": 2.423179,
+      "qty": 16.7,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "0f7af283-8217-4b89-b088-438b3a2ff7a9",
       "timestamp_entry": "2026-05-29T10:00:20.393741+00:00",
