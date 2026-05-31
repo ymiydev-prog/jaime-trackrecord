@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-05-31T01:00:04.455232+00:00",
+  "updated_at": "2026-05-31T01:02:02.415228+00:00",
   "balance": 47.84,
   "pnl": -1.2301,
   "winRate": 40.8,
   "totalTrades": 49,
   "wins": 20,
   "losses": 29,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "f7da6f9e-926d-46a7-bb0d-8dd45e9a71fe",
+      "symbol": "HBARUSDT",
+      "side": "long",
+      "entry": 0.09431,
+      "qty": 406.0,
+      "leverage": 2.0,
+      "sl": 0.091481,
+      "tp": 0.096006,
+      "live_price": 0.09422,
+      "unrealized_pnl": -0.0731,
+      "unrealized_pnl_pct": -0.1,
+      "timestamp": "2026-05-31T01:00:22.338241+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 2.9,
+      "tp_pct": 1.8,
+      "distance_to_tp_pct": 1.89
+    }
+  ],
+  "unrealized_total": -0.0731,
   "state": {
     "trades_today": 1,
-    "last_trade_date": "2026-05-30",
-    "total_trades": 49,
+    "last_trade_date": "2026-05-31",
+    "total_trades": 50,
     "total_pnl": -1.2301,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-05-30T17:00:21.789430+00:00",
+    "last_trade_timestamp": "2026-05-31T01:00:22.338374+00:00",
     "win_rate": 36.8,
     "balance": 47.84,
     "total_wins": 27,
     "total_losses": 22,
-    "last_sync": "2026-05-31T01:00:04.307184+00:00"
+    "last_sync": "2026-05-31T00:30:03.217750+00:00"
   },
   "brain": {
     "version": "3.1",
@@ -667,6 +686,22 @@
     }
   },
   "trades": [
+    {
+      "id": "f7da6f9e-926d-46a7-bb0d-8dd45e9a71fe",
+      "timestamp_entry": "2026-05-31T01:00:22.338241+00:00",
+      "symbol": "HBARUSDT",
+      "side": "long",
+      "entry_price": 0.09431,
+      "sl": 0.093292,
+      "tp": 0.096006,
+      "qty": 406.0,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "a682e6c0-a522-42ae-9613-a14b11442287",
       "timestamp_entry": "2026-05-30T17:00:21.789285+00:00",
