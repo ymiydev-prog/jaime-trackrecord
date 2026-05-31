@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T22:30:03.096594+00:00",
+  "updated_at": "2026-05-31T22:30:04.911038+00:00",
   "balance": 48.03,
   "pnl": -0.962,
   "winRate": 43.1,
@@ -17,14 +17,14 @@
       "leverage": 2.0,
       "sl": 85.1913,
       "tp": 78.5745,
-      "live_price": 82.42,
-      "unrealized_pnl": 0.232,
-      "unrealized_pnl_pct": 0.35,
+      "live_price": 82.47,
+      "unrealized_pnl": 0.192,
+      "unrealized_pnl_pct": 0.29,
       "timestamp": "2026-05-31T14:00:51.536193+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 3.35,
+      "distance_to_sl_pct": 3.29,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 4.65
+      "distance_to_tp_pct": 4.71
     },
     {
       "id": "sync-ADAUSDT-20260531140051",
@@ -81,7 +81,7 @@
       "distance_to_tp_pct": 5.46
     }
   ],
-  "unrealized_total": 0.4987,
+  "unrealized_total": 0.4587,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-05-31",
@@ -95,7 +95,7 @@
     "balance": 48.03,
     "total_wins": 29,
     "total_losses": 22,
-    "last_sync": "2026-05-31T22:02:54.792845+00:00"
+    "last_sync": "2026-05-31T22:30:04.067559+00:00"
   },
   "brain": {
     "version": "3.1",
