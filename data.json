@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T17:16:02.659651+00:00",
+  "updated_at": "2026-05-31T17:18:02.074187+00:00",
   "balance": 48.03,
   "pnl": -0.962,
   "winRate": 43.1,
@@ -17,14 +17,14 @@
       "leverage": 2.0,
       "sl": 85.1913,
       "tp": 78.5745,
-      "live_price": 81.63,
-      "unrealized_pnl": 0.864,
-      "unrealized_pnl_pct": 1.31,
+      "live_price": 81.65,
+      "unrealized_pnl": 0.848,
+      "unrealized_pnl_pct": 1.28,
       "timestamp": "2026-05-31T14:00:51.536193+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 4.31,
+      "distance_to_sl_pct": 4.28,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 3.69
+      "distance_to_tp_pct": 3.72
     },
     {
       "id": "sync-ADAUSDT-20260531140051",
@@ -35,14 +35,14 @@
       "leverage": 2.0,
       "sl": 0.243801,
       "tp": 0.224865,
-      "live_price": 0.2326,
-      "unrealized_pnl": 1.3284,
-      "unrealized_pnl_pct": 1.73,
+      "live_price": 0.2327,
+      "unrealized_pnl": 1.296,
+      "unrealized_pnl_pct": 1.69,
       "timestamp": "2026-05-31T14:00:51.536422+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 4.73,
+      "distance_to_sl_pct": 4.69,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 3.27
+      "distance_to_tp_pct": 3.31
     },
     {
       "id": "sync-SEIUSDT-20260531160005",
@@ -53,14 +53,14 @@
       "leverage": 2.0,
       "sl": 0.06629,
       "tp": 0.071757,
-      "live_price": 0.06541,
-      "unrealized_pnl": -3.305,
-      "unrealized_pnl_pct": -4.29,
+      "live_price": 0.06553,
+      "unrealized_pnl": -3.1697,
+      "unrealized_pnl_pct": -4.11,
       "timestamp": "2026-05-31T16:00:05.400327+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 1.29,
+      "distance_to_sl_pct": 1.11,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 9.29
+      "distance_to_tp_pct": 9.11
     },
     {
       "id": "sync-XRPUSDT-20260531160005",
@@ -71,17 +71,17 @@
       "leverage": 2.0,
       "sl": 1.30174,
       "tp": 1.4091,
-      "live_price": 1.3287,
-      "unrealized_pnl": -0.7608,
-      "unrealized_pnl_pct": -0.99,
+      "live_price": 1.3292,
+      "unrealized_pnl": -0.7322,
+      "unrealized_pnl_pct": -0.95,
       "timestamp": "2026-05-31T16:00:05.400537+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.01,
+      "distance_to_sl_pct": 2.05,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.99
+      "distance_to_tp_pct": 5.95
     }
   ],
-  "unrealized_total": -1.8734,
+  "unrealized_total": -1.7578,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-05-31",
