@@ -1,11 +1,11 @@
 {
-  "winRate": 44.4,
-  "totalTrades": 54,
+  "winRate": 43.6,
+  "totalTrades": 55,
   "wins": 24,
-  "losses": 30,
-  "pnl": -0.7875,
-  "balance": 48.26,
-  "updated_at": "2026-06-01T08:30:02.268014+00:00",
+  "losses": 31,
+  "pnl": -1.9823,
+  "balance": 47.09,
+  "updated_at": "2026-06-01T08:30:23.703454+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -815,6 +815,21 @@
       "pnl": -1.206,
       "pnl_pct": -3.13,
       "exit_price": 0.06628,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "sync-XRPUSDT-20260531160005",
+      "timestamp": "2026-05-31T16:00:05.400537+00:00",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "entry_price": 1.342,
+      "sl": 1.30174,
+      "tp": 1.4091,
+      "qty": 28.6,
+      "result": "LOSS",
+      "pnl": -1.1948,
+      "pnl_pct": -3.11,
+      "exit_price": 1.3017,
       "exit_reason": "CLOSED"
     }
   ]
