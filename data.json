@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T01:30:03.276388+00:00",
+  "updated_at": "2026-06-01T01:30:05.177647+00:00",
   "balance": 48.04,
   "pnl": -0.962,
   "winRate": 43.1,
@@ -35,14 +35,14 @@
       "leverage": 2.0,
       "sl": 0.243801,
       "tp": 0.224865,
-      "live_price": 0.2349,
-      "unrealized_pnl": 0.5832,
-      "unrealized_pnl_pct": 0.76,
+      "live_price": 0.2348,
+      "unrealized_pnl": 0.6156,
+      "unrealized_pnl_pct": 0.8,
       "timestamp": "2026-05-31T14:00:51.536422+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 3.76,
+      "distance_to_sl_pct": 3.8,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 4.24
+      "distance_to_tp_pct": 4.2
     },
     {
       "id": "sync-SEIUSDT-20260531160005",
@@ -53,14 +53,14 @@
       "leverage": 2.0,
       "sl": 0.06629,
       "tp": 0.071757,
-      "live_price": 0.06762,
-      "unrealized_pnl": -0.8122,
-      "unrealized_pnl_pct": -1.05,
+      "live_price": 0.06758,
+      "unrealized_pnl": -0.8573,
+      "unrealized_pnl_pct": -1.11,
       "timestamp": "2026-05-31T16:00:05.400327+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 1.95,
+      "distance_to_sl_pct": 1.89,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 6.05
+      "distance_to_tp_pct": 6.11
     },
     {
       "id": "sync-XRPUSDT-20260531160005",
@@ -71,17 +71,17 @@
       "leverage": 2.0,
       "sl": 1.30174,
       "tp": 1.4091,
-      "live_price": 1.3289,
-      "unrealized_pnl": -0.7493,
-      "unrealized_pnl_pct": -0.98,
+      "live_price": 1.3286,
+      "unrealized_pnl": -0.7665,
+      "unrealized_pnl_pct": -1.0,
       "timestamp": "2026-05-31T16:00:05.400537+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.02,
+      "distance_to_sl_pct": 2.0,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.98
+      "distance_to_tp_pct": 6.0
     }
   ],
-  "unrealized_total": -0.6663,
+  "unrealized_total": -0.6962,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-06-01",
@@ -95,7 +95,7 @@
     "balance": 48.04,
     "total_wins": 29,
     "total_losses": 22,
-    "last_sync": "2026-06-01T01:00:04.448579+00:00"
+    "last_sync": "2026-06-01T01:30:04.281545+00:00"
   },
   "brain": {
     "version": "3.1",
