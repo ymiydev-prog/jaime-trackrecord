@@ -1,14 +1,33 @@
 {
-  "updated_at": "2026-06-01T10:04:01.213396+00:00",
-  "balance": 47.09,
+  "updated_at": "2026-06-01T10:05:05.628552+00:00",
+  "balance": 47.07,
   "pnl": -1.9823,
   "winRate": 43.6,
   "totalTrades": 55,
   "wins": 24,
   "losses": 31,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "sync-LINKUSDT-20260601100501",
+      "symbol": "LINKUSDT",
+      "side": "short",
+      "entry": 9.02629268,
+      "qty": 4.1,
+      "leverage": 2.0,
+      "sl": 9.297081,
+      "tp": 8.574978,
+      "live_price": 9.004,
+      "unrealized_pnl": 0.1828,
+      "unrealized_pnl_pct": 0.25,
+      "timestamp": "2026-06-01T10:05:01.874976+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 3.25,
+      "tp_pct": 5.0,
+      "distance_to_tp_pct": 4.75
+    }
+  ],
+  "unrealized_total": 0.1828,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-06-01",
@@ -19,10 +38,10 @@
     "version": "2.0-live",
     "last_trade_timestamp": "2026-05-31T11:14:37.001506+00:00",
     "win_rate": 36.8,
-    "balance": 47.09,
+    "balance": 47.07,
     "total_wins": 31,
     "total_losses": 24,
-    "last_sync": "2026-06-01T09:30:03.215027+00:00"
+    "last_sync": "2026-06-01T10:05:04.768234+00:00"
   },
   "brain": {
     "version": "3.1",
@@ -763,6 +782,22 @@
     }
   },
   "trades": [
+    {
+      "id": "sync-LINKUSDT-20260601100501",
+      "timestamp_entry": "2026-06-01T10:05:01.874976+00:00",
+      "symbol": "LINKUSDT",
+      "side": "short",
+      "entry_price": 9.02629268,
+      "sl": 9.297081,
+      "tp": 8.574978,
+      "qty": 4.1,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "sync-XRPUSDT-20260531160005",
       "timestamp_entry": "2026-05-31T16:00:05.400537+00:00",
