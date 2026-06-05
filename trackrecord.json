@@ -1,11 +1,11 @@
 {
-  "winRate": 42.4,
-  "totalTrades": 59,
-  "wins": 25,
+  "winRate": 43.3,
+  "totalTrades": 60,
+  "wins": 26,
   "losses": 34,
-  "pnl": -2.5104,
-  "balance": 46.54,
-  "updated_at": "2026-06-05T16:00:02.803389+00:00",
+  "pnl": -1.9216,
+  "balance": 47.13,
+  "updated_at": "2026-06-05T16:00:35.263357+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -875,6 +875,21 @@
       "pnl": -0.3805,
       "pnl_pct": -3.1,
       "exit_price": 0.10322,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "sync-NEARUSDT-20260605140051",
+      "timestamp": "2026-06-05T14:00:51.790542+00:00",
+      "symbol": "NEARUSDT",
+      "side": "short",
+      "entry_price": 2.00688666,
+      "sl": 2.067093,
+      "tp": 1.906542,
+      "qty": 6.0,
+      "result": "WIN",
+      "pnl": 0.5888,
+      "pnl_pct": 4.89,
+      "exit_price": 1.9066,
       "exit_reason": "CLOSED"
     },
     {
