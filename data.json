@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T14:04:02.723271+00:00",
+  "updated_at": "2026-06-05T14:06:03.061983+00:00",
   "balance": 47.32,
   "pnl": -1.7095,
   "winRate": 43.9,
@@ -17,14 +17,14 @@
       "leverage": 2.0,
       "sl": 0.103235,
       "tp": 0.095217,
-      "live_price": 0.1003,
-      "unrealized_pnl": -0.0176,
-      "unrealized_pnl_pct": -0.07,
+      "live_price": 0.1001,
+      "unrealized_pnl": 0.0314,
+      "unrealized_pnl_pct": 0.13,
       "timestamp": "2026-06-05T14:00:51.790376+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.93,
+      "distance_to_sl_pct": 3.13,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.07
+      "distance_to_tp_pct": 4.87
     },
     {
       "id": "sync-DOGEUSDT-20260605140051",
@@ -35,14 +35,14 @@
       "leverage": 2.0,
       "sl": 0.084512,
       "tp": 0.077947,
-      "live_price": 0.08212,
-      "unrealized_pnl": -0.0323,
-      "unrealized_pnl_pct": -0.09,
+      "live_price": 0.08185,
+      "unrealized_pnl": 0.0924,
+      "unrealized_pnl_pct": 0.24,
       "timestamp": "2026-06-05T14:00:51.790503+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.92,
+      "distance_to_sl_pct": 3.24,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.09
+      "distance_to_tp_pct": 4.76
     },
     {
       "id": "sync-NEARUSDT-20260605140051",
@@ -53,14 +53,14 @@
       "leverage": 2.0,
       "sl": 2.067093,
       "tp": 1.906542,
-      "live_price": 2.018,
-      "unrealized_pnl": -0.1334,
-      "unrealized_pnl_pct": -0.55,
+      "live_price": 2.012,
+      "unrealized_pnl": -0.0614,
+      "unrealized_pnl_pct": -0.25,
       "timestamp": "2026-06-05T14:00:51.790542+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.45,
+      "distance_to_sl_pct": 2.75,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.55
+      "distance_to_tp_pct": 5.25
     },
     {
       "id": "sync-FILUSDT-20260605140051",
@@ -71,14 +71,14 @@
       "leverage": 2.0,
       "sl": 0.787023,
       "tp": 0.725895,
-      "live_price": 0.7666,
-      "unrealized_pnl": -0.0885,
-      "unrealized_pnl_pct": -0.33,
+      "live_price": 0.7657,
+      "unrealized_pnl": -0.0566,
+      "unrealized_pnl_pct": -0.21,
       "timestamp": "2026-06-05T14:00:51.790574+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.67,
+      "distance_to_sl_pct": 2.79,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.33
+      "distance_to_tp_pct": 5.21
     },
     {
       "id": "sync-DOTUSDT-20260605140051",
@@ -89,17 +89,17 @@
       "leverage": 2.0,
       "sl": 0.993641,
       "tp": 0.916465,
-      "live_price": 0.965,
-      "unrealized_pnl": -0.0101,
-      "unrealized_pnl_pct": -0.03,
+      "live_price": 0.962,
+      "unrealized_pnl": 0.0907,
+      "unrealized_pnl_pct": 0.28,
       "timestamp": "2026-06-05T14:00:51.790603+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.97,
+      "distance_to_sl_pct": 3.28,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 5.03
+      "distance_to_tp_pct": 4.72
     }
   ],
-  "unrealized_total": -0.2819,
+  "unrealized_total": 0.0966,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-06-05",
