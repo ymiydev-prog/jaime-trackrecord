@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T15:30:02.703196+00:00",
+  "updated_at": "2026-06-05T15:30:04.544963+00:00",
   "balance": 46.54,
   "pnl": -2.5104,
   "winRate": 42.4,
@@ -17,14 +17,14 @@
       "leverage": 2.0,
       "sl": 0.084512,
       "tp": 0.077947,
-      "live_price": 0.08173,
-      "unrealized_pnl": 0.1478,
-      "unrealized_pnl_pct": 0.39,
+      "live_price": 0.08174,
+      "unrealized_pnl": 0.1432,
+      "unrealized_pnl_pct": 0.38,
       "timestamp": "2026-06-05T14:00:51.790503+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 3.39,
+      "distance_to_sl_pct": 3.38,
       "tp_pct": 5.0,
-      "distance_to_tp_pct": 4.61
+      "distance_to_tp_pct": 4.62
     },
     {
       "id": "sync-NEARUSDT-20260605140051",
@@ -63,7 +63,7 @@
       "distance_to_tp_pct": 3.99
     }
   ],
-  "unrealized_total": 1.4444,
+  "unrealized_total": 1.4398,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-06-05",
@@ -77,7 +77,7 @@
     "balance": 46.54,
     "total_wins": 32,
     "total_losses": 27,
-    "last_sync": "2026-06-05T15:00:05.275399+00:00"
+    "last_sync": "2026-06-05T15:30:03.819156+00:00"
   },
   "brain": {
     "version": "3.1",
