@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-06T14:26:01.527507+00:00",
+  "updated_at": "2026-06-06T14:28:02.140894+00:00",
   "balance": 48.96,
   "pnl": -0.1141,
   "winRate": 46.9,
   "totalTrades": 64,
   "wins": 30,
   "losses": 34,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "83b7a3a6-b7b6-4f4d-a7b6-cc87798d4772",
-      "symbol": "DOTUSDT",
-      "side": "long",
-      "entry": 0.9508,
-      "qty": 22.3,
-      "leverage": 2.0,
-      "sl": 0.917869,
-      "tp": 1.06057,
-      "live_price": 0.953,
-      "unrealized_pnl": 0.0981,
-      "unrealized_pnl_pct": 0.23,
-      "timestamp": "2026-06-06T14:00:25.167400+00:00",
-      "sl_pct": 3.5,
-      "distance_to_sl_pct": 3.69,
-      "tp_pct": 11.5,
-      "distance_to_tp_pct": 11.31
-    }
-  ],
-  "unrealized_total": 0.0981,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 3,
     "last_trade_date": "2026-06-06",
@@ -934,12 +915,12 @@
       "sl": 0.917869,
       "tp": 1.06057,
       "qty": 22.3,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "a8f8477c-ca3e-4f9b-a937-9992d52d9dff",
