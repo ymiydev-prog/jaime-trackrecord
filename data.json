@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-06T13:06:01.783608+00:00",
+  "updated_at": "2026-06-06T13:08:01.493420+00:00",
   "balance": 48.94,
   "pnl": -0.1182,
   "winRate": 46.0,
   "totalTrades": 63,
   "wins": 29,
   "losses": 34,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "a8f8477c-ca3e-4f9b-a937-9992d52d9dff",
-      "symbol": "OPUSDT",
-      "side": "long",
-      "entry": 0.09671,
-      "qty": 172.20000000000002,
-      "leverage": 2.0,
-      "sl": 0.092446,
-      "tp": 0.110924,
-      "live_price": 0.0969,
-      "unrealized_pnl": 0.0654,
-      "unrealized_pnl_pct": 0.2,
-      "timestamp": "2026-06-06T12:00:24.656393+00:00",
-      "sl_pct": 4.4,
-      "distance_to_sl_pct": 4.61,
-      "tp_pct": 14.7,
-      "distance_to_tp_pct": 14.5
-    }
-  ],
-  "unrealized_total": 0.0654,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-06-06",
@@ -920,12 +901,12 @@
       "sl": 0.092446,
       "tp": 0.110924,
       "qty": 172.20000000000002,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "823cee32-e288-4714-b888-6766faea4860",
