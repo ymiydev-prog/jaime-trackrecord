@@ -1,11 +1,11 @@
 {
-  "winRate": 52.1,
-  "totalTrades": 71,
+  "winRate": 51.4,
+  "totalTrades": 72,
   "wins": 37,
-  "losses": 34,
-  "pnl": 0.6839,
+  "losses": 35,
+  "pnl": -3.1105,
   "balance": 49.69,
-  "updated_at": "2026-06-07T20:00:02.227662+00:00",
+  "updated_at": "2026-06-07T20:00:34.326989+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1070,6 +1070,21 @@
       "pnl": 0.0199,
       "pnl_pct": 0.06,
       "exit_price": 65.08,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "99790bbb-966f-40a3-8118-85cb64ac9384",
+      "timestamp": "2026-06-07T18:00:24.287209+00:00",
+      "symbol": "ADAUSDT",
+      "side": "long",
+      "entry_price": 0.163,
+      "sl": 0.108697,
+      "tp": 0.176576,
+      "qty": 733.0,
+      "result": "LOSS",
+      "pnl": -3.7944,
+      "pnl_pct": -3.18,
+      "exit_price": 0.158,
       "exit_reason": "CLOSED"
     }
   ]
