@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-06-08T17:00:03.424034+00:00",
+  "updated_at": "2026-06-08T17:02:01.606922+00:00",
   "balance": 51.47,
   "pnl": 3.4595,
   "winRate": 52.1,
   "totalTrades": 73,
   "wins": 38,
   "losses": 35,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "e0d6e151-bbae-48ce-886d-55edca43e7c2",
+      "symbol": "SEIUSDT",
+      "side": "short",
+      "entry": 0.04972083,
+      "qty": 2485.0,
+      "leverage": 2.0,
+      "sl": 0.066289,
+      "tp": 0.045579,
+      "live_price": 0.0497,
+      "unrealized_pnl": 0.1035,
+      "unrealized_pnl_pct": 0.04,
+      "timestamp": "2026-06-08T17:00:28.196763+00:00",
+      "sl_pct": 33.3,
+      "distance_to_sl_pct": 33.36,
+      "tp_pct": 8.3,
+      "distance_to_tp_pct": 8.29
+    }
+  ],
+  "unrealized_total": 0.1035,
   "state": {
-    "trades_today": 0,
+    "trades_today": 1,
     "last_trade_date": "2026-06-08",
-    "total_trades": 73,
+    "total_trades": 74,
     "total_pnl": 3.4595,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-06-07T20:00:23.529884+00:00",
+    "last_trade_timestamp": "2026-06-08T17:00:28.196902+00:00",
     "win_rate": 36.8,
     "balance": 51.47,
     "total_wins": 45,
     "total_losses": 28,
-    "last_sync": "2026-06-08T17:00:03.258756+00:00"
+    "last_sync": "2026-06-08T16:30:02.822990+00:00"
   },
   "brain": {
     "version": "3.1",
@@ -1032,6 +1051,22 @@
     }
   },
   "trades": [
+    {
+      "id": "e0d6e151-bbae-48ce-886d-55edca43e7c2",
+      "timestamp_entry": "2026-06-08T17:00:28.196763+00:00",
+      "symbol": "SEIUSDT",
+      "side": "short",
+      "entry_price": 0.04972083,
+      "sl": 0.066289,
+      "tp": 0.045579,
+      "qty": 2485.0,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "b6455e7f-1709-4204-9110-5407f2f4db2e",
       "timestamp_entry": "2026-06-07T20:00:23.529672+00:00",
