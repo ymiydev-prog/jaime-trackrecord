@@ -3,9 +3,9 @@
   "totalTrades": 73,
   "wins": 38,
   "losses": 35,
-  "pnl": -3.0701,
+  "pnl": 3.4595,
   "balance": 51.47,
-  "updated_at": "2026-06-08T14:40:01.455127+00:00",
+  "updated_at": "2026-06-08T14:42:01.966462+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1097,10 +1097,10 @@
       "tp": 8.208944,
       "qty": 14.5,
       "result": "WIN",
-      "pnl": 0.0404,
-      "pnl_pct": 0.04,
+      "pnl": 6.57,
+      "pnl_pct": 2.99,
       "exit_price": 7.989,
-      "exit_reason": "CLOSED"
+      "exit_reason": "CLOSED_MANUAL"
     }
   ]
 }
