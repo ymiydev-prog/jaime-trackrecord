@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T20:12:01.992184+00:00",
+  "updated_at": "2026-06-08T20:14:01.640543+00:00",
   "balance": 51.64,
   "pnl": 3.6986,
   "winRate": 52.7,
@@ -17,17 +17,17 @@
       "leverage": 2.0,
       "sl": 0.033537,
       "tp": 0.054453,
-      "live_price": 0.04976,
-      "unrealized_pnl": -2.5214,
-      "unrealized_pnl_pct": -1.01,
+      "live_price": 0.04964,
+      "unrealized_pnl": -3.1147,
+      "unrealized_pnl_pct": -1.25,
       "timestamp": "2026-06-08T18:00:24.559524+00:00",
       "sl_pct": 33.3,
-      "distance_to_sl_pct": 32.27,
+      "distance_to_sl_pct": 32.03,
       "tp_pct": 8.3,
-      "distance_to_tp_pct": 9.34
+      "distance_to_tp_pct": 9.57
     }
   ],
-  "unrealized_total": -2.5214,
+  "unrealized_total": -3.1147,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-06-08",
