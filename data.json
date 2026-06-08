@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-08T14:28:02.244132+00:00",
+  "updated_at": "2026-06-08T14:30:01.309441+00:00",
   "balance": 51.42,
   "pnl": -3.1105,
   "winRate": 51.4,
   "totalTrades": 72,
   "wins": 37,
   "losses": 35,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "b6455e7f-1709-4204-9110-5407f2f4db2e",
-      "symbol": "LINKUSDT",
-      "side": "long",
-      "entry": 7.575,
-      "qty": 14.5,
-      "leverage": 2.0,
-      "sl": 7.870425,
-      "tp": 8.208944,
-      "live_price": 8.005,
-      "unrealized_pnl": 12.47,
-      "unrealized_pnl_pct": 5.68,
-      "timestamp": "2026-06-07T20:00:23.529672+00:00",
-      "sl_pct": 3.9,
-      "distance_to_sl_pct": 1.78,
-      "tp_pct": 8.4,
-      "distance_to_tp_pct": 2.69
-    }
-  ],
-  "unrealized_total": 12.47,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-06-08",
@@ -1046,12 +1027,12 @@
       "sl": 5.039223,
       "tp": 8.208944,
       "qty": 14.5,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "99790bbb-966f-40a3-8118-85cb64ac9384",
