@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T14:42:01.972140+00:00",
+  "updated_at": "2026-06-08T14:44:02.120776+00:00",
   "balance": 51.47,
   "pnl": 3.4595,
   "winRate": 52.1,
@@ -968,7 +968,7 @@
       "total_trades": 69,
       "wins": 42,
       "losses": 27,
-      "total_pnl": -4.4738,
+      "total_pnl": 2.06,
       "max_consecutive_wins": 12,
       "max_consecutive_losses": 9,
       "current_streak": 1,
@@ -1009,9 +1009,9 @@
     "adaptive_risk_factor": 0.005,
     "adaptive_sl": 3.0,
     "adaptive_tp": 5.0,
-    "total_pnl": -3.02,
+    "total_pnl": 3.51,
     "performance": {
-      "total_pnl": -3.02,
+      "total_pnl": 3.51,
       "win_rate": 36.8,
       "avg_return": -0.1587,
       "max_drawdown": -3.02,
