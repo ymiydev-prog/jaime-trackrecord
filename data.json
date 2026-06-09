@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T23:30:01.978805+00:00",
-  "balance": 49.27,
+  "updated_at": "2026-06-09T23:30:03.535019+00:00",
+  "balance": 49.21,
   "pnl": 1.3314,
   "winRate": 53.2,
   "totalTrades": 77,
@@ -49,17 +49,17 @@
   "state": {
     "trades_today": 4,
     "last_trade_date": "2026-06-09",
-    "total_trades": 78,
+    "total_trades": 77,
     "total_pnl": 1.3314,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-06-09T23:00:28.325482+00:00",
     "win_rate": 36.8,
-    "balance": 49.27,
+    "balance": 49.21,
     "total_wins": 48,
     "total_losses": 29,
-    "last_sync": "2026-06-09T22:30:02.819879+00:00"
+    "last_sync": "2026-06-09T23:30:02.965743+00:00"
   },
   "brain": {
     "version": "3.1",
