@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-09T16:58:01.797874+00:00",
+  "updated_at": "2026-06-09T17:00:01.837564+00:00",
   "balance": 47.78,
   "pnl": -0.1601,
   "winRate": 52.6,
   "totalTrades": 76,
   "wins": 40,
   "losses": 36,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "f6033c95-a9ea-4580-8dbc-ad3dc3da51de",
-      "symbol": "DOGEUSDT",
-      "side": "short",
-      "entry": 0.08546389,
-      "qty": 1343.0,
-      "leverage": 2.0,
-      "sl": 0.084908,
-      "tp": 0.080336,
-      "live_price": 0.08424,
-      "unrealized_pnl": 3.2874,
-      "unrealized_pnl_pct": 1.43,
-      "timestamp": "2026-06-09T11:00:27.322143+00:00",
-      "sl_pct": 0.7,
-      "distance_to_sl_pct": 0.78,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 4.57
-    }
-  ],
-  "unrealized_total": 3.2874,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-06-09",
@@ -1081,12 +1062,12 @@
       "sl": 0.087173,
       "tp": 0.080336,
       "qty": 1343.0,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "ed0d5fc6-d7ba-4e5c-8204-08c5b50ce7ff",
