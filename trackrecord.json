@@ -1,11 +1,11 @@
 {
-  "winRate": 54.9,
-  "totalTrades": 82,
-  "wins": 45,
+  "winRate": 55.4,
+  "totalTrades": 83,
+  "wins": 46,
   "losses": 37,
-  "pnl": 4.2898,
+  "pnl": 4.3297,
   "balance": 52.09,
-  "updated_at": "2026-06-10T16:00:01.943405+00:00",
+  "updated_at": "2026-06-10T16:00:34.043312+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1235,6 +1235,21 @@
       "pnl": 0.2431,
       "pnl_pct": 0.2,
       "exit_price": 2.12296666,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "b1423f98-2caf-44cd-be2c-97e14a2671fb",
+      "timestamp": "2026-06-10T14:00:28.390445+00:00",
+      "symbol": "DOGEUSDT",
+      "side": "long",
+      "entry_price": 0.08452,
+      "sl": 0.08283,
+      "tp": 0.089591,
+      "qty": 1480.0,
+      "result": "WIN",
+      "pnl": 0.0399,
+      "pnl_pct": 0.03,
+      "exit_price": 0.08464,
       "exit_reason": "CLOSED"
     }
   ]
