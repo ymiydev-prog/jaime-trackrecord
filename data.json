@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-10T06:08:02.526010+00:00",
+  "updated_at": "2026-06-10T06:10:02.211459+00:00",
   "balance": 49.22,
   "pnl": 1.3314,
   "winRate": 53.2,
   "totalTrades": 77,
   "wins": 41,
   "losses": 36,
-  "open_positions": 2,
+  "open_positions": 1,
   "open_positions_detail": [
     {
       "id": "ca0d67ec-442c-4a2f-b23d-69e27609b865",
@@ -17,35 +17,17 @@
       "leverage": 2.0,
       "sl": 1664.7828,
       "tp": 1534.2116,
-      "live_price": 1629.38,
-      "unrealized_pnl": 0.3864,
-      "unrealized_pnl_pct": 0.17,
+      "live_price": 1628.0,
+      "unrealized_pnl": 0.5796,
+      "unrealized_pnl_pct": 0.25,
       "timestamp": "2026-06-09T17:00:25.671962+00:00",
       "sl_pct": 2.0,
-      "distance_to_sl_pct": 2.17,
+      "distance_to_sl_pct": 2.25,
       "tp_pct": 6.0,
-      "distance_to_tp_pct": 5.83
-    },
-    {
-      "id": "e8cf14f1-70d6-4044-a1a9-cd1d7c9aed09",
-      "symbol": "LINKUSDT",
-      "side": "short",
-      "entry": 7.826,
-      "qty": 15.100000000000001,
-      "leverage": 2.0,
-      "sl": 7.775131,
-      "tp": 7.35644,
-      "live_price": 7.716,
-      "unrealized_pnl": 3.322,
-      "unrealized_pnl_pct": 1.41,
-      "timestamp": "2026-06-09T23:00:28.325276+00:00",
-      "sl_pct": 0.6,
-      "distance_to_sl_pct": 0.76,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 4.59
+      "distance_to_tp_pct": 5.75
     }
   ],
-  "unrealized_total": 3.7084,
+  "unrealized_total": 0.5796,
   "state": {
     "trades_today": 0,
     "last_trade_date": "2026-06-10",
@@ -1107,12 +1089,12 @@
       "sl": 7.98252,
       "tp": 7.35644,
       "qty": 15.100000000000001,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "ca0d67ec-442c-4a2f-b23d-69e27609b865",
