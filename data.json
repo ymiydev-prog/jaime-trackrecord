@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-10T13:32:01.975449+00:00",
+  "updated_at": "2026-06-10T13:34:01.978420+00:00",
   "balance": 51.85,
   "pnl": 4.0467,
   "winRate": 54.3,
   "totalTrades": 81,
   "wins": 44,
   "losses": 37,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "aa3f440f-929e-4c1f-a605-f337a570e0b3",
-      "symbol": "NEARUSDT",
-      "side": "long",
-      "entry": 2.1165,
-      "qty": 58.800000000000004,
-      "leverage": 2.0,
-      "sl": 2.053005,
-      "tp": 2.24349,
-      "live_price": 2.128,
-      "unrealized_pnl": 1.3524,
-      "unrealized_pnl_pct": 0.54,
-      "timestamp": "2026-06-10T13:00:33.263555+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 3.54,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 5.46
-    }
-  ],
-  "unrealized_total": 1.3524,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 3,
     "last_trade_date": "2026-06-10",
@@ -1145,12 +1126,12 @@
       "sl": 2.07417,
       "tp": 2.24349,
       "qty": 58.800000000000004,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "dc20320b-252d-4a66-aa84-f15feaf1247a",
