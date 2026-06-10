@@ -1,28 +1,47 @@
 {
-  "updated_at": "2026-06-10T13:00:04.100939+00:00",
+  "updated_at": "2026-06-10T13:02:01.703176+00:00",
   "balance": 51.92,
   "pnl": 4.0467,
   "winRate": 54.3,
   "totalTrades": 81,
   "wins": 44,
   "losses": 37,
-  "open_positions": 0,
-  "open_positions_detail": [],
-  "unrealized_total": 0,
+  "open_positions": 1,
+  "open_positions_detail": [
+    {
+      "id": "aa3f440f-929e-4c1f-a605-f337a570e0b3",
+      "symbol": "NEARUSDT",
+      "side": "long",
+      "entry": 2.1165,
+      "qty": 58.800000000000004,
+      "leverage": 2.0,
+      "sl": 2.053005,
+      "tp": 2.24349,
+      "live_price": 2.113,
+      "unrealized_pnl": -0.4116,
+      "unrealized_pnl_pct": -0.17,
+      "timestamp": "2026-06-10T13:00:33.263555+00:00",
+      "sl_pct": 3.0,
+      "distance_to_sl_pct": 2.83,
+      "tp_pct": 6.0,
+      "distance_to_tp_pct": 6.17
+    }
+  ],
+  "unrealized_total": -0.4116,
   "state": {
-    "trades_today": 2,
+    "trades_today": 3,
     "last_trade_date": "2026-06-10",
-    "total_trades": 81,
+    "total_trades": 82,
     "total_pnl": 4.0467,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-06-10T12:00:26.428532+00:00",
+    "last_trade_timestamp": "2026-06-10T13:00:33.263906+00:00",
     "win_rate": 36.8,
     "balance": 51.92,
     "total_wins": 51,
     "total_losses": 30,
-    "last_sync": "2026-06-10T13:00:03.971521+00:00"
+    "last_sync": "2026-06-10T12:30:03.459327+00:00"
   },
   "brain": {
     "version": "3.1",
@@ -1117,6 +1136,22 @@
     }
   },
   "trades": [
+    {
+      "id": "aa3f440f-929e-4c1f-a605-f337a570e0b3",
+      "timestamp_entry": "2026-06-10T13:00:33.263555+00:00",
+      "symbol": "NEARUSDT",
+      "side": "long",
+      "entry_price": 2.1165,
+      "sl": 2.07417,
+      "tp": 2.24349,
+      "qty": 58.800000000000004,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_time": "",
+      "exit_reason": "open"
+    },
     {
       "id": "dc20320b-252d-4a66-aa84-f15feaf1247a",
       "timestamp_entry": "2026-06-10T12:00:26.428341+00:00",
