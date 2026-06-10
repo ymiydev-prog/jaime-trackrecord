@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-10T19:24:02.149040+00:00",
+  "updated_at": "2026-06-10T19:26:02.039822+00:00",
   "balance": 52.13,
   "pnl": 4.3297,
   "winRate": 55.4,
   "totalTrades": 83,
   "wins": 46,
   "losses": 37,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "d086f4d1-a49e-487f-8a9d-57535d5b0b93",
-      "symbol": "SEIUSDT",
-      "side": "long",
-      "entry": 0.04807,
-      "qty": 2605.0,
-      "leverage": 2.0,
-      "sl": 0.047109,
-      "tp": 0.050954,
-      "live_price": 0.04671,
-      "unrealized_pnl": -7.0856,
-      "unrealized_pnl_pct": -2.83,
-      "timestamp": "2026-06-10T16:00:23.711731+00:00",
-      "sl_pct": 2.0,
-      "distance_to_sl_pct": 0.83,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 8.83
-    }
-  ],
-  "unrealized_total": -7.0856,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 5,
     "last_trade_date": "2026-06-10",
@@ -1154,12 +1135,12 @@
       "sl": 0.047109,
       "tp": 0.050954,
       "qty": 2605.0,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "b1423f98-2caf-44cd-be2c-97e14a2671fb",
