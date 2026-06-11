@@ -1,11 +1,11 @@
 {
-  "winRate": 54.7,
-  "totalTrades": 86,
+  "winRate": 54.0,
+  "totalTrades": 87,
   "wins": 47,
-  "losses": 39,
-  "pnl": 0.4373,
+  "losses": 40,
+  "pnl": -3.1995,
   "balance": 48.23,
-  "updated_at": "2026-06-11T18:00:01.546098+00:00",
+  "updated_at": "2026-06-11T18:00:32.749332+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1295,6 +1295,21 @@
       "pnl": 0.1945,
       "pnl_pct": 0.17,
       "exit_price": 0.08444,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "b508242c-0a6c-4553-a29a-247ee468ac2a",
+      "timestamp": "2026-06-11T13:00:32.847854+00:00",
+      "symbol": "SEIUSDT",
+      "side": "short",
+      "entry_price": 0.0481,
+      "sl": 0.049062,
+      "tp": 0.045214,
+      "qty": 2410.0,
+      "result": "LOSS",
+      "pnl": -3.6368,
+      "pnl_pct": -3.14,
+      "exit_price": 0.04955,
       "exit_reason": "CLOSED"
     }
   ]
