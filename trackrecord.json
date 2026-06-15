@@ -1,11 +1,11 @@
 {
-  "winRate": 52.8,
-  "totalTrades": 89,
+  "winRate": 52.2,
+  "totalTrades": 90,
   "wins": 47,
-  "losses": 42,
-  "pnl": -6.8823,
+  "losses": 43,
+  "pnl": -10.6936,
   "balance": 40.92,
-  "updated_at": "2026-06-15T16:00:01.452258+00:00",
+  "updated_at": "2026-06-15T16:00:33.636153+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1340,6 +1340,21 @@
       "pnl": -3.5542,
       "pnl_pct": -3.33,
       "exit_price": 2.1169,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "11eb8915-3f1f-469d-a641-98ed7587d92a",
+      "timestamp": "2026-06-15T09:26:46.557565+00:00",
+      "symbol": "HBARUSDT",
+      "side": "short",
+      "entry_price": 0.08122,
+      "sl": 0.082844,
+      "tp": 0.076347,
+      "qty": 1512.0,
+      "result": "LOSS",
+      "pnl": -3.8113,
+      "pnl_pct": -3.1,
+      "exit_price": 0.08365,
       "exit_reason": "CLOSED"
     }
   ]
