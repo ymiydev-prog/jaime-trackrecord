@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-15T15:58:02.354095+00:00",
+  "updated_at": "2026-06-15T16:00:01.462957+00:00",
   "balance": 40.92,
   "pnl": -6.8823,
   "winRate": 52.8,
   "totalTrades": 89,
   "wins": 47,
   "losses": 42,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "11eb8915-3f1f-469d-a641-98ed7587d92a",
-      "symbol": "HBARUSDT",
-      "side": "short",
-      "entry": 0.08122,
-      "qty": 1512.0,
-      "leverage": 2.0,
-      "sl": 0.082844,
-      "tp": 0.076347,
-      "live_price": 0.0838,
-      "unrealized_pnl": -7.8019,
-      "unrealized_pnl_pct": -3.18,
-      "timestamp": "2026-06-15T09:26:46.557565+00:00",
-      "sl_pct": 2.0,
-      "distance_to_sl_pct": 1.18,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 9.18
-    }
-  ],
-  "unrealized_total": -7.8019,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-06-15",
@@ -1189,12 +1170,12 @@
       "sl": 0.082844,
       "tp": 0.076347,
       "qty": 1512.0,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "8d629e0b-421a-4a11-a212-27a878728a98",
