@@ -1,11 +1,11 @@
 {
-  "winRate": 52.2,
-  "totalTrades": 90,
+  "winRate": 51.6,
+  "totalTrades": 91,
   "wins": 47,
-  "losses": 43,
-  "pnl": -10.6936,
-  "balance": 37.17,
-  "updated_at": "2026-06-15T22:30:01.973745+00:00",
+  "losses": 44,
+  "pnl": -11.0678,
+  "balance": 36.8,
+  "updated_at": "2026-06-15T22:30:33.211746+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1355,6 +1355,21 @@
       "pnl": -3.8113,
       "pnl_pct": -3.1,
       "exit_price": 0.08365,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "83dad05e-ff76-45b6-aa82-c167d9f77496",
+      "timestamp": "2026-06-15T16:00:28.553309+00:00",
+      "symbol": "LINKUSDT",
+      "side": "long",
+      "entry_price": 8.544,
+      "sl": 8.37312,
+      "tp": 9.05664,
+      "qty": 1.4000000000000001,
+      "result": "LOSS",
+      "pnl": -0.3742,
+      "pnl_pct": -3.13,
+      "exit_price": 8.286,
       "exit_reason": "CLOSED"
     }
   ]
