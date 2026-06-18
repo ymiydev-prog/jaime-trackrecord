@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-18T15:04:02.663366+00:00",
+  "updated_at": "2026-06-18T15:06:02.523554+00:00",
   "balance": 37.08,
   "pnl": -10.6495,
   "winRate": 54.5,
   "totalTrades": 99,
   "wins": 54,
   "losses": 45,
-  "open_positions": 2,
+  "open_positions": 1,
   "open_positions_detail": [
     {
       "id": "bdf9d99f-c3d7-4e36-8109-0c7f4fbc3d5a",
@@ -17,35 +17,17 @@
       "leverage": 2.0,
       "sl": 1.2031,
       "tp": 1.098,
-      "live_price": 1.1576,
-      "unrealized_pnl": 0.2205,
-      "unrealized_pnl_pct": 0.9,
+      "live_price": 1.157,
+      "unrealized_pnl": 0.2331,
+      "unrealized_pnl_pct": 0.95,
       "timestamp": "2026-06-18T05:00:30.080115+00:00",
       "sl_pct": 3.0,
-      "distance_to_sl_pct": 3.9,
+      "distance_to_sl_pct": 3.95,
       "tp_pct": 6.0,
-      "distance_to_tp_pct": 5.1
-    },
-    {
-      "id": "0208c44b-0906-4624-a4cd-4917b7901365",
-      "symbol": "SOLUSDT",
-      "side": "short",
-      "entry": 71.03,
-      "qty": 0.1,
-      "leverage": 2.0,
-      "sl": 70.81,
-      "tp": 66.76,
-      "live_price": 70.73,
-      "unrealized_pnl": 0.06,
-      "unrealized_pnl_pct": 0.42,
-      "timestamp": "2026-06-18T14:00:28.065736+00:00",
-      "sl_pct": 0.3,
-      "distance_to_sl_pct": 0.11,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 5.59
+      "distance_to_tp_pct": 5.05
     }
   ],
-  "unrealized_total": 0.2805,
+  "unrealized_total": 0.2331,
   "state": {
     "trades_today": 3,
     "last_trade_date": "2026-06-18",
@@ -1276,12 +1258,12 @@
       "sl": 72.4506,
       "tp": 66.7682,
       "qty": 0.1,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "ecbec6fc-f258-4bde-b469-ed59b615b681",
