@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-18T09:26:06.930172+00:00",
+  "updated_at": "2026-06-18T09:28:01.753054+00:00",
   "balance": 37.08,
   "pnl": -10.6507,
   "winRate": 54.1,
   "totalTrades": 98,
   "wins": 53,
   "losses": 45,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "bdf9d99f-c3d7-4e36-8109-0c7f4fbc3d5a",
-      "symbol": "XRPUSDT",
-      "side": "short",
-      "entry": 1.1681,
-      "qty": 10.5,
-      "leverage": 2.0,
-      "sl": 1.2031,
-      "tp": 1.098,
-      "live_price": 1.1782,
-      "unrealized_pnl": -0.2121,
-      "unrealized_pnl_pct": -0.86,
-      "timestamp": "2026-06-18T05:00:30.080115+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 2.13,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 6.87
-    }
-  ],
-  "unrealized_total": -0.2121,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-06-18",
@@ -1250,12 +1231,12 @@
       "sl": 1.191462,
       "tp": 1.098014,
       "qty": 10.5,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "8999bb1c-b6f9-4af5-a728-996f1a8eb6ff",
