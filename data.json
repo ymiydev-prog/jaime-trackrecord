@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-21T15:16:02.539041+00:00",
-  "balance": 37.11,
+  "updated_at": "2026-06-21T15:18:01.815194+00:00",
+  "balance": 37.28,
   "pnl": -10.6115,
   "winRate": 54.8,
   "totalTrades": 104,
   "wins": 57,
   "losses": 47,
-  "open_positions": 2,
+  "open_positions": 1,
   "open_positions_detail": [
     {
       "id": "bdf9d99f-c3d7-4e36-8109-0c7f4fbc3d5a",
@@ -17,51 +17,34 @@
       "leverage": 2.0,
       "sl": 1.191462,
       "tp": 1.098014,
-      "live_price": 1.1488,
-      "unrealized_pnl": 0.4053,
-      "unrealized_pnl_pct": 1.65,
+      "live_price": 1.149,
+      "unrealized_pnl": 0.4011,
+      "unrealized_pnl_pct": 1.64,
       "timestamp": "2026-06-18T05:00:30.080115+00:00",
       "sl_pct": 2.0,
-      "distance_to_sl_pct": 3.65,
+      "distance_to_sl_pct": 3.64,
       "tp_pct": 6.0,
-      "distance_to_tp_pct": 4.35
-    },
-    {
-      "id": "6816417f-4135-4ec6-b49a-efb830c9efff",
-      "symbol": "XRPUSDT",
-      "side": "short",
-      "entry": 1.15598169,
-      "qty": 10.8,
-      "leverage": 2.0,
-      "sl": 1.179101,
-      "tp": 1.086623,
-      "live_price": 1.1488,
-      "unrealized_pnl": 0.1551,
-      "unrealized_pnl_pct": 0.62,
-      "timestamp": "2026-06-21T14:00:27.359280+00:00",
-      "sl_pct": 2.0,
-      "distance_to_sl_pct": 2.62,
-      "tp_pct": 6.0,
-      "distance_to_tp_pct": 5.38
+      "distance_to_tp_pct": 4.36
     }
   ],
-  "unrealized_total": 0.5604,
+  "unrealized_total": 0.4011,
   "state": {
     "trades_today": 2,
     "last_trade_date": "2026-06-21",
     "total_trades": 104,
-    "total_pnl": -10.6115,
+    "total_pnl": -10.475045439999999,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
     "last_trade_timestamp": "2026-06-21T14:00:27.359496+00:00",
     "win_rate": 36.8,
-    "balance": 37.11,
+    "balance": 37.28,
     "total_wins": 64,
     "total_losses": 40,
     "last_sync": "2026-06-21T15:00:04.134053+00:00",
     "current_streak": 0,
-    "current_streak_type": null
+    "current_streak_type": null,
+    "open_positions": []
   },
   "brain": {
     "version": "3.1",
@@ -1303,12 +1286,12 @@
       "sl": 1.179101,
       "tp": 1.086623,
       "qty": 10.8,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "5e092ed8-0009-42f3-bc03-be72eef2eb8d",
