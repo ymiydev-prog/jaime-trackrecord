@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-22T14:20:02.487164+00:00",
+  "updated_at": "2026-06-22T14:22:01.968909+00:00",
   "balance": 37.26,
   "pnl": -10.3294,
   "winRate": 56.5,
   "totalTrades": 108,
   "wins": 61,
   "losses": 47,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "2f37b9f3-c2ce-4efa-82d1-1265d9ec89fc",
-      "symbol": "FILUSDT",
-      "side": "long",
-      "entry": 0.7979,
-      "qty": 15.5,
-      "leverage": 2.0,
-      "sl": 0.809,
-      "tp": 0.8617,
-      "live_price": 0.8123,
-      "unrealized_pnl": 0.4464,
-      "unrealized_pnl_pct": 1.8,
-      "timestamp": "2026-06-22T01:00:27.822787+00:00",
-      "sl_pct": 1.4,
-      "distance_to_sl_pct": 0.41,
-      "tp_pct": 8.0,
-      "distance_to_tp_pct": 6.19
-    }
-  ],
-  "unrealized_total": 0.4464,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-06-22",
@@ -1311,12 +1292,12 @@
       "sl": 0.781942,
       "tp": 0.861732,
       "qty": 15.5,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "bef83151-faee-4fc0-b8f0-8531d1c41242",
