@@ -1,11 +1,11 @@
 {
-  "winRate": 56.9,
-  "totalTrades": 109,
-  "wins": 62,
+  "winRate": 57.3,
+  "totalTrades": 110,
+  "wins": 63,
   "losses": 47,
-  "pnl": -10.1737,
-  "balance": 37.42,
-  "updated_at": "2026-06-23T18:30:01.374487+00:00",
+  "pnl": -9.7265,
+  "balance": 37.87,
+  "updated_at": "2026-06-23T18:30:32.834593+00:00",
   "history": [
     {
       "id": "5d699c0c-ae2a-4452-ab1a-964092f86627",
@@ -1640,6 +1640,21 @@
       "pnl": 0.1557,
       "pnl_pct": 1.26,
       "exit_price": 0.80890838,
+      "exit_reason": "CLOSED"
+    },
+    {
+      "id": "a1a52b00-ddd6-460f-856a-dc43965bd98e",
+      "timestamp": "2026-06-22T15:00:23.842117+00:00",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "entry_price": 73.46,
+      "sl": 74.9292,
+      "tp": 67.5832,
+      "qty": 0.1,
+      "result": "WIN",
+      "pnl": 0.4472,
+      "pnl_pct": 6.09,
+      "exit_price": 68.88,
       "exit_reason": "CLOSED"
     }
   ]
