@@ -1,33 +1,14 @@
 {
-  "updated_at": "2026-06-24T10:10:02.738322+00:00",
+  "updated_at": "2026-06-24T10:12:01.960260+00:00",
   "balance": 37.48,
   "pnl": -10.1102,
   "winRate": 56.8,
   "totalTrades": 111,
   "wins": 63,
   "losses": 48,
-  "open_positions": 1,
-  "open_positions_detail": [
-    {
-      "id": "a5776e5a-e763-4b01-9668-f9f881f7bda9",
-      "symbol": "ADAUSDT",
-      "side": "long",
-      "entry": 0.153,
-      "qty": 81.0,
-      "leverage": 2.0,
-      "sl": 0.1484,
-      "tp": 0.1652,
-      "live_price": 0.1501,
-      "unrealized_pnl": -0.4698,
-      "unrealized_pnl_pct": -1.9,
-      "timestamp": "2026-06-24T02:00:28.269276+00:00",
-      "sl_pct": 3.0,
-      "distance_to_sl_pct": 1.11,
-      "tp_pct": 8.0,
-      "distance_to_tp_pct": 9.87
-    }
-  ],
-  "unrealized_total": -0.4698,
+  "open_positions": 0,
+  "open_positions_detail": [],
+  "unrealized_total": 0,
   "state": {
     "trades_today": 1,
     "last_trade_date": "2026-06-24",
@@ -1326,12 +1307,12 @@
       "sl": 0.14994,
       "tp": 0.16524,
       "qty": 81.0,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
       "exit_time": "",
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "c25a2beb-1679-4200-8360-264a15fdcbdc",
