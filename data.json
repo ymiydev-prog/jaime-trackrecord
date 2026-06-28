@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T22:00:24.489016+00:00",
+  "updated_at": "2026-06-28T22:15:24.009189+00:00",
   "balance": 36.5,
   "pnl": -10.5418,
   "winRate": 62.2,
@@ -10,19 +10,19 @@
   "open_positions_detail": [],
   "unrealized_total": 0,
   "state": {
-    "trades_today": 0,
+    "trades_today": 1,
     "last_trade_date": "2026-06-28",
-    "total_trades": 119,
+    "total_trades": 120,
     "total_pnl": -10.5418,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-06-26T20:00:30.378436+00:00",
+    "last_trade_timestamp": "2026-06-28T22:00:26.738070+00:00",
     "win_rate": 36.8,
     "balance": 36.51,
     "total_wins": 74,
     "total_losses": 45,
-    "last_sync": "2026-06-28T22:00:03.927625+00:00",
+    "last_sync": "2026-06-28T21:30:02.381325+00:00",
     "current_streak": 0,
     "current_streak_type": null,
     "open_positions": []
@@ -1327,6 +1327,21 @@
     }
   },
   "trades": [
+    {
+      "id": "89434de8-d1cf-4ec1-9519-ff8a7237afe4",
+      "timestamp_entry": "2026-06-28T22:00:26.737902+00:00",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "entry_price": 70.53,
+      "sl": 71.9406,
+      "tp": 64.8876,
+      "qty": 0.1,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_reason": "open"
+    },
     {
       "id": "906e6651-1917-4988-9e1a-7c6e77a86f1e",
       "timestamp_entry": "2026-06-26T20:00:30.378225+00:00",
