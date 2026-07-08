@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T09:30:55.096833+00:00",
+  "updated_at": "2026-07-08T09:45:43.222028+00:00",
   "balance": 36.15,
   "pnl": -10.5399,
   "winRate": 60.2,
@@ -1305,8 +1305,8 @@
       "total_pnl": -12.250899999999998,
       "max_consecutive_wins": 12,
       "max_consecutive_losses": 9,
-      "current_streak": 4,
-      "current_streak_type": "loss"
+      "current_streak": 0,
+      "current_streak_type": null
     },
     "current_streak": 0,
     "max_consecutive_losses": 9,
