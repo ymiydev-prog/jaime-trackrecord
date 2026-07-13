@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T20:00:24.327610+00:00",
+  "updated_at": "2026-07-13T20:15:23.956453+00:00",
   "balance": 33.79,
   "pnl": -13.252,
   "winRate": 56.5,
@@ -10,19 +10,19 @@
   "open_positions_detail": [],
   "unrealized_total": 0,
   "state": {
-    "trades_today": 1,
+    "trades_today": 2,
     "last_trade_date": "2026-07-13",
-    "total_trades": 138,
+    "total_trades": 139,
     "total_pnl": -13.252,
     "live_mode_activated": true,
     "dry_runs_completed": 0,
     "version": "2.0-live",
-    "last_trade_timestamp": "2026-07-13T15:00:29.787820+00:00",
+    "last_trade_timestamp": "2026-07-13T20:00:28.133529+00:00",
     "win_rate": 36.8,
     "balance": 33.79,
     "total_wins": 78,
     "total_losses": 60,
-    "last_sync": "2026-07-13T20:00:02.791628+00:00",
+    "last_sync": "2026-07-13T19:30:02.652359+00:00",
     "current_streak": 0,
     "current_streak_type": null,
     "open_positions": []
@@ -1394,6 +1394,21 @@
     }
   },
   "trades": [
+    {
+      "id": "15d59758-c92d-4c41-8590-fd93366335ee",
+      "timestamp_entry": "2026-07-13T20:00:28.133278+00:00",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "entry_price": 1.0666,
+      "sl": 1.045268,
+      "tp": 1.151928,
+      "qty": 10.5,
+      "result": "PENDING",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "exit_price": null,
+      "exit_reason": "open"
+    },
     {
       "id": "d66e210e-7586-451c-b276-eede2c193bdd",
       "timestamp_entry": "2026-07-13T15:00:29.787582+00:00",
