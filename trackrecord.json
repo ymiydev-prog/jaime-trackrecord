@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T18:16:12.201944+00:00",
+  "updated_at": "2026-07-15T18:31:11.015882+00:00",
   "balance": 33.78,
   "pnl": -13.252,
   "winRate": 56.5,
@@ -22,7 +22,7 @@
     "balance": 33.78,
     "total_wins": 78,
     "total_losses": 60,
-    "last_sync": "2026-07-15T18:00:03.780741+00:00",
+    "last_sync": "2026-07-15T18:30:03.876217+00:00",
     "current_streak": 0,
     "current_streak_type": null,
     "open_positions": []
