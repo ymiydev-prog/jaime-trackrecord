@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T09:15:31.758422+00:00",
+  "updated_at": "2026-07-18T09:30:32.215481+00:00",
   "balance": 33.81,
   "pnl": -12.8629,
   "winRate": 56.7,
@@ -22,7 +22,7 @@
     "balance": 33.81,
     "total_wins": 80,
     "total_losses": 61,
-    "last_sync": "2026-07-18T08:30:03.349775+00:00",
+    "last_sync": "2026-07-18T09:30:02.687388+00:00",
     "current_streak": 0,
     "current_streak_type": null,
     "open_positions": []
@@ -1420,11 +1420,11 @@
       "sl": 0.068677,
       "tp": 0.061944,
       "qty": 167.0,
-      "result": "CLOSED_AUTO",
+      "result": "OPEN",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
-      "exit_reason": "bybit_sl_tp"
+      "exit_reason": ""
     },
     {
       "id": "f1ec2e88-4c11-4b35-a3eb-6fdffc42d4ae",
