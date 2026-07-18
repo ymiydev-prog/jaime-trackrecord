@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T09:00:33.440859+00:00",
+  "updated_at": "2026-07-18T09:15:31.758422+00:00",
   "balance": 33.81,
   "pnl": -12.8629,
   "winRate": 56.7,
@@ -1420,11 +1420,11 @@
       "sl": 0.068677,
       "tp": 0.061944,
       "qty": 167.0,
-      "result": "PENDING",
+      "result": "CLOSED_AUTO",
       "pnl": 0,
       "pnl_pct": 0,
       "exit_price": null,
-      "exit_reason": "open"
+      "exit_reason": "bybit_sl_tp"
     },
     {
       "id": "f1ec2e88-4c11-4b35-a3eb-6fdffc42d4ae",
