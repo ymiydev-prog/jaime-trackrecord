@@ -188,6 +188,13 @@ footer {
 </head>
 <body>
 <div class="container">
+
+<div style="background: rgba(248,81,73,0.12); border: 1px solid var(--red); border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; color: var(--red);">
+    <strong>🔑 Bybit API key EXPIRADA</strong> — retCode=33004.
+    <br/>El balance en vivo y la lectura de posiciones están deshabilitados hasta que se rote la API key en <code>/root/.openclaw/workspace/bybit/config.env</code>.
+    <br/>Estado del trading: <strong>DETENIDO</strong> (jaime-live no puede leer balance ni colocar órdenes).
+    <br/><small>Último balance conocido: $34.70 USDT (sync: 2026-07-22T18:30). Métricas históricas (P&L, win-rate, trades) son reales y se siguen actualizando.</small>
+</div>
 <div style="width:100%;max-width:900px;margin:0 auto 20px;border-radius:12px;overflow:hidden;border:1px solid var(--border);">
     <!-- No intro.gif - removed, file not found -->
 </div>
@@ -195,16 +202,16 @@ footer {
     <h1>🐾 JAIME Dashboard</h1>
     <p style="color: var(--text-muted); margin-top: 10px;">Autonomous Trading Engine | Bybit Mainnet</p>
     <div class="status" style="margin-top: 15px;">
-        <span class="status-dot"></span>
-        <span>Live Mode Active</span>
+        <span class="status-dot" style="background: var(--red); animation: none;"></span>
+        <span>Live Mode PAUSADO — API Bybit no disponible</span>
     </div>
 </header>
 
 <div class="grid">
     <div class="card">
         <h3>Balance Bybit</h3>
-        <div class="value">$34.70</div>
-        <div class="change neutral">USDT disponible</div>
+        <div class="value negative">—</div>
+        <div class="change negative">🔑 API key expirada</div>
     </div>
     <div class="card">
         <h3>P&L Total</h3>
@@ -2020,13 +2027,13 @@ footer {
 </div>
 
 <footer>
-    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-07-28 10:47:02 UTC</p>
+    <p>JAIME Trading Engine v2.0 | Auto-generated at 2026-07-28 10:48:02 UTC</p>
     <p style="margin-top: 5px;">Updates every 15 minutes</p>
 </footer>
 </div>
 
 <div class="last-update">
-    🔄 Last update: 10:47:02 UTC
+    🔄 Last update: 10:48:02 UTC
 </div>
 
 <script>
