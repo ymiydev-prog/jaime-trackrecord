@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-02T00:01:33.751438+00:00",
-  "balance": 0.0,
-  "balance_status": "expired",
+  "updated_at": "2026-08-02T00:01:51.871512+00:00",
+  "balance": 34.7,
+  "balance_status": "stale",
   "balance_is_live": false,
-  "api_key_expired": true,
+  "api_key_expired": false,
   "pnl": -11.9705,
   "winRate": 56.8,
   "totalTrades": 149,
